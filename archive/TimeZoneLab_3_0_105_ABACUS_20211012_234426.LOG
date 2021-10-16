@@ -1,0 +1,759 @@
+                         TimeZomeLab 3.0.105 Backup Log
+
+================================================================================
+10/12/2021 23:48:46 - Make a backup of the completed project.
+================================================================================
+
+Microsoft Windows [Version 10.0.19043.1237]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab 10/12/2021 23:45:38.50>7UP D:\_Backups\program_source\Visual_Studio_2017\TimeZoneLab_3_0_105.7z *
+7UP, version 02/21/2021 05:16 Begin
+Current Time: 2021/10/12 23:47:30 Central Daylight Time
+
+---------------------------------------------------------------------
+Step 1 of 6: Info List the contents of the source directory.
+---------------------------------------------------------------------
+
+Last Written Time                Size Name
+------------------- ----------------- -----------------------------------------
+2016/06/17 00:19:23             2,630 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab.sln
+2014/09/07 20:20:08           335,360 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab.suo
+2016/06/17 12:36:51           104,960 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab.v12.suo
+2021/10/12 23:40:06           173,056 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.vs\TimeZoneLab\v16\.suo
+2014/09/01 19:37:14             1,122 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\Archive_TimeZoneLab.CMD
+2014/09/01 23:58:48             2,109 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\Archive_TimeZoneLab_1.0.53.33703.LOG
+2014/09/02 02:30:34             2,106 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\Archive_TimeZoneLab_1.0.61.2411.LOG
+2014/09/05 11:30:38             2,109 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\Archive_TimeZoneLab_1.1.68.18722.LOG
+2014/09/07 20:30:40               182 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\Time-Zone-Lab-An-Expedition-into-Windows-Time-Zone.url
+2014/09/07 20:19:28           935,259 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\TimeZoneLab.ZIP
+2014/09/01 23:59:20             1,123 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\TimeZoneLab_1_0_53_33703.7z.lnk
+2014/09/02 02:31:10               976 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\TimeZoneLab_1_0_61_2411.7z.lnk
+2014/09/05 11:31:22               959 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\TimeZoneLab_1_1_68_18722.7z.lnk
+2014/09/07 20:49:22             1,031 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\TimeZoneLab_1_1_68_18722_CodeProject.ZIPX.lnk
+2014/09/05 11:31:10               809 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\Visual Studio 2010 Backups.lnk
+2016/06/16 03:13:08               802 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Article_Notes.TXT
+2014/09/02 02:27:54           397,328 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Converting_Times_Between_Time_Zones.TXT
+2016/06/15 23:51:19           102,052 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Design_and_Testing.XLSX
+2016/06/17 16:34:19            80,196 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Design_Worksheet_Article_Figure_1.PNG
+2016/06/17 16:37:16            81,807 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Design_Worksheet_Article_Figure_2.PNG
+2016/06/17 16:38:12            71,844 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Design_Worksheet_Article_Figure_3.PNG
+2016/06/17 16:39:41            81,194 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Design_Worksheet_Article_Figure_4.PNG
+2016/06/17 16:41:47            80,756 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Design_Worksheet_Article_Figure_5.PNG
+2016/06/17 15:46:31            16,212 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Discontiguous_Range_CountIf_Error_Proof_20160617_154631.ZIP
+2016/06/16 14:21:44           112,768 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\DST_Transition_Date_Computations.XLSX
+2016/06/14 18:47:46             1,601 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\EZXFER_Cloud_Manager_Source_Code_Tree.lnk
+2014/09/05 11:27:18           146,596 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Fit_N_Finish.TXT
+2016/06/14 18:58:30           249,822 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\HKLM_SOFTWARE_Time_Zones_20160614_185830.REG
+2016/06/14 18:53:30             7,670 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\HKLM_Software_WizardWrx_20160614_185330.REG
+2014/09/04 15:20:02               259 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\LabelsForTasks.TXT
+2014/09/05 11:08:06               218 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\LabelsForTasks2.TXT
+2014/08/30 23:18:32               556 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TimeZoneConversionEdgeCases.TXT
+2016/06/15 23:25:53             2,468 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TimeZoneConversionEdgeCases_20160615_232553.RPT
+2021/10/12 23:42:46             2,468 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TimeZoneConversionEdgeCases_20211012_234246.RPT
+2014/09/01 19:26:14             2,774 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TimeZoneConversionEdgeCases_DEBUG_20140901_192612.RPT
+2014/09/02 02:17:22             2,774 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TimeZoneConversionEdgeCases_DEBUG_20140902_021721.RPT
+2014/09/02 02:24:30             2,774 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TimeZoneConversionEdgeCases_RELEASE_20140902_022429.RPT
+2014/09/02 01:37:12            11,791 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TimeZoneConversionTestCaseCollection_20140902_013712.cs
+2016/06/15 23:25:53           392,897 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TimeZoneLab_2.TXT
+2021/10/12 23:43:35           735,564 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TimeZoneLab_3.TXT
+2016/06/18 02:02:25            27,212 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TZInfo_Development_and_Testing_Notes.TXT
+2016/06/18 01:14:22            16,372 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TZINFO_Development_and_Testing_Worksheets.XLSX
+2016/06/18 01:16:49            13,802 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TZINFO_Development_and_Testing_Worksheets.ZIP
+2016/06/14 18:47:00             1,375 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\_Development_Notes_2.4.TXT.lnk
+2014/08/28 15:44:46               773 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\_downloading_Scanner.lnk
+2019/08/11 15:27:54             9,465 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AnyCSV.7.2.145\.signature.p7s
+2019/07/03 01:28:18            22,712 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AnyCSV.7.2.145\README.md
+2019/08/11 20:32:22            20,890 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AnyCSV.7.2.145\README.txt
+2021/10/09 01:00:14            60,901 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AnyCSV.7.2.145\WizardWrx.AnyCSV.7.2.145.nupkg
+2019/08/11 22:26:26            36,352 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AnyCSV.7.2.145\lib\WizardWrx.AnyCSV.pdb
+2019/08/11 22:26:26            74,090 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AnyCSV.7.2.145\lib\Wizardwrx.AnyCSV.XML
+2019/08/11 22:26:26            18,944 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AnyCSV.7.2.145\lib\net20\WizardWrx.AnyCSV.dll
+2019/08/11 22:26:26            74,090 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AnyCSV.7.2.145\lib\net20\Wizardwrx.AnyCSV.XML
+2021/08/01 14:29:06             9,463 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ASCIIInfo.8.0.147\.signature.p7s
+2021/08/01 19:41:50            47,133 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ASCIIInfo.8.0.147\ChangeLog.md
+2021/01/30 22:23:20             5,200 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ASCIIInfo.8.0.147\README.md
+2021/10/09 01:00:15            61,938 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ASCIIInfo.8.0.147\WizardWrx.ASCIIInfo.8.0.147.nupkg
+2021/08/01 21:28:38            46,592 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ASCIIInfo.8.0.147\lib\WizardWrx.ASCIIInfo.pdb
+2021/08/01 21:28:38            37,024 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ASCIIInfo.8.0.147\lib\Wizardwrx.ASCIIInfo.XML
+2021/08/01 21:28:38            28,160 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ASCIIInfo.8.0.147\lib\net35-client\WizardWrx.ASCIIInfo.dll
+2021/08/01 21:28:38            37,024 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ASCIIInfo.8.0.147\lib\net35-client\Wizardwrx.ASCIIInfo.XML
+2021/08/01 14:29:24             9,463 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AssemblyUtils.8.0.198\.signature.p7s
+2021/08/01 19:41:50            47,133 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AssemblyUtils.8.0.198\ChangeLog.md
+2021/01/30 22:26:28             4,114 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AssemblyUtils.8.0.198\README.md
+2021/10/09 01:00:16            82,774 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AssemblyUtils.8.0.198\WizardWrx.AssemblyUtils.8.0.198.nupkg
+2021/05/02 03:17:08               517 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AssemblyUtils.8.0.198\lib\WizardWrx.AssemblyUtils.dll.config
+2021/08/01 21:28:54            93,696 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AssemblyUtils.8.0.198\lib\WizardWrx.AssemblyUtils.pdb
+2021/08/01 21:28:54            71,200 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AssemblyUtils.8.0.198\lib\Wizardwrx.AssemblyUtils.XML
+2021/08/01 21:28:54            40,960 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AssemblyUtils.8.0.198\lib\net35-client\WizardWrx.AssemblyUtils.dll
+2021/08/01 21:28:54            71,200 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AssemblyUtils.8.0.198\lib\net35-client\Wizardwrx.AssemblyUtils.XML
+2019/04/30 10:51:50             9,464 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.BitMath.4.3.125.29248\.signature.p7s
+2021/10/09 01:00:15            36,312 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.BitMath.4.3.125.29248\WizardWrx.BitMath.4.3.125.29248.nupkg
+2016/05/04 17:14:56            26,624 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.BitMath.4.3.125.29248\lib\net20\WizardWrx.BitMath.dll
+2016/05/04 17:14:56           101,267 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.BitMath.4.3.125.29248\lib\net20\WizardWrx.BitMath.XML
+2021/08/01 14:29:08             9,463 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Common.8.0.168\.signature.p7s
+2021/08/01 19:41:50            47,133 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Common.8.0.168\ChangeLog.md
+2021/01/30 22:28:06             3,602 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Common.8.0.168\README.md
+2021/10/09 01:00:16           126,570 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Common.8.0.168\WizardWrx.Common.8.0.168.nupkg
+2021/08/01 21:28:30            99,840 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Common.8.0.168\lib\WizardWrx.Common.pdb
+2021/08/01 21:28:30           297,521 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Common.8.0.168\lib\Wizardwrx.Common.XML
+2021/08/01 21:28:30            39,424 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Common.8.0.168\lib\net35-client\WizardWrx.Common.dll
+2021/08/01 21:28:30           297,521 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Common.8.0.168\lib\net35-client\Wizardwrx.Common.XML
+2021/08/09 11:39:54             9,464 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleAppAids3.8.0.545\.signature.p7s
+2021/07/06 12:00:16             3,783 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleAppAids3.8.0.545\ChangeLog.md
+2019/06/04 23:23:12            12,122 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleAppAids3.8.0.545\README.md
+2021/10/09 01:00:18            61,583 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleAppAids3.8.0.545\WizardWrx.ConsoleAppAids3.8.0.545.nupkg
+2021/08/09 18:39:22            56,832 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleAppAids3.8.0.545\lib\WizardWrx.ConsoleAppAids3.pdb
+2021/08/09 18:39:22            70,772 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleAppAids3.8.0.545\lib\Wizardwrx.ConsoleAppAids3.xml
+2021/08/09 18:39:22            20,480 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleAppAids3.8.0.545\lib\net35-client\WizardWrx.ConsoleAppAids3.dll
+2021/08/09 18:39:22            70,772 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleAppAids3.8.0.545\lib\net35-client\Wizardwrx.ConsoleAppAids3.xml
+2021/08/01 14:29:26             9,464 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleStreams.8.0.258\.signature.p7s
+2021/08/01 19:41:50            47,133 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleStreams.8.0.258\ChangeLog.md
+2021/01/30 22:29:08             2,892 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleStreams.8.0.258\README.md
+2021/10/09 01:00:17            87,860 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleStreams.8.0.258\WizardWrx.ConsoleStreams.8.0.258.nupkg
+2021/08/01 21:28:58           112,128 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleStreams.8.0.258\lib\WizardWrx.ConsoleStreams.pdb
+2021/08/01 21:28:58           160,287 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleStreams.8.0.258\lib\Wizardwrx.ConsoleStreams.XML
+2021/08/01 21:28:58            27,648 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleStreams.8.0.258\lib\net35-client\WizardWrx.ConsoleStreams.dll
+2021/08/01 21:28:58           160,287 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleStreams.8.0.258\lib\net35-client\Wizardwrx.ConsoleStreams.XML
+2021/08/01 14:29:18             9,463 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Core.8.0.250\.signature.p7s
+2021/08/01 19:41:50            47,133 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Core.8.0.250\ChangeLog.md
+2021/01/30 22:32:52             5,589 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Core.8.0.250\README.md
+2021/10/09 01:00:16           271,210 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Core.8.0.250\WizardWrx.Core.8.0.250.nupkg
+2021/08/01 21:28:48           331,264 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Core.8.0.250\lib\WizardWrx.Core.pdb
+2021/08/01 21:28:48           495,850 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Core.8.0.250\lib\Wizardwrx.Core.XML
+2021/08/01 21:28:48           103,424 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Core.8.0.250\lib\net35-client\WizardWrx.Core.dll
+2021/08/01 21:28:48           495,850 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Core.8.0.250\lib\net35-client\Wizardwrx.Core.XML
+2021/08/01 14:29:40             9,464 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.DLLConfigurationManager.8.0.287\.signature.p7s
+2021/08/01 19:41:50            47,133 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.DLLConfigurationManager.8.0.287\ChangeLog.md
+2021/01/30 22:35:28             3,816 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.DLLConfigurationManager.8.0.287\README.md
+2021/10/09 01:00:17            98,078 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.DLLConfigurationManager.8.0.287\WizardWrx.DLLConfigurationManager.8.0.287.nupkg
+2020/12/14 03:29:56            10,019 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\WizardWrx.DLLConfigurationManager.dll.config
+2021/08/01 21:29:08            79,360 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\WizardWrx.DLLConfigurationManager.pdb
+2021/08/01 21:29:08           108,052 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\Wizardwrx.DLLConfigurationManager.XML
+2021/08/01 21:29:08            34,304 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\net35-client\WizardWrx.DLLConfigurationManager.dll
+2021/08/01 21:29:08           108,052 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\net35-client\Wizardwrx.DLLConfigurationManager.XML
+2021/08/01 14:30:08             9,464 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.EmbeddedTextFile.8.0.166\.signature.p7s
+2021/08/01 19:41:50            47,133 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.EmbeddedTextFile.8.0.166\ChangeLog.md
+2021/01/30 22:36:30             2,973 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.EmbeddedTextFile.8.0.166\README.md
+2021/10/09 06:57:10            47,103 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.EmbeddedTextFile.8.0.166\WizardWrx.EmbeddedTextFile.8.0.166.nupkg
+2021/08/01 21:29:14            36,352 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.EmbeddedTextFile.8.0.166\lib\WizardWrx.EmbeddedTextFile.pdb
+2021/08/01 21:29:14            18,877 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.EmbeddedTextFile.8.0.166\lib\Wizardwrx.EmbeddedTextFile.xml
+2021/08/01 21:29:14            12,800 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.EmbeddedTextFile.8.0.166\lib\net35-client\WizardWrx.EmbeddedTextFile.dll
+2021/08/01 21:29:14            18,877 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.EmbeddedTextFile.8.0.166\lib\net35-client\Wizardwrx.EmbeddedTextFile.xml
+2021/08/01 14:29:14             9,463 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.FormatStringEngine.8.0.232\.signature.p7s
+2021/08/01 19:41:50            47,133 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.FormatStringEngine.8.0.232\ChangeLog.md
+2021/01/30 22:38:40             3,245 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.FormatStringEngine.8.0.232\README.md
+2021/10/09 01:00:16            70,792 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.FormatStringEngine.8.0.232\WizardWrx.FormatStringEngine.8.0.232.nupkg
+2021/08/01 21:28:42            62,976 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.FormatStringEngine.8.0.232\lib\WizardWrx.FormatStringEngine.pdb
+2021/08/01 21:28:42            76,385 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.FormatStringEngine.8.0.232\lib\Wizardwrx.FormatStringEngine.XML
+2021/08/01 21:28:42            22,016 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.FormatStringEngine.8.0.232\lib\net35-client\WizardWrx.FormatStringEngine.dll
+2021/08/01 21:28:42            76,385 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.FormatStringEngine.8.0.232\lib\net35-client\Wizardwrx.FormatStringEngine.XML
+2016/06/14 22:25:18             1,075 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\app.config
+2021/10/12 23:35:43            24,445 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\BuildHistory.LOG
+2021/10/09 07:04:58            17,871 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\FixedWidthReportItem.cs
+2021/10/09 07:07:19            26,860 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\FixedWidthReportItemsCollection.cs
+2014/09/05 11:08:06               218 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\LabelsForTasks.TXT
+2021/10/09 06:57:10             1,083 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\packages.config
+2021/10/09 12:12:37            31,168 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\Program.cs
+2021/10/10 22:50:39            10,554 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\TimeZoneConversionTestCase.cs
+2021/10/10 23:59:56            14,542 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\TimeZoneConversionTestCaseCollection.cs
+2021/10/12 23:25:59            10,005 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\TimeZoneInfoExtensions.cs
+2021/10/11 00:24:02             6,862 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\TimeZoneLab.csproj
+2021/10/09 07:15:18               405 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\TimeZoneLab.csproj.user
+2021/10/11 00:44:27            38,575 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\TimeZoneTasks.cs
+2016/06/14 22:13:54             9,670 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\TZHelpers.cs
+2020/12/14 03:29:56            10,019 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\WizardWrx.DLLConfigurationManager.dll.config
+2014/08/30 10:17:08            10,134 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\WW_Icon1.ico
+2016/04/02 21:25:35           480,768 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\Newtonsoft.Json.dll
+2016/04/02 21:25:35           554,249 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\Newtonsoft.Json.xml
+2014/05/16 18:56:04            26,112 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\P6CUtilLib1.dll
+2021/10/12 23:26:02            52,736 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\TimeZoneLab.exe
+2016/06/14 22:25:18             1,075 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\TimeZoneLab.exe.config
+2021/10/12 23:26:02            81,408 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\TimeZoneLab.pdb
+2016/06/17 00:19:54            23,168 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\TimeZoneLab.vshost.exe
+2016/06/14 22:25:18             1,075 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\TimeZoneLab.vshost.exe.config
+2010/03/18 00:39:16               490 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\TimeZoneLab.vshost.exe.manifest
+2019/08/11 22:26:26            18,944 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.AnyCSV.dll
+2019/08/11 22:26:26            74,090 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.AnyCSV.xml
+2021/08/01 21:28:38            28,160 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.ASCIIInfo.dll
+2021/08/01 21:28:38            37,024 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.ASCIIInfo.xml
+2021/08/01 21:28:54            40,960 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.AssemblyUtils.dll
+2021/08/01 21:28:54            71,200 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.AssemblyUtils.xml
+2016/05/04 17:14:56            26,624 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.BitMath.dll
+2016/05/04 17:14:57            54,784 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.BitMath.pdb
+2016/05/04 17:14:56           101,267 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.BitMath.xml
+2021/08/01 21:28:30            39,424 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.Common.dll
+2021/08/01 21:28:30           297,521 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.Common.xml
+2016/06/11 22:59:00            20,992 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids2.dll
+2016/06/11 22:59:00            48,640 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids2.pdb
+2016/06/11 22:59:00            67,352 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids2.xml
+2021/08/09 18:39:22            20,480 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids3.dll
+2021/08/09 18:39:22            70,772 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids3.xml
+2021/08/01 21:28:58            27,648 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.ConsoleStreams.dll
+2021/08/01 21:28:58           160,287 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.ConsoleStreams.xml
+2021/08/01 21:28:48           103,424 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.Core.dll
+2021/08/01 21:28:48           495,850 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.Core.xml
+2021/08/01 21:29:08            34,304 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.DLLConfigurationManager.dll
+2020/12/14 03:29:56            10,019 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.DLLConfigurationManager.dll.config
+2021/08/01 21:29:08           108,052 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.DLLConfigurationManager.xml
+2016/06/08 13:31:27           117,760 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.DLLServices2.dll
+2016/06/08 13:31:27           314,880 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.DLLServices2.pdb
+2016/06/08 13:31:27           714,606 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.DLLServices2.xml
+2021/08/01 21:29:14            12,800 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.EmbeddedTextFile.dll
+2021/08/01 21:29:14            18,877 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.EmbeddedTextFile.xml
+2021/08/01 21:28:42            22,016 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.FormatStringEngine.dll
+2021/08/01 21:28:42            76,385 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.FormatStringEngine.xml
+2016/04/02 21:25:35           480,768 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\Newtonsoft.Json.dll
+2016/04/02 21:25:35           554,249 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\Newtonsoft.Json.xml
+2014/05/16 18:56:04            26,112 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\P6CUtilLib1.dll
+2021/10/12 23:35:43            50,176 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.exe
+2016/06/14 22:25:18             1,075 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.exe.config
+2021/10/12 23:35:43            73,216 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.pdb
+2016/06/16 23:09:37            23,168 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.vshost.exe
+2016/06/14 22:25:18             1,075 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.vshost.exe.config
+2010/03/18 00:39:16               490 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.vshost.exe.manifest
+2019/08/11 22:26:26            18,944 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.AnyCSV.dll
+2019/08/11 22:26:26            74,090 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.AnyCSV.xml
+2021/08/01 21:28:38            28,160 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ASCIIInfo.dll
+2021/08/01 21:28:38            37,024 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ASCIIInfo.xml
+2021/08/01 21:28:54            40,960 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.AssemblyUtils.dll
+2021/08/01 21:28:54            71,200 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.AssemblyUtils.xml
+2016/05/04 17:14:56            26,624 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.BitMath.dll
+2016/05/04 17:14:57            54,784 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.BitMath.pdb
+2016/05/04 17:14:56           101,267 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.BitMath.xml
+2021/08/01 21:28:30            39,424 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.Common.dll
+2021/08/01 21:28:30           297,521 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.Common.xml
+2016/06/11 22:59:00            20,992 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids2.dll
+2016/06/11 22:59:00            48,640 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids2.pdb
+2016/06/11 22:59:00            67,352 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids2.xml
+2021/08/09 18:39:22            20,480 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids3.dll
+2021/08/09 18:39:22            70,772 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids3.xml
+2021/08/01 21:28:58            27,648 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleStreams.dll
+2021/08/01 21:28:58           160,287 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleStreams.xml
+2021/08/01 21:28:48           103,424 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.Core.dll
+2021/08/01 21:28:48           495,850 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.Core.xml
+2021/08/01 21:29:08            34,304 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLConfigurationManager.dll
+2020/12/14 03:29:56            10,019 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLConfigurationManager.dll.config
+2021/08/01 21:29:08           108,052 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLConfigurationManager.xml
+2016/06/08 13:31:27           117,760 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLServices2.dll
+2016/06/05 20:20:48             8,468 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLServices2.dll.config
+2016/06/08 13:31:27           314,880 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLServices2.pdb
+2016/06/08 13:31:27           714,606 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLServices2.xml
+2021/08/01 21:29:14            12,800 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.EmbeddedTextFile.dll
+2021/08/01 21:29:14            18,877 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.EmbeddedTextFile.xml
+2021/08/01 21:28:42            22,016 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.FormatStringEngine.dll
+2021/08/01 21:28:42            76,385 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.FormatStringEngine.xml
+2021/10/09 00:53:03               238 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\.NETFramework,Version=v4.0,Profile=Client.AssemblyAttributes.cs
+2021/10/10 21:16:48                11 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\DesignTimeResolveAssemblyReferences.cache
+2021/10/11 00:24:20             8,240 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+2014/09/05 11:14:20             3,940 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+2014/09/05 11:14:20               602 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+2014/09/05 11:12:24            17,489 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\ResolveAssemblyReference.cache
+2021/10/12 22:59:59            12,502 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.AssemblyReference.cache
+2021/10/12 23:26:02                 0 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.CopyComplete
+2021/10/11 00:24:27                42 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.CoreCompileInputs.cache
+2021/10/10 23:29:41             9,099 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.FileListAbsolute.txt
+2021/10/11 00:40:02               954 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.GenerateResource.cache
+2016/06/14 23:34:43            21,846 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TimeZoneLab.csprojResolveAssemblyReference.cache
+2021/10/12 23:26:02            52,736 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TimeZoneLab.exe
+2021/10/12 23:26:02            81,408 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TimeZoneLab.pdb
+2021/10/11 00:40:02             2,890 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TimeZoneLab.Properties.Resources.resources
+2021/10/11 00:39:45             7,680 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TempPE\Properties.Resources.Designer.cs.dll
+2021/10/12 23:35:36               238 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\.NETFramework,Version=v4.0,Profile=Client.AssemblyAttributes.cs
+2016/06/16 23:27:01             5,311 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\DesignTimeResolveAssemblyReferences.cache
+2016/06/15 23:22:10             6,800 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\DesignTimeResolveAssemblyReferencesInput.cache
+2014/09/05 11:24:06             3,940 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+2014/09/05 11:24:06               606 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+2014/09/05 11:24:06            17,489 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\ResolveAssemblyReference.cache
+2021/10/12 23:35:36                11 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.AssemblyReference.cache
+2021/10/12 23:35:43                 0 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.CopyComplete
+2021/10/12 23:35:43                42 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.CoreCompileInputs.cache
+2021/10/12 23:35:43             9,243 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.FileListAbsolute.txt
+2021/10/12 23:35:43               954 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.GenerateResource.cache
+2016/06/15 19:08:14            18,460 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.csprojResolveAssemblyReference.cache
+2021/10/12 23:35:43            50,176 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.exe
+2021/10/12 23:35:43            73,216 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.pdb
+2021/10/12 23:35:43             2,890 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.Properties.Resources.resources
+2021/10/12 23:35:36             7,680 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TempPE\Properties.Resources.Designer.cs.dll
+2021/10/12 23:35:41             1,586 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\Properties\AssemblyInfo.cs
+2021/10/11 00:39:45            12,560 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\Properties\Resources.Designer.cs
+2021/10/11 00:39:45            12,450 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\Properties\Resources.resx
+2016/06/14 22:25:20             2,099 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\Properties\Settings.Designer.cs
+2016/06/14 21:54:55               629 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\Properties\Settings.settings
+2016/06/16 23:55:05               187 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\App.config
+2016/06/17 12:36:50             1,838 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\Form1.cs
+2016/06/17 12:36:50             7,990 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\Form1.Designer.cs
+2016/06/17 12:36:50             5,817 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\Form1.resx
+2016/06/17 02:15:08               447 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\Program.cs
+2016/06/17 12:36:50             3,597 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\TZInfo.csproj
+2016/06/17 03:22:51            14,336 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\bin\Debug\TZInfo.exe
+2016/06/16 23:55:05               187 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\bin\Debug\TZInfo.exe.config
+2016/06/17 03:22:51            30,208 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\bin\Debug\TZInfo.pdb
+2016/06/17 03:23:05            23,168 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\bin\Debug\TZInfo.vshost.exe
+2016/06/16 23:55:05               187 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\bin\Debug\TZInfo.vshost.exe.config
+2010/03/18 00:39:16               490 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\bin\Debug\TZInfo.vshost.exe.manifest
+2021/10/09 00:53:04               210 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\.NETFramework,Version=v4.5.AssemblyAttributes.cs
+2016/06/17 11:50:01                 0 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\build.force
+2016/06/16 23:55:07               865 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\DesignTimeResolveAssemblyReferences.cache
+2021/10/09 00:53:04             6,563 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+2016/06/16 23:55:05                 0 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+2016/06/16 23:55:05                 0 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+2016/06/16 23:55:05                 0 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+2021/10/09 00:53:03             2,778 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.csproj.AssemblyReference.cache
+2021/10/09 06:59:45                42 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.csproj.CoreCompileInputs.cache
+2021/10/09 06:59:47             1,806 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.csproj.FileListAbsolute.txt
+2021/10/09 06:59:45             1,012 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.csproj.GenerateResource.cache
+2016/06/17 00:46:11             2,211 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.csprojResolveAssemblyReference.cache
+2016/06/17 03:22:51            14,336 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.exe
+2021/10/09 06:59:45               180 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.Form1.resources
+2016/06/17 03:22:51            30,208 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.pdb
+2021/10/09 06:59:45               862 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.Properties.Resources.resources
+2016/06/17 02:12:02             6,144 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll
+2016/06/16 23:55:05             1,460 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\Properties\AssemblyInfo.cs
+2016/06/17 02:12:02             5,808 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\Properties\Resources.Designer.cs
+2016/06/17 02:12:02             7,390 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\Properties\Resources.resx
+2016/06/16 23:55:05             1,033 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\Properties\Settings.Designer.cs
+2016/06/16 23:55:05               249 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\Properties\Settings.settings
+
+297 files listed
+
+---------------------------------------------------------------------
+Step 2 of 6: Back up the source directory.
+---------------------------------------------------------------------
+
+
+7-Zip 19.00 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2019-02-21
+
+Scanning the drive:
+57 folders, 297 files, 19789148 bytes (19 MiB)
+
+Creating archive: D:\_Backups\program_source\Visual_Studio_2017\TimeZoneLab_3_0_105_ABACUS.7z
+
+Add new data to archive: 57 folders, 297 files, 19789148 bytes (19 MiB)
+
+
+Files read from disk: 291
+Archive size: 2519849 bytes (2461 KiB)
+Everything is Ok
+
+---------------------------------------------------------------------
+Step 3 of 6: Clear the A flags in the source directory.
+---------------------------------------------------------------------
+
+Not resetting hidden file - D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.vs\TimeZoneLab\v16\.suo
+Not resetting hidden file - D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab.suo
+Not resetting hidden file - D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab.v12.suo
+
+---------------------------------------------------------------------
+Step 4 of 6: List the contents of the archive.
+---------------------------------------------------------------------
+
+
+7-Zip 19.00 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2019-02-21
+
+Scanning the drive for archives:
+1 file, 2519849 bytes (2461 KiB)
+
+Listing archive: D:\_Backups\program_source\Visual_Studio_2017\TimeZoneLab_3_0_105_ABACUS.7z
+
+--
+Path = D:\_Backups\program_source\Visual_Studio_2017\TimeZoneLab_3_0_105_ABACUS.7z
+Type = 7z
+Physical Size = 2519849
+Headers Size = 5753
+Method = LZMA2:24m LZMA:20 BCJ2 7zAES
+Solid = +
+Blocks = 2
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2021-10-09 00:52:58 D.H..            0            0  .vs
+2021-10-09 00:52:58 D....            0            0  .vs\TimeZoneLab
+2021-10-09 00:52:58 D....            0            0  .vs\TimeZoneLab\v16
+2018-01-01 22:15:15 D....            0            0  archive
+2021-10-12 23:44:26 D....            0            0  NOTES
+2021-10-09 06:57:10 D....            0            0  packages
+2021-10-09 01:00:14 D....            0            0  packages\WizardWrx.AnyCSV.7.2.145
+2021-10-09 01:00:14 D....            0            0  packages\WizardWrx.AnyCSV.7.2.145\lib
+2021-10-09 01:00:14 D....            0            0  packages\WizardWrx.AnyCSV.7.2.145\lib\net20
+2021-10-09 01:00:15 D....            0            0  packages\WizardWrx.ASCIIInfo.8.0.147
+2021-10-09 01:00:15 D....            0            0  packages\WizardWrx.ASCIIInfo.8.0.147\lib
+2021-10-09 01:00:15 D....            0            0  packages\WizardWrx.ASCIIInfo.8.0.147\lib\net35-client
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.AssemblyUtils.8.0.198
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.AssemblyUtils.8.0.198\lib
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.AssemblyUtils.8.0.198\lib\net35-client
+2021-10-09 01:00:15 D....            0            0  packages\WizardWrx.BitMath.4.3.125.29248
+2021-10-09 01:00:15 D....            0            0  packages\WizardWrx.BitMath.4.3.125.29248\lib
+2021-10-09 01:00:15 D....            0            0  packages\WizardWrx.BitMath.4.3.125.29248\lib\net20
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.Common.8.0.168
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.Common.8.0.168\lib
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.Common.8.0.168\lib\net35-client
+2021-10-09 01:00:18 D....            0            0  packages\WizardWrx.ConsoleAppAids3.8.0.545
+2021-10-09 01:00:18 D....            0            0  packages\WizardWrx.ConsoleAppAids3.8.0.545\lib
+2021-10-09 01:00:18 D....            0            0  packages\WizardWrx.ConsoleAppAids3.8.0.545\lib\net35-client
+2021-10-09 01:00:17 D....            0            0  packages\WizardWrx.ConsoleStreams.8.0.258
+2021-10-09 01:00:17 D....            0            0  packages\WizardWrx.ConsoleStreams.8.0.258\lib
+2021-10-09 01:00:17 D....            0            0  packages\WizardWrx.ConsoleStreams.8.0.258\lib\net35-client
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.Core.8.0.250
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.Core.8.0.250\lib
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.Core.8.0.250\lib\net35-client
+2021-10-09 01:00:17 D....            0            0  packages\WizardWrx.DLLConfigurationManager.8.0.287
+2021-10-09 01:00:17 D....            0            0  packages\WizardWrx.DLLConfigurationManager.8.0.287\lib
+2021-10-09 01:00:17 D....            0            0  packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\net35-client
+2021-10-09 06:57:10 D....            0            0  packages\WizardWrx.EmbeddedTextFile.8.0.166
+2021-10-09 06:57:10 D....            0            0  packages\WizardWrx.EmbeddedTextFile.8.0.166\lib
+2021-10-09 06:57:10 D....            0            0  packages\WizardWrx.EmbeddedTextFile.8.0.166\lib\net35-client
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.FormatStringEngine.8.0.232
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.FormatStringEngine.8.0.232\lib
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.FormatStringEngine.8.0.232\lib\net35-client
+2021-10-12 23:25:59 D....            0            0  TimeZoneLab
+2018-01-01 22:15:16 D....            0            0  TimeZoneLab\bin
+2021-10-10 23:29:41 D....            0            0  TimeZoneLab\bin\Debug
+2021-10-12 23:35:43 D....            0            0  TimeZoneLab\bin\Release
+2018-01-01 22:15:17 D....            0            0  TimeZoneLab\obj
+2018-01-01 22:15:17 D....            0            0  TimeZoneLab\obj\x86
+2021-10-12 22:59:59 D....            0            0  TimeZoneLab\obj\x86\Debug
+2018-01-01 22:15:17 D....            0            0  TimeZoneLab\obj\x86\Debug\TempPE
+2021-10-12 23:35:43 D....            0            0  TimeZoneLab\obj\x86\Release
+2018-01-01 22:15:18 D....            0            0  TimeZoneLab\obj\x86\Release\TempPE
+2021-10-11 00:39:45 D....            0            0  TimeZoneLab\Properties
+2018-01-01 22:15:18 D....            0            0  TZInfo
+2018-01-01 22:15:18 D....            0            0  TZInfo\bin
+2018-01-01 22:15:18 D....            0            0  TZInfo\bin\Debug
+2018-01-01 22:15:18 D....            0            0  TZInfo\obj
+2021-10-09 06:59:45 D....            0            0  TZInfo\obj\Debug
+2018-01-01 22:15:18 D....            0            0  TZInfo\obj\Debug\TempPE
+2018-01-01 22:15:19 D....            0            0  TZInfo\Properties
+2021-10-12 23:26:02 ....A            0            0  TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.CopyComplete
+2021-10-12 23:35:43 ....A            0            0  TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.CopyComplete
+2016-06-17 11:50:01 .....            0            0  TZInfo\obj\Debug\build.force
+2016-06-16 23:55:05 .....            0            0  TZInfo\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+2016-06-16 23:55:05 .....            0            0  TZInfo\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+2016-06-16 23:55:05 .....            0            0  TZInfo\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+2021-10-12 23:40:06 ..H.A       173056      2184880  .vs\TimeZoneLab\v16\.suo
+2014-09-01 19:37:14 .R...         1122               archive\Archive_TimeZoneLab.CMD
+2014-09-01 23:58:48 .R...         2109               archive\Archive_TimeZoneLab_1.0.53.33703.LOG
+2014-09-02 02:30:34 .R...         2106               archive\Archive_TimeZoneLab_1.0.61.2411.LOG
+2014-09-05 11:30:38 .R...         2109               archive\Archive_TimeZoneLab_1.1.68.18722.LOG
+2014-09-07 20:30:40 .R...          182               archive\Time-Zone-Lab-An-Expedition-into-Windows-Time-Zone.url
+2014-09-07 20:19:28 .R...       935259               archive\TimeZoneLab.ZIP
+2014-09-01 23:59:20 .R...         1123               archive\TimeZoneLab_1_0_53_33703.7z.lnk
+2014-09-02 02:31:10 .R...          976               archive\TimeZoneLab_1_0_61_2411.7z.lnk
+2014-09-05 11:31:22 .R...          959               archive\TimeZoneLab_1_1_68_18722.7z.lnk
+2014-09-07 20:49:22 .R...         1031               archive\TimeZoneLab_1_1_68_18722_CodeProject.ZIPX.lnk
+2014-09-05 11:31:10 .R...          809               archive\Visual Studio 2010 Backups.lnk
+2016-06-16 03:13:08 .R...          802               NOTES\Article_Notes.TXT
+2014-09-02 02:27:54 .R...       397328               NOTES\Converting_Times_Between_Time_Zones.TXT
+2016-06-15 23:51:19 .R...       102052               NOTES\Design_and_Testing.XLSX
+2016-06-17 16:34:19 .R...        80196               NOTES\Design_Worksheet_Article_Figure_1.PNG
+2016-06-17 16:37:16 .R...        81807               NOTES\Design_Worksheet_Article_Figure_2.PNG
+2016-06-17 16:38:12 .R...        71844               NOTES\Design_Worksheet_Article_Figure_3.PNG
+2016-06-17 16:39:41 .R...        81194               NOTES\Design_Worksheet_Article_Figure_4.PNG
+2016-06-17 16:41:47 .R...        80756               NOTES\Design_Worksheet_Article_Figure_5.PNG
+2016-06-17 15:46:31 .R...        16212               NOTES\Discontiguous_Range_CountIf_Error_Proof_20160617_154631.ZIP
+2016-06-16 14:21:44 .R...       112768               NOTES\DST_Transition_Date_Computations.XLSX
+2016-06-14 18:47:46 .R...         1601               NOTES\EZXFER_Cloud_Manager_Source_Code_Tree.lnk
+2014-09-05 11:27:18 .R...       146596               NOTES\Fit_N_Finish.TXT
+2016-06-14 18:58:30 .R...       249822               NOTES\HKLM_SOFTWARE_Time_Zones_20160614_185830.REG
+2016-06-14 18:53:30 .R...         7670               NOTES\HKLM_Software_WizardWrx_20160614_185330.REG
+2014-09-04 15:20:02 .R...          259               NOTES\LabelsForTasks.TXT
+2014-09-05 11:08:06 .R...          218               NOTES\LabelsForTasks2.TXT
+2014-08-30 23:18:32 .R...          556               NOTES\TimeZoneConversionEdgeCases.TXT
+2016-06-15 23:25:53 .R...         2468               NOTES\TimeZoneConversionEdgeCases_20160615_232553.RPT
+2021-10-12 23:42:46 .R..A         2468               NOTES\TimeZoneConversionEdgeCases_20211012_234246.RPT
+2014-09-01 19:26:14 .R...         2774               NOTES\TimeZoneConversionEdgeCases_DEBUG_20140901_192612.RPT
+2014-09-02 02:17:22 .R...         2774               NOTES\TimeZoneConversionEdgeCases_DEBUG_20140902_021721.RPT
+2014-09-02 02:24:30 .R...         2774               NOTES\TimeZoneConversionEdgeCases_RELEASE_20140902_022429.RPT
+2014-09-02 01:37:12 .R...        11791               NOTES\TimeZoneConversionTestCaseCollection_20140902_013712.cs
+2016-06-15 23:25:53 .R...       392897               NOTES\TimeZoneLab_2.TXT
+2021-10-12 23:43:35 .R..A       735564               NOTES\TimeZoneLab_3.TXT
+2016-06-18 02:02:25 .R...        27212               NOTES\TZInfo_Development_and_Testing_Notes.TXT
+2016-06-18 01:14:22 .R...        16372               NOTES\TZINFO_Development_and_Testing_Worksheets.XLSX
+2016-06-18 01:16:49 .R...        13802               NOTES\TZINFO_Development_and_Testing_Worksheets.ZIP
+2016-06-14 18:47:00 .R...         1375               NOTES\_Development_Notes_2.4.TXT.lnk
+2014-08-28 15:44:46 .R...          773               NOTES\_downloading_Scanner.lnk
+2019-08-11 15:27:54 ....A         9465               packages\WizardWrx.AnyCSV.7.2.145\.signature.p7s
+2019-08-11 22:26:26 ....A        74090               packages\WizardWrx.AnyCSV.7.2.145\lib\net20\Wizardwrx.AnyCSV.XML
+2019-08-11 22:26:26 ....A        36352               packages\WizardWrx.AnyCSV.7.2.145\lib\WizardWrx.AnyCSV.pdb
+2019-08-11 22:26:26 ....A        74090               packages\WizardWrx.AnyCSV.7.2.145\lib\Wizardwrx.AnyCSV.XML
+2019-07-03 01:28:18 ....A        22712               packages\WizardWrx.AnyCSV.7.2.145\README.md
+2019-08-11 20:32:22 ....A        20890               packages\WizardWrx.AnyCSV.7.2.145\README.txt
+2021-10-09 01:00:14 ....A        60901               packages\WizardWrx.AnyCSV.7.2.145\WizardWrx.AnyCSV.7.2.145.nupkg
+2021-08-01 14:29:06 ....A         9463               packages\WizardWrx.ASCIIInfo.8.0.147\.signature.p7s
+2021-08-01 19:41:50 ....A        47133               packages\WizardWrx.ASCIIInfo.8.0.147\ChangeLog.md
+2021-08-01 21:28:38 ....A        37024               packages\WizardWrx.ASCIIInfo.8.0.147\lib\net35-client\Wizardwrx.ASCIIInfo.XML
+2021-08-01 21:28:38 ....A        46592               packages\WizardWrx.ASCIIInfo.8.0.147\lib\WizardWrx.ASCIIInfo.pdb
+2021-08-01 21:28:38 ....A        37024               packages\WizardWrx.ASCIIInfo.8.0.147\lib\Wizardwrx.ASCIIInfo.XML
+2021-01-30 23:23:20 ....A         5200               packages\WizardWrx.ASCIIInfo.8.0.147\README.md
+2021-10-09 01:00:15 ....A        61938               packages\WizardWrx.ASCIIInfo.8.0.147\WizardWrx.ASCIIInfo.8.0.147.nupkg
+2021-08-01 14:29:24 ....A         9463               packages\WizardWrx.AssemblyUtils.8.0.198\.signature.p7s
+2021-08-01 19:41:50 ....A        47133               packages\WizardWrx.AssemblyUtils.8.0.198\ChangeLog.md
+2021-08-01 21:28:54 ....A        71200               packages\WizardWrx.AssemblyUtils.8.0.198\lib\net35-client\Wizardwrx.AssemblyUtils.XML
+2021-05-02 03:17:08 ....A          517               packages\WizardWrx.AssemblyUtils.8.0.198\lib\WizardWrx.AssemblyUtils.dll.config
+2021-08-01 21:28:54 ....A        93696               packages\WizardWrx.AssemblyUtils.8.0.198\lib\WizardWrx.AssemblyUtils.pdb
+2021-08-01 21:28:54 ....A        71200               packages\WizardWrx.AssemblyUtils.8.0.198\lib\Wizardwrx.AssemblyUtils.XML
+2021-01-30 23:26:28 ....A         4114               packages\WizardWrx.AssemblyUtils.8.0.198\README.md
+2021-10-09 01:00:16 ....A        82774               packages\WizardWrx.AssemblyUtils.8.0.198\WizardWrx.AssemblyUtils.8.0.198.nupkg
+2019-04-30 10:51:50 ....A         9464               packages\WizardWrx.BitMath.4.3.125.29248\.signature.p7s
+2016-05-04 17:14:56 ....A       101267               packages\WizardWrx.BitMath.4.3.125.29248\lib\net20\WizardWrx.BitMath.XML
+2021-10-09 01:00:15 ....A        36312               packages\WizardWrx.BitMath.4.3.125.29248\WizardWrx.BitMath.4.3.125.29248.nupkg
+2021-08-01 14:29:08 ....A         9463               packages\WizardWrx.Common.8.0.168\.signature.p7s
+2021-08-01 19:41:50 ....A        47133               packages\WizardWrx.Common.8.0.168\ChangeLog.md
+2021-08-01 21:28:30 ....A       297521               packages\WizardWrx.Common.8.0.168\lib\net35-client\Wizardwrx.Common.XML
+2021-08-01 21:28:30 ....A        99840               packages\WizardWrx.Common.8.0.168\lib\WizardWrx.Common.pdb
+2021-08-01 21:28:30 ....A       297521               packages\WizardWrx.Common.8.0.168\lib\Wizardwrx.Common.XML
+2021-01-30 23:28:06 ....A         3602               packages\WizardWrx.Common.8.0.168\README.md
+2021-10-09 01:00:16 ....A       126570               packages\WizardWrx.Common.8.0.168\WizardWrx.Common.8.0.168.nupkg
+2021-08-09 11:39:54 ....A         9464               packages\WizardWrx.ConsoleAppAids3.8.0.545\.signature.p7s
+2021-07-06 12:00:16 ....A         3783               packages\WizardWrx.ConsoleAppAids3.8.0.545\ChangeLog.md
+2021-08-09 18:39:22 ....A        70772               packages\WizardWrx.ConsoleAppAids3.8.0.545\lib\net35-client\Wizardwrx.ConsoleAppAids3.xml
+2021-08-09 18:39:22 ....A        56832               packages\WizardWrx.ConsoleAppAids3.8.0.545\lib\WizardWrx.ConsoleAppAids3.pdb
+2021-08-09 18:39:22 ....A        70772               packages\WizardWrx.ConsoleAppAids3.8.0.545\lib\Wizardwrx.ConsoleAppAids3.xml
+2019-06-04 23:23:12 ....A        12122               packages\WizardWrx.ConsoleAppAids3.8.0.545\README.md
+2021-10-09 01:00:18 ....A        61583               packages\WizardWrx.ConsoleAppAids3.8.0.545\WizardWrx.ConsoleAppAids3.8.0.545.nupkg
+2021-08-01 14:29:26 ....A         9464               packages\WizardWrx.ConsoleStreams.8.0.258\.signature.p7s
+2021-08-01 19:41:50 ....A        47133               packages\WizardWrx.ConsoleStreams.8.0.258\ChangeLog.md
+2021-08-01 21:28:58 ....A       160287               packages\WizardWrx.ConsoleStreams.8.0.258\lib\net35-client\Wizardwrx.ConsoleStreams.XML
+2021-08-01 21:28:58 ....A       112128               packages\WizardWrx.ConsoleStreams.8.0.258\lib\WizardWrx.ConsoleStreams.pdb
+2021-08-01 21:28:58 ....A       160287               packages\WizardWrx.ConsoleStreams.8.0.258\lib\Wizardwrx.ConsoleStreams.XML
+2021-01-30 23:29:08 ....A         2892               packages\WizardWrx.ConsoleStreams.8.0.258\README.md
+2021-10-09 01:00:17 ....A        87860               packages\WizardWrx.ConsoleStreams.8.0.258\WizardWrx.ConsoleStreams.8.0.258.nupkg
+2021-08-01 14:29:18 ....A         9463               packages\WizardWrx.Core.8.0.250\.signature.p7s
+2021-08-01 19:41:50 ....A        47133               packages\WizardWrx.Core.8.0.250\ChangeLog.md
+2021-08-01 21:28:48 ....A       495850               packages\WizardWrx.Core.8.0.250\lib\net35-client\Wizardwrx.Core.XML
+2021-08-01 21:28:48 ....A       331264               packages\WizardWrx.Core.8.0.250\lib\WizardWrx.Core.pdb
+2021-08-01 21:28:48 ....A       495850               packages\WizardWrx.Core.8.0.250\lib\Wizardwrx.Core.XML
+2021-01-30 23:32:52 ....A         5589               packages\WizardWrx.Core.8.0.250\README.md
+2021-10-09 01:00:16 ....A       271210               packages\WizardWrx.Core.8.0.250\WizardWrx.Core.8.0.250.nupkg
+2021-08-01 14:29:40 ....A         9464               packages\WizardWrx.DLLConfigurationManager.8.0.287\.signature.p7s
+2021-08-01 19:41:50 ....A        47133               packages\WizardWrx.DLLConfigurationManager.8.0.287\ChangeLog.md
+2021-08-01 21:29:08 ....A       108052               packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\net35-client\Wizardwrx.DLLConfigurationManager.XML
+2020-12-14 04:29:56 ....A        10019               packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\WizardWrx.DLLConfigurationManager.dll.config
+2021-08-01 21:29:08 ....A        79360               packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\WizardWrx.DLLConfigurationManager.pdb
+2021-08-01 21:29:08 ....A       108052               packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\Wizardwrx.DLLConfigurationManager.XML
+2021-01-30 23:35:28 ....A         3816               packages\WizardWrx.DLLConfigurationManager.8.0.287\README.md
+2021-10-09 01:00:17 ....A        98078               packages\WizardWrx.DLLConfigurationManager.8.0.287\WizardWrx.DLLConfigurationManager.8.0.287.nupkg
+2021-08-01 14:30:08 ....A         9464               packages\WizardWrx.EmbeddedTextFile.8.0.166\.signature.p7s
+2021-08-01 19:41:50 ....A        47133               packages\WizardWrx.EmbeddedTextFile.8.0.166\ChangeLog.md
+2021-08-01 21:29:14 ....A        18877               packages\WizardWrx.EmbeddedTextFile.8.0.166\lib\net35-client\Wizardwrx.EmbeddedTextFile.xml
+2021-08-01 21:29:14 ....A        36352               packages\WizardWrx.EmbeddedTextFile.8.0.166\lib\WizardWrx.EmbeddedTextFile.pdb
+2021-08-01 21:29:14 ....A        18877               packages\WizardWrx.EmbeddedTextFile.8.0.166\lib\Wizardwrx.EmbeddedTextFile.xml
+2021-01-30 23:36:30 ....A         2973               packages\WizardWrx.EmbeddedTextFile.8.0.166\README.md
+2021-10-09 06:57:10 ....A        47103               packages\WizardWrx.EmbeddedTextFile.8.0.166\WizardWrx.EmbeddedTextFile.8.0.166.nupkg
+2021-08-01 14:29:14 ....A         9463               packages\WizardWrx.FormatStringEngine.8.0.232\.signature.p7s
+2021-08-01 19:41:50 ....A        47133               packages\WizardWrx.FormatStringEngine.8.0.232\ChangeLog.md
+2021-08-01 21:28:42 ....A        76385               packages\WizardWrx.FormatStringEngine.8.0.232\lib\net35-client\Wizardwrx.FormatStringEngine.XML
+2021-08-01 21:28:42 ....A        62976               packages\WizardWrx.FormatStringEngine.8.0.232\lib\WizardWrx.FormatStringEngine.pdb
+2021-08-01 21:28:42 ....A        76385               packages\WizardWrx.FormatStringEngine.8.0.232\lib\Wizardwrx.FormatStringEngine.XML
+2021-01-30 23:38:40 ....A         3245               packages\WizardWrx.FormatStringEngine.8.0.232\README.md
+2021-10-09 01:00:16 ....A        70792               packages\WizardWrx.FormatStringEngine.8.0.232\WizardWrx.FormatStringEngine.8.0.232.nupkg
+2016-06-17 00:19:23 .R...         2630               TimeZoneLab.sln
+2014-09-07 20:20:08 ..H.A       335360               TimeZoneLab.suo
+2016-06-17 12:36:51 ..H.A       104960               TimeZoneLab.v12.suo
+2016-06-14 22:25:18 .R...         1075               TimeZoneLab\app.config
+2016-04-02 21:25:35 .....       554249               TimeZoneLab\bin\Debug\Newtonsoft.Json.xml
+2016-06-14 22:25:18 .....         1075               TimeZoneLab\bin\Debug\TimeZoneLab.exe.config
+2021-10-12 23:26:02 ....A        81408               TimeZoneLab\bin\Debug\TimeZoneLab.pdb
+2016-06-14 22:25:18 .....         1075               TimeZoneLab\bin\Debug\TimeZoneLab.vshost.exe.config
+2010-03-18 00:39:16 .....          490               TimeZoneLab\bin\Debug\TimeZoneLab.vshost.exe.manifest
+2019-08-11 22:26:26 ....A        74090               TimeZoneLab\bin\Debug\WizardWrx.AnyCSV.xml
+2021-08-01 21:28:38 ....A        37024               TimeZoneLab\bin\Debug\WizardWrx.ASCIIInfo.xml
+2021-08-01 21:28:54 ....A        71200               TimeZoneLab\bin\Debug\WizardWrx.AssemblyUtils.xml
+2016-05-04 17:14:57 .....        54784               TimeZoneLab\bin\Debug\WizardWrx.BitMath.pdb
+2016-05-04 17:14:56 ....A       101267               TimeZoneLab\bin\Debug\WizardWrx.BitMath.xml
+2021-08-01 21:28:30 ....A       297521               TimeZoneLab\bin\Debug\WizardWrx.Common.xml
+2016-06-11 22:59:00 .....        48640               TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids2.pdb
+2016-06-11 22:59:00 .....        67352               TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids2.xml
+2021-08-09 18:39:22 ....A        70772               TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids3.xml
+2021-08-01 21:28:58 ....A       160287               TimeZoneLab\bin\Debug\WizardWrx.ConsoleStreams.xml
+2021-08-01 21:28:48 ....A       495850               TimeZoneLab\bin\Debug\WizardWrx.Core.xml
+2020-12-14 04:29:56 .....        10019               TimeZoneLab\bin\Debug\WizardWrx.DLLConfigurationManager.dll.config
+2021-08-01 21:29:08 ....A       108052               TimeZoneLab\bin\Debug\WizardWrx.DLLConfigurationManager.xml
+2016-06-08 13:31:27 .....       314880               TimeZoneLab\bin\Debug\WizardWrx.DLLServices2.pdb
+2016-06-08 13:31:27 .....       714606               TimeZoneLab\bin\Debug\WizardWrx.DLLServices2.xml
+2021-08-01 21:29:14 ....A        18877               TimeZoneLab\bin\Debug\WizardWrx.EmbeddedTextFile.xml
+2021-08-01 21:28:42 ....A        76385               TimeZoneLab\bin\Debug\WizardWrx.FormatStringEngine.xml
+2016-04-02 21:25:35 .....       554249               TimeZoneLab\bin\Release\Newtonsoft.Json.xml
+2016-06-14 22:25:18 .....         1075               TimeZoneLab\bin\Release\TimeZoneLab.exe.config
+2021-10-12 23:35:43 ....A        73216               TimeZoneLab\bin\Release\TimeZoneLab.pdb
+2016-06-14 22:25:18 .....         1075               TimeZoneLab\bin\Release\TimeZoneLab.vshost.exe.config
+2010-03-18 00:39:16 .....          490               TimeZoneLab\bin\Release\TimeZoneLab.vshost.exe.manifest
+2019-08-11 22:26:26 ....A        74090               TimeZoneLab\bin\Release\WizardWrx.AnyCSV.xml
+2021-08-01 21:28:38 ....A        37024               TimeZoneLab\bin\Release\WizardWrx.ASCIIInfo.xml
+2021-08-01 21:28:54 ....A        71200               TimeZoneLab\bin\Release\WizardWrx.AssemblyUtils.xml
+2016-05-04 17:14:57 .....        54784               TimeZoneLab\bin\Release\WizardWrx.BitMath.pdb
+2016-05-04 17:14:56 ....A       101267               TimeZoneLab\bin\Release\WizardWrx.BitMath.xml
+2021-08-01 21:28:30 ....A       297521               TimeZoneLab\bin\Release\WizardWrx.Common.xml
+2016-06-11 22:59:00 .....        48640               TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids2.pdb
+2016-06-11 22:59:00 .....        67352               TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids2.xml
+2021-08-09 18:39:22 ....A        70772               TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids3.xml
+2021-08-01 21:28:58 ....A       160287               TimeZoneLab\bin\Release\WizardWrx.ConsoleStreams.xml
+2021-08-01 21:28:48 ....A       495850               TimeZoneLab\bin\Release\WizardWrx.Core.xml
+2020-12-14 04:29:56 .....        10019               TimeZoneLab\bin\Release\WizardWrx.DLLConfigurationManager.dll.config
+2021-08-01 21:29:08 ....A       108052               TimeZoneLab\bin\Release\WizardWrx.DLLConfigurationManager.xml
+2016-06-05 20:20:48 .....         8468               TimeZoneLab\bin\Release\WizardWrx.DLLServices2.dll.config
+2016-06-08 13:31:27 .....       314880               TimeZoneLab\bin\Release\WizardWrx.DLLServices2.pdb
+2016-06-08 13:31:27 .....       714606               TimeZoneLab\bin\Release\WizardWrx.DLLServices2.xml
+2021-08-01 21:29:14 ....A        18877               TimeZoneLab\bin\Release\WizardWrx.EmbeddedTextFile.xml
+2021-08-01 21:28:42 ....A        76385               TimeZoneLab\bin\Release\WizardWrx.FormatStringEngine.xml
+2021-10-12 23:35:43 .R...        24445               TimeZoneLab\BuildHistory.LOG
+2021-10-09 07:04:58 .R..A        17871               TimeZoneLab\FixedWidthReportItem.cs
+2021-10-09 07:07:19 .R..A        26860               TimeZoneLab\FixedWidthReportItemsCollection.cs
+2014-09-05 11:08:06 .R...          218               TimeZoneLab\LabelsForTasks.TXT
+2021-10-09 00:53:03 ....A          238               TimeZoneLab\obj\x86\Debug\.NETFramework,Version=v4.0,Profile=Client.AssemblyAttributes.cs
+2021-10-10 21:16:48 ....A           11               TimeZoneLab\obj\x86\Debug\DesignTimeResolveAssemblyReferences.cache
+2021-10-11 00:24:20 ....A         8240               TimeZoneLab\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+2014-09-05 11:14:20 .....         3940               TimeZoneLab\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+2014-09-05 11:14:20 .....          602               TimeZoneLab\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+2014-09-05 11:12:24 .....        17489               TimeZoneLab\obj\x86\Debug\ResolveAssemblyReference.cache
+2021-10-12 22:59:59 ....A        12502               TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.AssemblyReference.cache
+2021-10-11 00:24:27 ....A           42               TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.CoreCompileInputs.cache
+2021-10-10 23:29:41 ....A         9099               TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.FileListAbsolute.txt
+2021-10-11 00:40:02 ....A          954               TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.GenerateResource.cache
+2016-06-14 23:34:43 .....        21846               TimeZoneLab\obj\x86\Debug\TimeZoneLab.csprojResolveAssemblyReference.cache
+2021-10-12 23:26:02 ....A        81408               TimeZoneLab\obj\x86\Debug\TimeZoneLab.pdb
+2021-10-11 00:40:02 ....A         2890               TimeZoneLab\obj\x86\Debug\TimeZoneLab.Properties.Resources.resources
+2021-10-12 23:35:36 ....A          238               TimeZoneLab\obj\x86\Release\.NETFramework,Version=v4.0,Profile=Client.AssemblyAttributes.cs
+2016-06-16 23:27:01 .....         5311               TimeZoneLab\obj\x86\Release\DesignTimeResolveAssemblyReferences.cache
+2016-06-15 23:22:10 .....         6800               TimeZoneLab\obj\x86\Release\DesignTimeResolveAssemblyReferencesInput.cache
+2014-09-05 11:24:06 .....         3940               TimeZoneLab\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+2014-09-05 11:24:06 .....          606               TimeZoneLab\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+2014-09-05 11:24:06 .....        17489               TimeZoneLab\obj\x86\Release\ResolveAssemblyReference.cache
+2021-10-12 23:35:36 ....A           11               TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.AssemblyReference.cache
+2021-10-12 23:35:43 ....A           42               TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.CoreCompileInputs.cache
+2021-10-12 23:35:43 ....A         9243               TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.FileListAbsolute.txt
+2021-10-12 23:35:43 ....A          954               TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.GenerateResource.cache
+2016-06-15 19:08:14 .....        18460               TimeZoneLab\obj\x86\Release\TimeZoneLab.csprojResolveAssemblyReference.cache
+2021-10-12 23:35:43 ....A        73216               TimeZoneLab\obj\x86\Release\TimeZoneLab.pdb
+2021-10-12 23:35:43 ....A         2890               TimeZoneLab\obj\x86\Release\TimeZoneLab.Properties.Resources.resources
+2021-10-09 06:57:10 ....A         1083               TimeZoneLab\packages.config
+2021-10-09 12:12:37 .R..A        31168               TimeZoneLab\Program.cs
+2021-10-12 23:35:41 .R..A         1586               TimeZoneLab\Properties\AssemblyInfo.cs
+2021-10-11 00:39:45 ....A        12560               TimeZoneLab\Properties\Resources.Designer.cs
+2021-10-11 00:39:45 ....A        12450               TimeZoneLab\Properties\Resources.resx
+2016-06-14 22:25:20 .R...         2099               TimeZoneLab\Properties\Settings.Designer.cs
+2016-06-14 21:54:55 .R...          629               TimeZoneLab\Properties\Settings.settings
+2021-10-10 22:50:39 .R..A        10554               TimeZoneLab\TimeZoneConversionTestCase.cs
+2021-10-10 23:59:56 .R..A        14542               TimeZoneLab\TimeZoneConversionTestCaseCollection.cs
+2021-10-12 23:25:59 .R..A        10005               TimeZoneLab\TimeZoneInfoExtensions.cs
+2021-10-11 00:24:02 .R..A         6862               TimeZoneLab\TimeZoneLab.csproj
+2021-10-09 07:15:18 .R..A          405               TimeZoneLab\TimeZoneLab.csproj.user
+2021-10-11 00:44:27 .R..A        38575               TimeZoneLab\TimeZoneTasks.cs
+2016-06-14 22:13:54 .R...         9670               TimeZoneLab\TZHelpers.cs
+2020-12-14 04:29:56 .R..A        10019               TimeZoneLab\WizardWrx.DLLConfigurationManager.dll.config
+2014-08-30 10:17:08 .R...        10134               TimeZoneLab\WW_Icon1.ico
+2016-06-16 23:55:05 .....          187               TZInfo\App.config
+2016-06-16 23:55:05 .....          187               TZInfo\bin\Debug\TZInfo.exe.config
+2016-06-17 03:22:51 .....        30208               TZInfo\bin\Debug\TZInfo.pdb
+2016-06-16 23:55:05 .....          187               TZInfo\bin\Debug\TZInfo.vshost.exe.config
+2010-03-18 00:39:16 .....          490               TZInfo\bin\Debug\TZInfo.vshost.exe.manifest
+2016-06-17 12:36:50 .....         1838               TZInfo\Form1.cs
+2016-06-17 12:36:50 .....         7990               TZInfo\Form1.Designer.cs
+2016-06-17 12:36:50 .....         5817               TZInfo\Form1.resx
+2021-10-09 00:53:04 ....A          210               TZInfo\obj\Debug\.NETFramework,Version=v4.5.AssemblyAttributes.cs
+2016-06-16 23:55:07 .....          865               TZInfo\obj\Debug\DesignTimeResolveAssemblyReferences.cache
+2021-10-09 00:53:04 ....A         6563               TZInfo\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+2021-10-09 00:53:03 ....A         2778               TZInfo\obj\Debug\TZInfo.csproj.AssemblyReference.cache
+2021-10-09 06:59:45 ....A           42               TZInfo\obj\Debug\TZInfo.csproj.CoreCompileInputs.cache
+2021-10-09 06:59:47 ....A         1806               TZInfo\obj\Debug\TZInfo.csproj.FileListAbsolute.txt
+2021-10-09 06:59:45 ....A         1012               TZInfo\obj\Debug\TZInfo.csproj.GenerateResource.cache
+2016-06-17 00:46:11 .....         2211               TZInfo\obj\Debug\TZInfo.csprojResolveAssemblyReference.cache
+2021-10-09 06:59:45 ....A          180               TZInfo\obj\Debug\TZInfo.Form1.resources
+2016-06-17 03:22:51 .....        30208               TZInfo\obj\Debug\TZInfo.pdb
+2021-10-09 06:59:45 ....A          862               TZInfo\obj\Debug\TZInfo.Properties.Resources.resources
+2016-06-17 02:15:08 .....          447               TZInfo\Program.cs
+2016-06-16 23:55:05 .....         1460               TZInfo\Properties\AssemblyInfo.cs
+2016-06-17 02:12:02 .....         5808               TZInfo\Properties\Resources.Designer.cs
+2016-06-17 02:12:02 .....         7390               TZInfo\Properties\Resources.resx
+2016-06-16 23:55:05 .....         1033               TZInfo\Properties\Settings.Designer.cs
+2016-06-16 23:55:05 .....          249               TZInfo\Properties\Settings.settings
+2016-06-17 12:36:50 .....         3597               TZInfo\TZInfo.csproj
+2019-08-11 22:26:26 ....A        18944       329216  packages\WizardWrx.AnyCSV.7.2.145\lib\net20\WizardWrx.AnyCSV.dll
+2021-08-01 21:28:38 ....A        28160               packages\WizardWrx.ASCIIInfo.8.0.147\lib\net35-client\WizardWrx.ASCIIInfo.dll
+2021-08-01 21:28:54 ....A        40960               packages\WizardWrx.AssemblyUtils.8.0.198\lib\net35-client\WizardWrx.AssemblyUtils.dll
+2016-05-04 17:14:56 ....A        26624               packages\WizardWrx.BitMath.4.3.125.29248\lib\net20\WizardWrx.BitMath.dll
+2021-08-01 21:28:30 ....A        39424               packages\WizardWrx.Common.8.0.168\lib\net35-client\WizardWrx.Common.dll
+2021-08-09 18:39:22 ....A        20480               packages\WizardWrx.ConsoleAppAids3.8.0.545\lib\net35-client\WizardWrx.ConsoleAppAids3.dll
+2021-08-01 21:28:58 ....A        27648               packages\WizardWrx.ConsoleStreams.8.0.258\lib\net35-client\WizardWrx.ConsoleStreams.dll
+2021-08-01 21:28:48 ....A       103424               packages\WizardWrx.Core.8.0.250\lib\net35-client\WizardWrx.Core.dll
+2021-08-01 21:29:08 ....A        34304               packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\net35-client\WizardWrx.DLLConfigurationManager.dll
+2021-08-01 21:29:14 ....A        12800               packages\WizardWrx.EmbeddedTextFile.8.0.166\lib\net35-client\WizardWrx.EmbeddedTextFile.dll
+2021-08-01 21:28:42 ....A        22016               packages\WizardWrx.FormatStringEngine.8.0.232\lib\net35-client\WizardWrx.FormatStringEngine.dll
+2016-04-02 21:25:35 .....       480768               TimeZoneLab\bin\Debug\Newtonsoft.Json.dll
+2014-05-16 18:56:04 .....        26112               TimeZoneLab\bin\Debug\P6CUtilLib1.dll
+2021-10-12 23:26:02 ....A        52736               TimeZoneLab\bin\Debug\TimeZoneLab.exe
+2016-06-17 00:19:54 .....        23168               TimeZoneLab\bin\Debug\TimeZoneLab.vshost.exe
+2019-08-11 22:26:26 ....A        18944               TimeZoneLab\bin\Debug\WizardWrx.AnyCSV.dll
+2021-08-01 21:28:38 ....A        28160               TimeZoneLab\bin\Debug\WizardWrx.ASCIIInfo.dll
+2021-08-01 21:28:54 ....A        40960               TimeZoneLab\bin\Debug\WizardWrx.AssemblyUtils.dll
+2016-05-04 17:14:56 ....A        26624               TimeZoneLab\bin\Debug\WizardWrx.BitMath.dll
+2021-08-01 21:28:30 ....A        39424               TimeZoneLab\bin\Debug\WizardWrx.Common.dll
+2016-06-11 22:59:00 .....        20992               TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids2.dll
+2021-08-09 18:39:22 ....A        20480               TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids3.dll
+2021-08-01 21:28:58 ....A        27648               TimeZoneLab\bin\Debug\WizardWrx.ConsoleStreams.dll
+2021-08-01 21:28:48 ....A       103424               TimeZoneLab\bin\Debug\WizardWrx.Core.dll
+2021-08-01 21:29:08 ....A        34304               TimeZoneLab\bin\Debug\WizardWrx.DLLConfigurationManager.dll
+2016-06-08 13:31:27 .....       117760               TimeZoneLab\bin\Debug\WizardWrx.DLLServices2.dll
+2021-08-01 21:29:14 ....A        12800               TimeZoneLab\bin\Debug\WizardWrx.EmbeddedTextFile.dll
+2021-08-01 21:28:42 ....A        22016               TimeZoneLab\bin\Debug\WizardWrx.FormatStringEngine.dll
+2016-04-02 21:25:35 .....       480768               TimeZoneLab\bin\Release\Newtonsoft.Json.dll
+2014-05-16 18:56:04 .....        26112               TimeZoneLab\bin\Release\P6CUtilLib1.dll
+2021-10-12 23:35:43 ....A        50176               TimeZoneLab\bin\Release\TimeZoneLab.exe
+2016-06-16 23:09:37 .....        23168               TimeZoneLab\bin\Release\TimeZoneLab.vshost.exe
+2019-08-11 22:26:26 ....A        18944               TimeZoneLab\bin\Release\WizardWrx.AnyCSV.dll
+2021-08-01 21:28:38 ....A        28160               TimeZoneLab\bin\Release\WizardWrx.ASCIIInfo.dll
+2021-08-01 21:28:54 ....A        40960               TimeZoneLab\bin\Release\WizardWrx.AssemblyUtils.dll
+2016-05-04 17:14:56 ....A        26624               TimeZoneLab\bin\Release\WizardWrx.BitMath.dll
+2021-08-01 21:28:30 ....A        39424               TimeZoneLab\bin\Release\WizardWrx.Common.dll
+2016-06-11 22:59:00 .....        20992               TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids2.dll
+2021-08-09 18:39:22 ....A        20480               TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids3.dll
+2021-08-01 21:28:58 ....A        27648               TimeZoneLab\bin\Release\WizardWrx.ConsoleStreams.dll
+2021-08-01 21:28:48 ....A       103424               TimeZoneLab\bin\Release\WizardWrx.Core.dll
+2021-08-01 21:29:08 ....A        34304               TimeZoneLab\bin\Release\WizardWrx.DLLConfigurationManager.dll
+2016-06-08 13:31:27 .....       117760               TimeZoneLab\bin\Release\WizardWrx.DLLServices2.dll
+2021-08-01 21:29:14 ....A        12800               TimeZoneLab\bin\Release\WizardWrx.EmbeddedTextFile.dll
+2021-08-01 21:28:42 ....A        22016               TimeZoneLab\bin\Release\WizardWrx.FormatStringEngine.dll
+2021-10-11 00:39:45 ....A         7680               TimeZoneLab\obj\x86\Debug\TempPE\Properties.Resources.Designer.cs.dll
+2021-10-12 23:26:02 ....A        52736               TimeZoneLab\obj\x86\Debug\TimeZoneLab.exe
+2021-10-12 23:35:36 ....A         7680               TimeZoneLab\obj\x86\Release\TempPE\Properties.Resources.Designer.cs.dll
+2021-10-12 23:35:43 ....A        50176               TimeZoneLab\obj\x86\Release\TimeZoneLab.exe
+2016-06-17 03:22:51 .....        14336               TZInfo\bin\Debug\TZInfo.exe
+2016-06-17 03:23:05 .....        23168               TZInfo\bin\Debug\TZInfo.vshost.exe
+2016-06-17 02:12:02 .....         6144               TZInfo\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll
+2016-06-17 03:22:51 .....        14336               TZInfo\obj\Debug\TZInfo.exe
+------------------- ----- ------------ ------------  ------------------------
+2021-10-12 23:44:26           19789148      2514096  297 files, 57 folders
+
+---------------------------------------------------------------------
+Step 5 of 6: Write-protect and give an unuque name to the archive.
+---------------------------------------------------------------------
+
+Date2FN, version 1.3.72.500
+Begin @ 10/12/2021 23:47:34.431 (10/13/2021 04:47:34.431 UTC)
+
+Original File Name       = D:\_Backups\program_source\Visual_Studio_2017\TimeZoneLab_3_0_105_ABACUS.7z
+Time Stamp Mask          = YYYYMMDD_hhmmss
+Flag File As Read Only   = True
+Directory Recursion Flag = False
+UQ Filespec Flag         = False
+New File Name            = D:\_Backups\program_source\Visual_Studio_2017\TimeZoneLab_3_0_105_ABACUS_20211012_234426.7z
+
+Date2FN End - 10/12/2021 23:47:34.478 (10/13/2021 04:47:34.478 UTC)
+Elapsed time: 0:00:00:00.050
+
+---------------------------------------------------------------------
+Step 6 of 6: List the archives.
+---------------------------------------------------------------------
+
+2021/10/12 23:44:26         2,519,849 TimeZoneLab_3_0_105_ABACUS_20211012_234426.7z
+
+---------------------------------------------------------------------
+Info: Now is your chance to capture the timestamps and logs.
+---------------------------------------------------------------------
+
+WWPause version 3, 0, 0, 4
+Tue 12 Oct 2021 23:47:34 Local
+
+Please press RETURN when ready...
+
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab 10/12/2021 23:47:36.52>

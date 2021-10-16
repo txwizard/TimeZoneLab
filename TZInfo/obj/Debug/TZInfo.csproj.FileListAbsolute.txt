@@ -1,0 +1,16 @@
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TZInfo\bin\Debug\TZInfo.exe.config
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TZInfo\bin\Debug\TZInfo.exe
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TZInfo\bin\Debug\TZInfo.pdb
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.csprojResolveAssemblyReference.cache
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.Form1.resources
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.Properties.Resources.resources
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.csproj.GenerateResource.Cache
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.exe
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.pdb
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.csproj.AssemblyReference.cache
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.Form1.resources
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.Properties.Resources.resources
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.csproj.GenerateResource.cache
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.csproj.CoreCompileInputs.cache
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.exe
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.pdb

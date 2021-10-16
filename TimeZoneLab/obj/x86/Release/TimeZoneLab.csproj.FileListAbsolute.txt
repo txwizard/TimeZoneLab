@@ -1,0 +1,72 @@
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.exe.config
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.Properties.Resources.resources
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLServices2.dll.config
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.exe
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.pdb
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ApplicationHelpers2.dll
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids2.dll
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLServices2.dll
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ApplicationHelpers2.pdb
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ApplicationHelpers2.xml
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids2.pdb
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids2.xml
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLServices2.pdb
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLServices2.xml
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.exe
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.pdb
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.exe.config
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.exe
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.pdb
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLServices2.dll.config
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.exe
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.pdb
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids2.dll
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLServices2.dll
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\Newtonsoft.Json.dll
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.BitMath.dll
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids2.pdb
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids2.xml
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLServices2.pdb
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLServices2.xml
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\Newtonsoft.Json.xml
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.BitMath.pdb
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.BitMath.xml
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.Properties.Resources.resources
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.GenerateResource.Cache
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.csprojResolveAssemblyReference.cache
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLConfigurationManager.dll.config
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.exe.config
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.exe
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.pdb
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.AnyCSV.dll
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ASCIIInfo.dll
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.AssemblyUtils.dll
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.BitMath.dll
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.Common.dll
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids3.dll
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleStreams.dll
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.Core.dll
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLConfigurationManager.dll
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.EmbeddedTextFile.dll
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.FormatStringEngine.dll
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.AnyCSV.xml
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ASCIIInfo.xml
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.AssemblyUtils.xml
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.BitMath.xml
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.Common.xml
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids3.xml
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleStreams.xml
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.Core.xml
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLConfigurationManager.xml
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.EmbeddedTextFile.xml
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.FormatStringEngine.xml
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.AssemblyReference.cache
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.Properties.Resources.resources
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.GenerateResource.cache
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.CoreCompileInputs.cache
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.CopyComplete
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.exe
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.pdb

@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ERRMSG_EMBEDDED_RESOURCE_NOT_FOUND" xml:space="preserve">
+    <value>Resource {0} cannot be found in assembly {1}.</value>
+    <comment>Method LoadTextFileFromAnyAssembly of class Utl formats a message from this template to report a missing resource.</comment>
+  </data>
+  <data name="ERRMSG_EMBEDDED_RESOURCE_READ_ERROR" xml:space="preserve">
+    <value>An error occurred while reading a file from resources embedded in the assembly.{3}Internal Name = {0}{3}File Length (bytes) = {1}{3}Bytes successfully read = {2}</value>
+    <comment>Method LoadTextFileFromAnyAssembly of class Utl formats a message from this template to report a read error.</comment>
+  </data>
+  <data name="ERRMSG_INVALID_DATE_STRING" xml:space="preserve">
+    <value>DATA ERROR: The input file is corrupt. DateTime.TryParse cannot parse string {0} found in record {1} of {2}.</value>
+    <comment>TimeZoneTasks method GetTestCaseDates uses this to report a date that cannot be parsed.</comment>
+  </data>
+  <data name="ERRMSG_INVALID_OUTPUT_FORMAT" xml:space="preserve">
+    <value>{2}The specified output format, {0}, is invalid, and will be ignored.{2}    The default value, {1}, will be used.{2}</value>
+    <comment>The exception handler in SetOutputFormat  constructs a message to display on the console from this template.</comment>
+  </data>
+  <data name="ERRMSG_INVALID_TIME_ZONE_ID" xml:space="preserve">
+    <value>The specified time zone ID, {0}, is invalid for this machine.</value>
+    <comment>A valid time zone ID is required for the time zone adjustments enumeration task.</comment>
+  </data>
+  <data name="ERRMSG_MISSING_TIME_ZONE_ID" xml:space="preserve">
+    <value>You must specify the time zone for which to list the adjustments.</value>
+    <comment>A valid time zone ID is required for the time zone adjustments enumeration task.</comment>
+  </data>
+  <data name="ERRMSG_RUNTIME" xml:space="preserve">
+    <value>A run-time exception has occurred.</value>
+    <comment>ERR_RUNTIME</comment>
+  </data>
+  <data name="ERRMSG_SUCCESS" xml:space="preserve">
+    <value>The task completed successfully</value>
+    <comment>ERROR_SUCCESS</comment>
+  </data>
+  <data name="ERRMSG_TASK_SPECIFIER_INVALID" xml:space="preserve">
+    <value>The specified task ID is invalid.</value>
+    <comment>ERR_TASK_SPECIFIER_INVALID</comment>
+  </data>
+  <data name="ERRMSG_TEST_CASE_FILENAME_IS_MISSING" xml:space="preserve">
+    <value>The name of the test case file is missing. See the user scoped EdgeCaseInputFileName setting.</value>
+    <comment>ERR_TEST_CASE_FILENAME_IS_MISSING</comment>
+  </data>
+  <data name="ERRMSG_TEST_CASE_FILE_NOT_FOUND" xml:space="preserve">
+    <value>The specified test case file cannot be found. See the user scoped EdgeCaseInputFileName setting.</value>
+    <comment>ERR_TEST_CASE_FILE_NOT_FOUND</comment>
+  </data>
+  <data name="ERRMSG_UNIMPLEMENTED_TASK" xml:space="preserve">
+    <value>Task is not yet implemented.</value>
+    <comment>This could be improved by extending ErrorExit with the ErrorMessages class that I put into the SharedUtl4 test stand.</comment>
+  </data>
+  <data name="METHOD_NAME_IS_MAIN" xml:space="preserve">
+    <value>Main</value>
+    <comment>This string replaces THIS_METHOD_NAME.</comment>
+  </data>
+  <data name="MSG_OUTPUT_BEGIN" xml:space="preserve">
+    <value>Task Output: {0}{1}</value>
+    <comment>When it starts, each task uses this template to display a banner.</comment>
+  </data>
+  <data name="MSG_OUTPUT_DONE" xml:space="preserve">
+    <value>{1}{0} completed.{1}</value>
+    <comment>When it is finished, each task uses this template to display another banner.</comment>
+  </data>
+  <data name="MSG_SELECTED_TASK" xml:space="preserve">
+    <value>{1}Task to Perform: {0}{1}</value>
+    <comment>The main routine uses this template to report the tasks that are scheduled to run.</comment>
+  </data>
+  <data name="MSG_TASK_DONE" xml:space="preserve">
+    <value>{1}Task {0} completed{1}</value>
+    <comment>The main routine uses this template to report completion of a task.</comment>
+  </data>
+  <data name="MSG_TZ_CONVERSION" xml:space="preserve">
+    <value>    Test Case {0}: Input Time  = {1} {2}{5}                 Output Time = {3} {4}{5}</value>
+    <comment>All but one of the test routines us this message template.</comment>
+  </data>
+  <data name="MSG_UNIMPLEMENTED" xml:space="preserve">
+    <value>MaxLength computation is not yet implemented for this field.</value>
+    <comment>The MaxLength method uses this text as the message of a runtime exception.</comment>
+  </data>
+  <data name="RPT_LBL_DA" xml:space="preserve">
+    <value>DaylightAbbr</value>
+    <comment>Method EnumerateTimeZones uses this string as the heading for one of its report columns.</comment>
+  </data>
+  <data name="RPT_LBL_DN" xml:space="preserve">
+    <value>DisplayName</value>
+    <comment>Method EnumerateTimeZones uses this string as the heading for one of its report columns.</comment>
+  </data>
+  <data name="RPT_LBL_DT" xml:space="preserve">
+    <value>DaylightName</value>
+    <comment>Method EnumerateTimeZones uses this string as the heading for one of its report columns.</comment>
+  </data>
+  <data name="RPT_LBL_ID" xml:space="preserve">
+    <value>Id</value>
+    <comment>Method EnumerateTimeZones uses this string as the heading for one of its report columns.</comment>
+  </data>
+  <data name="RPT_LBL_SA" xml:space="preserve">
+    <value>StandardAbbr</value>
+    <comment>Method EnumerateTimeZones uses this string as the heading for one of its report columns.</comment>
+  </data>
+  <data name="RPT_LBL_SD" xml:space="preserve">
+    <value>SupportsDST</value>
+    <comment>Method EnumerateTimeZones uses this string as the heading for one of its report columns.</comment>
+  </data>
+  <data name="RPT_LBL_SN" xml:space="preserve">
+    <value>StandardName</value>
+    <comment>Method EnumerateTimeZones uses this string as the heading for one of its report columns.</comment>
+  </data>
+  <data name="RPT_LBL_UO" xml:space="preserve">
+    <value>BaseUTCoffset</value>
+    <comment>Method EnumerateTimeZones uses this string as the heading for one of its report columns.</comment>
+  </data>
+  <data name="TASK_LABEL_FILENAME" xml:space="preserve">
+    <value>LabelsForTasks.TXT</value>
+    <comment>This is the name of the file from which an embedded resource is constructed; its internal name is derived from its filesystem file name, and its contents become the labels in the MSG_OUTPUT_BEGIN and MSG_OUTPUT_DONE templates.</comment>
+  </data>
+</root>

@@ -1,0 +1,42 @@
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\archive\Archive_TimeZoneLab.CMD Begin
+
+WWSourceCodeArchiver, version 2.0.11.25045
+Begin @ 09/02/2014 02:29:24 (09/02/2014 07:29:24 UTC)
+
+ProjectPath            = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.exe
+TargetPath             = C:\COMMON_DATA\Assorted_Zips\program_source\Visual Studio 2010\
+Product Type           = ExecutableProgram
+
+Program Directory Name = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release
+Program File Name      = TimeZoneLab.exe
+    File Size          = 45,056
+    Create Date (LOC)  = 2014/09/01 19:43:27.025
+    Create Date (UTC)  = 2014/09/02 00:43:27.025
+    Mod Date (LOC)     = 2014/09/02 02:20:23.745
+    Mod Date (UTC)     = 2014/09/02 07:20:23.745
+Project Name           = TimeZoneLab
+Project Root           = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\_Laboratory\TimeZoneLab\
+Assembly FullName      = TimeZoneLab, Version=1.0.61.2411, Culture=neutral, PublicKeyToken=null
+    BaseName           = TimeZoneLab
+    Full Version       = 1.0.61.2411
+    Culture            = neutral
+    PublicKeyToken     = null
+
+2014/09/02 02:29:25.135 Creating archive.
+2014/09/02 02:29:26.620 The archive was successfully created.
+2014/09/02 02:29:26.713 Archive flag reset on 86 project files.
+
+Archive FQFN           = C:\COMMON_DATA\Assorted_Zips\program_source\Visual Studio 2010\TimeZoneLab_1_0_61_2411.7z
+    File Size          = 208,412
+    Create Date (LOC)  = 2014/09/02 02:29:25.307
+    Create Date (UTC)  = 2014/09/02 07:29:25.307
+    Mod Date (LOC)     = 2014/09/02 02:29:26.620
+    Mod Date (UTC)     = 2014/09/02 07:29:26.620
+
+WWSourceCodeArchiver End - 09/02/2014 02:29:27 (09/02/2014 07:29:27 UTC)
+Elapsed time: 00:00:02.421
+WWPause version 2, 0, 0, 3
+Tue 02 Sep 2014 07:29:27 UTC
+Tue 02 Sep 2014 02:29:27 Local
+
+Please press RETURN when ready...
