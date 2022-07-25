@@ -14,7 +14,7 @@
                         namespaces out of the main program and to simplify
                         finding and extracting code for use in production work.
 
-	License:            Copyright (C) 2014-2021, David A. Gray.
+	License:            Copyright (C) 2014-2022, David A. Gray.
 						All rights reserved.
 
                         Redistribution and use in source and binary forms, with
@@ -90,13 +90,15 @@
 	2021/10/10 3.0     DAG    1) Implement time zome abbreviation generation.
 
 							  2) Upgrade to current libraries via NuGet.
+
+	2022/07/24 4.0     DAG    1) Sort by time zone offset.
     ============================================================================
 */
 
 
 using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
-
 
 using WizardWrx;
 using WizardWrx.ConsoleAppAids3;
@@ -122,21 +124,21 @@ namespace TimeZoneLab
 
         enum ReportField
         {
-            Id ,
-            DisplayName ,
-            DisplayAbbreviation ,   // Version 3.0
-            BaseUTCoffset ,
+            Id,
+            DisplayName,
+            DisplayAbbreviation,   // Version 3.0
+            BaseUTCoffset,
             StandardName,
             StandardAbbreviation,   // Version 3.0
-            DaylightName ,
+            DaylightName,
             DaylightAbbreviation,   // Version 3.0
-            SupportsDST 
+            SupportsDST
         }   // enum ReportField
 
         static TimeZoneInfo s_tzTestValue = TimeZoneInfo.FindSystemTimeZoneById ( TEST_FROM_TIMEZONE_ID );
 
 
-		internal static int ConvertAnyTimeZoneToUTC ( string pstrOutputLabel )
+        internal static int ConvertAnyTimeZoneToUTC ( string pstrOutputLabel )
         {   // This could be re-factored, but I decided that it wasn't worth the extra complexity.
 
             //  -------------------------------------------------------------------------------
@@ -160,7 +162,7 @@ namespace TimeZoneLab
             if ( rintStatus > MagicNumbers.ERROR_SUCCESS )
                 return rintStatus;
 
-			int intCaseNumber = ArrayInfo.ARRAY_FIRST_ELEMENT;
+            int intCaseNumber = ArrayInfo.ARRAY_FIRST_ELEMENT;
 
             foreach ( DateTime dtmFrom in adtmTestDates )
             {
@@ -194,7 +196,7 @@ namespace TimeZoneLab
         }   // internal static int ConvertAnyTimeZoneToUTC
 
 
-		internal static int ConvertAnyTimeZoneToLocalTime ( string pstrOutputLabel )
+        internal static int ConvertAnyTimeZoneToLocalTime ( string pstrOutputLabel )
         {   // This could be re-factored, but I decided that it wasn't worth the extra complexity.
             Console.WriteLine (
                 Properties.Resources.MSG_OUTPUT_BEGIN ,     					// Message template
@@ -207,7 +209,7 @@ namespace TimeZoneLab
             if ( rintStatus > MagicNumbers.ERROR_SUCCESS )
                 return rintStatus;
 
-			int intCaseNumber = ArrayInfo.ARRAY_FIRST_ELEMENT;
+            int intCaseNumber = ArrayInfo.ARRAY_FIRST_ELEMENT;
 
             foreach ( DateTime dtmFrom in adtmTestDates )
             {
@@ -257,22 +259,22 @@ namespace TimeZoneLab
             const string ERRMSG_TEST_FAIL = @"{1}ERROR: Raw Test Date = {0} - Item SKIPPED.{1}";
 
             Console.WriteLine (
-				Properties.Resources.MSG_OUTPUT_BEGIN ,     										// Message template
-				pstrOutputLabel ,                           										// Format Item 0
-				Environment.NewLine );                      										// Format Item 1
+                Properties.Resources.MSG_OUTPUT_BEGIN ,                                             // Message template
+                pstrOutputLabel ,                                                                   // Format Item 0
+                Environment.NewLine );                      										// Format Item 1
 
             TimeZoneConversionTestCaseCollection tzcColl = new TimeZoneConversionTestCaseCollection ( );
 
-            foreach ( TimeZoneConversionTestCase tzTestCase in tzcColl)
+            foreach ( TimeZoneConversionTestCase tzTestCase in tzcColl )
             {
                 try
                 {
                     tzTestCase.OutputDate = TimeZoneInfo.ConvertTime (
-						tzTestCase.TestDate ,                                           			// DateTime dateTime
-						tzcColl.TZTestValue ,                                   					// TimeZoneInfo sourceTimeZone
-						tzcColl.TZConverted );                                  					// TimeZoneInfo destinationTimeZone
+                        tzTestCase.TestDate ,                                                       // DateTime dateTime
+                        tzcColl.TZTestValue ,                                                       // TimeZoneInfo sourceTimeZone
+                        tzcColl.TZConverted );                                  					// TimeZoneInfo destinationTimeZone
                     Console.WriteLine (
-						Properties.Resources.MSG_TZ_CONVERSION ,                					// Format Template
+                        Properties.Resources.MSG_TZ_CONVERSION ,                					// Format Template
                         new string [ ]
                     {
                         tzTestCase.DisplayCaseNumber ,                                  			// Format Item 0
@@ -286,19 +288,19 @@ namespace TimeZoneLab
                 catch ( Exception exAll )
                 {
                     ConsoleAppStateManager casm = ConsoleAppStateManager.GetTheSingleInstance ( );
-					casm.BaseStateManager.AppExceptionLogger.ReportException ( exAll );
+                    casm.BaseStateManager.AppExceptionLogger.ReportException ( exAll );
                     Console.WriteLine (
-						ERRMSG_TEST_FAIL ,                          								// Format template
-						tzTestCase.DisplayTestDate ,                        						// Format Item 0
-						Environment.NewLine );                      								// Format Item 0
+                        ERRMSG_TEST_FAIL ,                                                          // Format template
+                        tzTestCase.DisplayTestDate ,                                                // Format Item 0
+                        Environment.NewLine );                      								// Format Item 0
                 }
-			}   // foreach ( TimeZoneConversionTestCase tzTestCase in tzcColl)
+            }   // foreach ( TimeZoneConversionTestCase tzTestCase in tzcColl)
 
             tzcColl.CreateReport ( );
             Console.WriteLine (
-                Properties.Resources.MSG_OUTPUT_DONE ,												// Message template
-				pstrOutputLabel ,                           										// Format Item 0
-				Environment.NewLine );                      										// Format Item 1
+                Properties.Resources.MSG_OUTPUT_DONE ,                                              // Message template
+                pstrOutputLabel ,                                                                   // Format Item 0
+                Environment.NewLine );                      										// Format Item 1
 
             return MagicNumbers.ERROR_SUCCESS;
         }   // internal static int ConvertBetweenAnyTwoTimeZones
@@ -312,15 +314,32 @@ namespace TimeZoneLab
             //              http://msdn.microsoft.com/en-us/library/bb397781(v=vs.90).aspx
             //  --------------------------------------------------------------------------
 
-            const string REPORT_TEMPLATE = @"    {0} {1} {2} {3} {4} {5} {6} {7}";
+            const string REPORT_TEMPLATE = @"    {0} {1} {2} {3} {4} {5} {6} {7} {8}";
 
             Console.WriteLine (
-				Properties.Resources.MSG_OUTPUT_BEGIN ,     										// Message template
-				pstrOutputLabel ,                           										// Format Item 0
-				Environment.NewLine );                      										// Format Item 1
+                Properties.Resources.MSG_OUTPUT_BEGIN ,                                             // Message template
+                pstrOutputLabel ,                                                                   // Format Item 0
+                Environment.NewLine );                      										// Format Item 1
 
             ReadOnlyCollection<TimeZoneInfo> tzCollection;
             tzCollection = TimeZoneInfo.GetSystemTimeZones ( );
+
+            SortedDictionary<string , TimeZoneInfo> dctTimeZonesByOffset = new SortedDictionary<string , TimeZoneInfo> ( );
+
+            foreach ( TimeZoneInfo timeZone in tzCollection )
+            {
+                dctTimeZonesByOffset.Add (
+                    timeZone.GenerateSortKey ( ) ,          // string       key
+                    timeZone );                             // TimeZoneInfo value
+            }   // foreach ( TimeZoneInfo timeZone in tzCollection )
+
+            string [ ] astrTZDictKeys = new string [ tzCollection.Count ];
+            dctTimeZonesByOffset.Keys.CopyTo (
+                astrTZDictKeys ,
+                ArrayInfo.ARRAY_FIRST_ELEMENT );
+            List<string> lstTZDictKeys = new List<string> ( astrTZDictKeys );
+            lstTZDictKeys.Sort ( );
+            int intLongestSortKey = WizardWrx.ReportHelpers.MaxStringLength ( lstTZDictKeys );
 
             //  ----------------------------------------------------------------
             //  Rather than call the LengthOfLongestString library routine, this
@@ -370,6 +389,7 @@ namespace TimeZoneLab
             Console.WriteLine (
                 REPORT_TEMPLATE ,
                 new string [ ] {
+                    Properties.Resources.RPT_LBL_SORT_KEY.PadRight ( intLongestSortKey ) ,
                     Properties.Resources.RPT_LBL_ID.PadRight ( intMaxIdLength ) ,
                     Properties.Resources.RPT_LBL_DN.PadRight ( intMaxNameLength ) ,
                     Properties.Resources.RPT_LBL_UO.PadRight ( intMaxBaseUTCoffsetLength ) ,
@@ -389,6 +409,9 @@ namespace TimeZoneLab
                 REPORT_TEMPLATE ,
                 new string [ ]
                 {
+                    SpecialStrings.EMPTY_STRING.PadRight (
+                        intLongestSortKey ,
+                        SpecialCharacters.HYPHEN ) ,
                     SpecialStrings.EMPTY_STRING.PadRight (
                         intMaxIdLength ,
                         SpecialCharacters.HYPHEN ) ,
@@ -415,12 +438,14 @@ namespace TimeZoneLab
                         SpecialCharacters.HYPHEN )
                 } );
 
-            foreach ( TimeZoneInfo timeZone in tzCollection )
+            foreach ( KeyValuePair<string , TimeZoneInfo> keyValuePair in dctTimeZonesByOffset )
             {
+                TimeZoneInfo timeZone = keyValuePair.Value;
                 Console.WriteLine (
                     REPORT_TEMPLATE ,
                     new string [ ]
                     {
+                        keyValuePair.Key.ToString ( ).PadRight ( intLongestSortKey ) ,
                         timeZone.Id.PadRight ( intMaxIdLength ) ,
                         timeZone.DisplayName.PadRight ( intMaxNameLength ) ,
                         timeZone.BaseUtcOffset.ToString ( ).PadRight ( intMaxBaseUTCoffsetLength ) ,
@@ -429,7 +454,7 @@ namespace TimeZoneLab
                         timeZone.DaylightName.PadRight ( intMaxDaylightNameLength ) ,
                         timeZone.AbbreviateDaylightName ( ).PadRight ( intMaxDaylightAbbrLength ) ,
                         timeZone.SupportsDaylightSavingTime.ToString ( ).PadRight ( intMaxSupportsDSTLength ) } );
-            }   // foreach ( TimeZoneInfo timeZone in tzCollection )
+            }   // foreach ( KeyValuePair<string , TimeZoneInfo> keyValuePair in dctTimeZonesByOffset )
 
             Console.WriteLine (
                 Properties.Resources.MSG_OUTPUT_DONE ,												// Message template
@@ -440,6 +465,16 @@ namespace TimeZoneLab
         }   // internal static int EnumerateTimeZones ( )
 
 
+        /// <summary>
+        /// Read test case dates from an embedded text file resource.
+        /// </summary>
+        /// <param name="padtmTestDates">
+        /// This parameter is an output parameter that is filled with test dates
+        /// on return.
+        /// </param>
+        /// <returns>
+        /// The return value is a status code, which is expected to be zero.
+        /// </returns>
         private static int GetTestCaseDates ( out DateTime [ ] padtmTestDates )
         {
             string strTestCaseFileName = Properties.Settings.Default.EdgeCaseInputFileName;
@@ -469,8 +504,8 @@ namespace TimeZoneLab
                         if ( intFieldCount == TimeZoneConversionTestCaseCollection.EXPECTED_FIELD_COUNT )
                         {   // The record split into the expected number of fields.
                             if ( !DateTime.TryParse (
-								astrFields [ TimeZoneConversionTestCaseCollection.POS_TEST_DATE ] ,
-								out padtmTestDates [ intThisCase - ArrayInfo.ORDINAL_FROM_INDEX ] ) )
+                                astrFields [ TimeZoneConversionTestCaseCollection.POS_TEST_DATE ] ,
+                                out padtmTestDates [ intThisCase - ArrayInfo.ORDINAL_FROM_INDEX ] ) )
                             {   // If the operation succeeded, its work is done, because it updates the array element.
                                 string strMsg = string.Format (
                                     Properties.Resources.ERRMSG_INVALID_DATE_STRING ,
@@ -502,7 +537,7 @@ namespace TimeZoneLab
                 else
                 {
                     string strMsg = string.Format (
-                       TimeZoneConversionTestCaseCollection. ERRMSG_BAD_FILE ,
+                       TimeZoneConversionTestCaseCollection.ERRMSG_BAD_FILE ,
                         strTestCaseFileName ,
                         Environment.NewLine );
                     throw new ApplicationException ( strMsg );
@@ -580,7 +615,7 @@ namespace TimeZoneLab
                         break;
 
                     case ReportField.DaylightAbbreviation:
-                        intNewLength = tzTimeZoneInfo.AbbreviateDaylightName ( ).Length;                    
+                        intNewLength = tzTimeZoneInfo.AbbreviateDaylightName ( ).Length;
                         break;
 
                     case ReportField.StandardAbbreviation:
@@ -602,149 +637,149 @@ namespace TimeZoneLab
                 {
                     rintMaxLength = intNewLength;
                 }   // if ( intNewLength > rintMaxLength )
-			}   // foreach ( TimeZoneInfo tzTimeZoneInfo in ptzCollection )
+            }   // foreach ( TimeZoneInfo tzTimeZoneInfo in ptzCollection )
 
             return rintMaxLength;
         }   // private static int MaxLength
 
 
-		/// <summary>
-		/// List the details of the Daylight Saving Time adjustment rules for a
-		/// specified time zone. If no time zone is specified, list the details
-		/// for the local time zone.
-		/// </summary>
-		/// <param name="pcmdArgs">
-		/// The CmdLneArgsBasic object contains collections of fully parsed
-		/// switches, named arguments, and unnamed positional arguments.
-		/// </param>
-		/// <returns>
-		/// The return value is a status code, which becomes the status code
-		/// returned by the entire program.
-		/// </returns>
-		internal static int EmumerateTimeZoneAdjustments ( CmdLneArgsBasic pcmdArgs )
-		{
-			const int ARG_POS_TZ_ID = MagicNumbers.PLUS_TWO;
+        /// <summary>
+        /// List the details of the Daylight Saving Time adjustment rules for a
+        /// specified time zone. If no time zone is specified, list the details
+        /// for the local time zone.
+        /// </summary>
+        /// <param name="pcmdArgs">
+        /// The CmdLneArgsBasic object contains collections of fully parsed
+        /// switches, named arguments, and unnamed positional arguments.
+        /// </param>
+        /// <returns>
+        /// The return value is a status code, which becomes the status code
+        /// returned by the entire program.
+        /// </returns>
+        internal static int EmumerateTimeZoneAdjustments ( CmdLneArgsBasic pcmdArgs )
+        {
+            const int ARG_POS_TZ_ID = MagicNumbers.PLUS_TWO;
 
-			int rintStatusCode = MagicNumbers.ERROR_SUCCESS;
-			string strSelectedTZID = null;
+            int rintStatusCode = MagicNumbers.ERROR_SUCCESS;
+            string strSelectedTZID = null;
 
-			switch ( pcmdArgs.PositionalArgsInCmdLine )
-			{
-				case CmdLneArgsBasic.FIRST_POSITIONAL_ARG:											// EmumerateTimeZoneAdjustments was called to answer a specific request, but the command is incomplete.
-					rintStatusCode = Program.ERR_MISSING_TIME_ZONE_ID;
-					break;
-				case CmdLneArgsBasic.NONE:															// EmumerateTimeZoneAdjustments was called as part of a complete pass of all tasks.
-					strSelectedTZID = TimeZoneInfo.Local.Id;
-					break;
-				default:
-					strSelectedTZID = pcmdArgs.GetArgByPosition ( ARG_POS_TZ_ID );					// EmumerateTimeZoneAdjustments was called with at least one additional command line argument.
-					break;
-			}	// switch ( pcmdArgs.PositionalArgsInCmdLine )
+            switch ( pcmdArgs.PositionalArgsInCmdLine )
+            {
+                case CmdLneArgsBasic.FIRST_POSITIONAL_ARG:                                          // EmumerateTimeZoneAdjustments was called to answer a specific request, but the command is incomplete.
+                    rintStatusCode = Program.ERR_MISSING_TIME_ZONE_ID;
+                    break;
+                case CmdLneArgsBasic.NONE:                                                          // EmumerateTimeZoneAdjustments was called as part of a complete pass of all tasks.
+                    strSelectedTZID = TimeZoneInfo.Local.Id;
+                    break;
+                default:
+                    strSelectedTZID = pcmdArgs.GetArgByPosition ( ARG_POS_TZ_ID );                  // EmumerateTimeZoneAdjustments was called with at least one additional command line argument.
+                    break;
+            }   // switch ( pcmdArgs.PositionalArgsInCmdLine )
 
-			Console.WriteLine (
-				"{1}Enumerating time zone adjustments:{1}{1}Selected time zone = {0}{1}" ,			// Format control string
-				strSelectedTZID ,																	// Format Item 0 = Time Zone ID
-				Environment.NewLine );																// Format Item 1 = Embedded Newline
-			try
-			{
-				TimeZoneInfo tzSelectedZone = TimeZoneInfo.FindSystemTimeZoneById ( strSelectedTZID );
-				TimeZoneInfo.AdjustmentRule [ ] atzAdjRule = tzSelectedZone.GetAdjustmentRules ( );
+            Console.WriteLine (
+                "{1}Enumerating time zone adjustments:{1}{1}Selected time zone = {0}{1}" ,          // Format control string
+                strSelectedTZID ,                                                                   // Format Item 0 = Time Zone ID
+                Environment.NewLine );                                                              // Format Item 1 = Embedded Newline
+            try
+            {
+                TimeZoneInfo tzSelectedZone = TimeZoneInfo.FindSystemTimeZoneById ( strSelectedTZID );
+                TimeZoneInfo.AdjustmentRule [ ] atzAdjRule = tzSelectedZone.GetAdjustmentRules ( );
 
-				for ( int intRuleIndex = ArrayInfo.ARRAY_FIRST_ELEMENT ;
-						  intRuleIndex < atzAdjRule.Length ;
-						  intRuleIndex++ )
-				{
-					Console.WriteLine (
-						"Adjustment Rule # {0,3}: Adjustment Rule Start Date = {1}, Adjustment Rule End Date = {2}" ,
-						ArrayInfo.OrdinalFromIndex ( intRuleIndex ) ,
-						atzAdjRule [ intRuleIndex ].DateStart ,
-						atzAdjRule [ intRuleIndex ].DateEnd );
-					Console.WriteLine (
-						"                       Daylight Transition Start = {0}" ,
-						ShowTransitionTimeDetails ( atzAdjRule [ intRuleIndex ].DaylightTransitionStart ) );
-					Console.WriteLine (
-						"                       Daylight Transition End   = {0}" ,
-						ShowTransitionTimeDetails ( atzAdjRule [ intRuleIndex ].DaylightTransitionEnd ) );
-					Console.WriteLine (
-						"                       Time Adjustment Delta     = {0}{1}" ,
-						ShowDelta ( atzAdjRule [ intRuleIndex ].DaylightDelta ) ,
-						Environment.NewLine );
-				}	// for ( int intRuleIndex = ArrayInfo.ARRAY_FIRST_ELEMENT ; intRuleIndex < atzAdjRule.Length ; intRuleIndex++ )
-			}
-			catch ( TimeZoneNotFoundException )
-			{
-				rintStatusCode = Program.ERR_INVALID_TIME_ZONE_ID;
-			}
-			catch ( InvalidTimeZoneException exCorruptedTZInfo )
-			{
-				ConsoleAppStateManager.GetTheSingleInstance ( ).BaseStateManager.AppExceptionLogger.ReportException ( exCorruptedTZInfo );
-				rintStatusCode = MagicNumbers.ERROR_RUNTIME;
-			}
-			catch ( Exception exAllKinds )
-			{
-				ConsoleAppStateManager.GetTheSingleInstance ( ).BaseStateManager.AppExceptionLogger.ReportException ( exAllKinds );
-				rintStatusCode = MagicNumbers.ERROR_RUNTIME;
-			}
+                for ( int intRuleIndex = ArrayInfo.ARRAY_FIRST_ELEMENT ;
+                          intRuleIndex < atzAdjRule.Length ;
+                          intRuleIndex++ )
+                {
+                    Console.WriteLine (
+                        "Adjustment Rule # {0,3}: Adjustment Rule Start Date = {1}, Adjustment Rule End Date = {2}" ,
+                        ArrayInfo.OrdinalFromIndex ( intRuleIndex ) ,
+                        atzAdjRule [ intRuleIndex ].DateStart ,
+                        atzAdjRule [ intRuleIndex ].DateEnd );
+                    Console.WriteLine (
+                        "                       Daylight Transition Start = {0}" ,
+                        ShowTransitionTimeDetails ( atzAdjRule [ intRuleIndex ].DaylightTransitionStart ) );
+                    Console.WriteLine (
+                        "                       Daylight Transition End   = {0}" ,
+                        ShowTransitionTimeDetails ( atzAdjRule [ intRuleIndex ].DaylightTransitionEnd ) );
+                    Console.WriteLine (
+                        "                       Time Adjustment Delta     = {0}{1}" ,
+                        ShowDelta ( atzAdjRule [ intRuleIndex ].DaylightDelta ) ,
+                        Environment.NewLine );
+                }   // for ( int intRuleIndex = ArrayInfo.ARRAY_FIRST_ELEMENT ; intRuleIndex < atzAdjRule.Length ; intRuleIndex++ )
+            }
+            catch ( TimeZoneNotFoundException )
+            {
+                rintStatusCode = Program.ERR_INVALID_TIME_ZONE_ID;
+            }
+            catch ( InvalidTimeZoneException exCorruptedTZInfo )
+            {
+                ConsoleAppStateManager.GetTheSingleInstance ( ).BaseStateManager.AppExceptionLogger.ReportException ( exCorruptedTZInfo );
+                rintStatusCode = MagicNumbers.ERROR_RUNTIME;
+            }
+            catch ( Exception exAllKinds )
+            {
+                ConsoleAppStateManager.GetTheSingleInstance ( ).BaseStateManager.AppExceptionLogger.ReportException ( exAllKinds );
+                rintStatusCode = MagicNumbers.ERROR_RUNTIME;
+            }
 
-			return rintStatusCode;
-		}	// EmumerateTimeZoneAdjustments
+            return rintStatusCode;
+        }   // EmumerateTimeZoneAdjustments
 
 
-		private static string ShowDelta ( TimeSpan pdtsTimeSpan )
-		{
-			return string.Format (
-				"{0} hours, {1} minutes, {2} seconds, {3} milliseconds, {4} ticks" ,
-				new object [ ]
-				{
-					pdtsTimeSpan.Hours ,										// Format Item 0 = Hours
+        private static string ShowDelta ( TimeSpan pdtsTimeSpan )
+        {
+            return string.Format (
+                "{0} hours, {1} minutes, {2} seconds, {3} milliseconds, {4} ticks" ,
+                new object [ ]
+                {
+                    pdtsTimeSpan.Hours ,										// Format Item 0 = Hours
 					pdtsTimeSpan.Minutes ,										// Format Item 1 = Minutes
 					pdtsTimeSpan.Seconds ,										// Format Item 2 = Seconds
 					pdtsTimeSpan.Milliseconds ,									// Format Item 3 = Milliseconds
 					pdtsTimeSpan.Ticks											// Format Item 4 = Ticks
 				} );
-		}	// ShowDelta
+        }   // ShowDelta
 
 
-		/// <summary>
-		/// Format the properties of a TimeZoneInfo.TransitionTime object for
-		/// display.
-		/// </summary>
-		/// <param name="ptzTransitionTime">
-		/// Specify a reference to the TimeZoneInfo.TransitionTime object to
-		/// display.
-		/// </param>
-		/// <returns>
-		/// The returned string lists every member of the TransitionTime object.
-		/// </returns>
-		/// <remarks>
-		/// This method is essentially a custom static TransitionTime ToString
-		/// method.
-		/// 
-		/// A TimeZoneInfo.TransitionTime object represents a DST adjustment
-		/// rule that applies to a span of dates, which are reported separately
-		/// as DateTime structures.
-		/// 
-		/// Since it is essentially a derived value, I put the DayOfWeek string
-		/// in parentheses following the Day member.
-		/// 
-		/// The format control string takes advantage of the way string.Format
-		/// matches elements of the parameter array from which it gathers its
-		/// format items, which allowed me to change the display order without
-		/// disturbing the array.
-		/// </remarks>
-		private static string ShowTransitionTimeDetails ( TimeZoneInfo.TransitionTime ptzTransitionTime )
-		{
-			return string.Format (
-				"IsFixedDateRule = {0}, Month = {3}, Week = {5}, Day = {1} ({2}), TimeOfDay = {4}" ,
-				new object [ ]
-				{
-					ptzTransitionTime.IsFixedDateRule ,						// Format Item 0 = IsFixedDateRule
+        /// <summary>
+        /// Format the properties of a TimeZoneInfo.TransitionTime object for
+        /// display.
+        /// </summary>
+        /// <param name="ptzTransitionTime">
+        /// Specify a reference to the TimeZoneInfo.TransitionTime object to
+        /// display.
+        /// </param>
+        /// <returns>
+        /// The returned string lists every member of the TransitionTime object.
+        /// </returns>
+        /// <remarks>
+        /// This method is essentially a custom static TransitionTime ToString
+        /// method.
+        /// 
+        /// A TimeZoneInfo.TransitionTime object represents a DST adjustment
+        /// rule that applies to a span of dates, which are reported separately
+        /// as DateTime structures.
+        /// 
+        /// Since it is essentially a derived value, I put the DayOfWeek string
+        /// in parentheses following the Day member.
+        /// 
+        /// The format control string takes advantage of the way string.Format
+        /// matches elements of the parameter array from which it gathers its
+        /// format items, which allowed me to change the display order without
+        /// disturbing the array.
+        /// </remarks>
+        private static string ShowTransitionTimeDetails ( TimeZoneInfo.TransitionTime ptzTransitionTime )
+        {
+            return string.Format (
+                "IsFixedDateRule = {0}, Month = {3}, Week = {5}, Day = {1} ({2}), TimeOfDay = {4}" ,
+                new object [ ]
+                {
+                    ptzTransitionTime.IsFixedDateRule ,						// Format Item 0 = IsFixedDateRule
 					ptzTransitionTime.Day ,									// Format Item 1 = Day
 					ptzTransitionTime.DayOfWeek ,							// Format Item 2 = DayOfWeek
 					ptzTransitionTime.Month ,								// Format Item 3 = Month
 					ptzTransitionTime.TimeOfDay ,							// Format Item 4 = TimeOfDay
 					ptzTransitionTime.Week									// Format Item 5 = Week
 				} );
-		}	// ShowTransitionTimeDetails
-	}   // class TimeZoneTasks
+        }   // ShowTransitionTimeDetails
+    }   // class TimeZoneTasks
 }   // partial namespace TimeZoneLab

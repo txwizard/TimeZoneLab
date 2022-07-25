@@ -65,19 +65,23 @@
                               material that is in WizardWrx.DLLServices2, which
                               is bound into the project for other substantial
                               reasons.
+
+	2022/07/12 4.0     DAG    Implement routines to query the Windows Registry
+                              for information that the TimeZoneInfo class hides.
     ============================================================================
 */
+
+
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+
+using WizardWrx;
 
 namespace TimeZoneLab
 {
 	/// <summary>
 	/// This is what's left of the old Util class.
 	/// </summary>
-	class TZHelpers
+	internal static class TZHelpers
 	{
 		/// <summary>
 		/// Feed this to GetDisplayTimeZone to retrieve the TimeZoneInfo data
@@ -209,5 +213,5 @@ namespace TimeZoneLab
 				}
 			}   // FALSE (desired outcome) block, if ( pdtmTestDate == DateTime.MinValue || pdtmTestDate == DateTime.MaxValue || string.IsNullOrEmpty(pstrTimeZoneID) )
 		}   // public static string GetDisplayTimeZone
-	}	// class TZHelpers
+	}   // internal static class TZHelpers
 }	// partial namespace TimeZoneLab

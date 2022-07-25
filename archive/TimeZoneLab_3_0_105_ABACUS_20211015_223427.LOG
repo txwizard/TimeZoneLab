@@ -1,0 +1,1512 @@
+﻿                         TimeZomeLab 3.0.105 Backup Log
+
+================================================================================
+10/15/2021 22:32:32 - Clean up the directory in advance of the backup.
+================================================================================
+
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab 10/15/2021 22:29:04.11>dir D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Create_a_GittHub_Repository_for_TimeZoneLab.TXT
+ Volume in drive D is DATA
+ Volume Serial Number is 5040-97A3
+
+ Directory of D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES
+
+10/15/2021  22:28            94,258 Create_a_GittHub_Repository_for_TimeZoneLab.TXT
+               1 File(s)         94,258 bytes
+               0 Dir(s)  659,045,224,448 bytes free
+
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab 10/15/2021 22:29:14.71>cd Notes
+
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES 10/15/2021 22:29:22.72>ShredDocumentBackups
+-------------------------------------------------------
+Info: ShredDocumentBackups, version 02/21/2021 05:12
+-------------------------------------------------------
+Current Time: 2021/10/15 22:29:29 Central Daylight Time
+
+-------------------------------------------------------
+Info: Starting directory = D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+Info: Processing directory D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES
+      ONLY.
+-------------------------------------------------------
+
+
+SDelete v2.02 - Secure file delete
+Copyright (C) 1999-2018 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+SDelete is set for 1 pass.
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Create_a_GittHub_Repository_for_TimeZoneLab.TXT.bak...deleted.
+
+Files deleted: 1
+
+SDelete v2.02 - Secure file delete
+Copyright (C) 1999-2018 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+SDelete is set for 1 pass.
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Create_a_GittHub_Repository_for_TimeZoneLab(0).TXT...deleted.
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Create_a_GittHub_Repository_for_TimeZoneLab(1).TXT...deleted.
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Create_a_GittHub_Repository_for_TimeZoneLab(2).TXT...deleted.
+
+Files deleted: 3
+
+-------------------------------------------------------
+Info: ShredDocumentBackups.CMD Done!
+-------------------------------------------------------
+
+WWPause version 3, 0, 0, 4
+Fri 15 Oct 2021 22:29:29 Local
+
+Please press RETURN when ready...
+
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES 10/15/2021 22:29:30.68>
+
+================================================================================
+10/15/2021 22:35:47 - Make a new backup that includes the Git repository.
+================================================================================
+
+Microsoft Windows [Version 10.0.19043.1237]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\txwiz 10/15/2021 22:34:38.68>pushd D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab
+
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab 10/15/2021 22:35:13.81>7UP D:\_Backups\program_source\Visual_Studio_2017\TimeZoneLab_3_0_105.7z *
+7UP, version 02/21/2021 05:16 Begin
+Current Time: 2021/10/15 22:35:30 Central Daylight Time
+
+---------------------------------------------------------------------
+Step 1 of 6: Info List the contents of the source directory.
+---------------------------------------------------------------------
+
+Last Written Time                Size Name
+------------------- ----------------- -----------------------------------------
+2018/11/19 10:28:11            10,174 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.gitignore
+2021/10/15 21:55:37               886 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\ChangeLog.md
+2021/10/13 22:54:44             1,568 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\License.TXT
+2021/10/15 18:49:52             6,076 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\README.md
+2016/06/17 00:19:23             2,630 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab.sln
+2014/09/07 20:20:08           335,360 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab.suo
+2016/06/17 12:36:51           104,960 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab.v12.suo
+2021/10/15 22:23:54                69 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\COMMIT_EDITMSG
+2021/10/15 22:24:44               302 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\config
+2021/10/15 22:22:16                73 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\description
+2021/10/15 22:24:11                21 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\HEAD
+2021/10/15 22:23:54            34,660 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\index
+2021/10/15 22:22:16               478 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\hooks\applypatch-msg.sample
+2021/10/15 22:22:16               896 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\hooks\commit-msg.sample
+2021/10/15 22:22:16             4,655 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\hooks\fsmonitor-watchman.sample
+2021/10/15 22:22:16               189 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\hooks\post-update.sample
+2021/10/15 22:22:16               424 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\hooks\pre-applypatch.sample
+2021/10/15 22:22:16             1,643 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\hooks\pre-commit.sample
+2021/10/15 22:22:16               416 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\hooks\pre-merge-commit.sample
+2021/10/15 22:22:16             1,374 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\hooks\pre-push.sample
+2021/10/15 22:22:16             4,898 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\hooks\pre-rebase.sample
+2021/10/15 22:22:16               544 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\hooks\pre-receive.sample
+2021/10/15 22:22:16             1,492 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\hooks\prepare-commit-msg.sample
+2021/10/15 22:22:16             2,783 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\hooks\push-to-checkout.sample
+2021/10/15 22:22:16             3,650 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\hooks\update.sample
+2021/10/15 22:22:16               240 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\info\exclude
+2021/10/15 22:24:11               576 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\logs\HEAD
+2021/10/15 22:24:11               396 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\logs\refs\heads\main
+2021/10/15 22:24:44               144 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\logs\refs\remotes\origin\main
+2021/10/15 22:22:41            17,076 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\02\24bc620d49df10fdb339e6a1a42095f14ba314
+2021/10/15 22:23:54               183 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\04\322626463472fdf7afd3bc710829c4061268b3
+2021/10/15 22:22:39               278 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\06\1c9ca950d0e8bb952c52799fb401a6614ad640
+2021/10/15 22:22:36               488 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\09\679e221389f5326c2237ac925de59422fbe2b0
+2021/10/15 22:22:36               507 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\0c\b1e5b5cffa8d5e282dc50748b9c7832f9773ab
+2021/10/15 22:22:39               442 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\0d\7e98dc02abc6a538a6ea306a6aea75f2e64837
+2021/10/15 22:23:53                79 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\0f\547703f3e4bc376ebff67e2814e2e202d85a88
+2021/10/15 22:22:39               458 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\12\d0aca3035f493a8a0c24e1683ec5d568f231c6
+2021/10/15 22:22:39               774 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\12\e68a8eb1a196099911648614e5ab19e23932a5
+2021/10/15 22:22:38            61,243 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\13\bb30e7e7cdd4564c8fdb79230705afe4b84735
+2021/10/15 22:22:41             1,357 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\13\c944844b98df3af657927a8c19a1e509db9413
+2021/10/15 22:22:42             1,778 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\13\f14d8c8569ebcd94fa559dfda6093d1feba45f
+2021/10/15 22:22:39            19,480 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\14\043f8b5832b4b400a24aada7423f686624a903
+2021/10/15 22:22:37             1,846 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\14\e5e3c9686b013037e5882158f3234786e9530c
+2021/10/15 22:22:40               494 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\14\fe4c1dec429af953f612ade389d7713f749bba
+2021/10/15 22:23:54               150 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\15\8caced3ae7ce8c64641ce4af4b5482419147ca
+2021/10/15 22:22:41            32,518 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\15\b664414c1ff548cd2bc8afe856abf249aa88f8
+2021/10/15 22:22:35               503 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\15\d9022dd9ab464235c26b0d3546aac3db98bab5
+2021/10/15 22:23:54               107 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\16\61e03d1f9fb9756abb7cc2941e3316e9965853
+2021/10/15 22:23:54               113 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\17\13dc9e05812917c4e94611f06b717100ce329a
+2021/10/15 22:22:36               264 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\18\72e2a0e73e17bd028718b94e13c6353abc78b3
+2021/10/15 22:23:53               138 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\1a\6a27bdaf2812f442467f4931cb7e21238fe705
+2021/10/15 22:22:36             1,665 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\1a\f7de150c99c12dd67a509fe57c10d63e4eeb04
+2021/10/15 22:22:39             3,844 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\1b\e2a4e4426bd6f7e005b96202c2c3fb476c9975
+2021/10/15 22:23:53                79 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\1d\91d06a04e98d985a0cfbb19dd82d33eb548d72
+2021/10/15 22:22:41             9,351 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\20\3820587ac765a045bbcdc4a2b84843cd291054
+2021/10/15 22:23:54                47 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\20\fe56ee534f14cd0c843dd3628aaf866395f467
+2021/10/15 22:22:42            13,691 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\21\548ae012523d993a0c38effff7900eacadcefd
+2021/10/15 22:22:39               313 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\21\af6eb27f90deae7ae0f4306db056b4413067b7
+2021/10/15 22:22:41            19,996 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\24\20e45863a4548d932165230ae082bfe561ae87
+2021/10/15 22:22:42            55,716 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\24\69e1ae8ac040409f580913c2cda237c2b4cd30
+2021/10/15 22:22:36             1,227 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\24\898e073387d269590f40041eb9c317cc13bba7
+2021/10/15 22:23:54               134 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\26\93efaab95961ab5a7e21714605493b8c1e9003
+2021/10/15 22:22:36             2,379 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\27\c3de48861ff9e5ecb899177f477165fd304310
+2021/10/15 22:22:37            13,334 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\2a\612e4166f901d8c0eb1e7e9c59d844857beee9
+2021/10/15 22:23:53               704 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\2b\3912af599238565a2d77609045bbebf5768bc8
+2021/10/15 22:22:42             1,562 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\2b\6ebf939cd82d143e4b6081e44db09400c10c1e
+2021/10/15 22:22:39               793 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\2b\e83ab3d9dd7cbd51c9a149b3ba925be5d22273
+2021/10/15 22:22:39            20,474 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\2c\ff9cc043736a4cffe4227da2aa0b792c61bb31
+2021/10/15 22:22:40             7,227 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\2d\23b676895673719f53d73a5af923c01d57be84
+2021/10/15 22:22:37             5,089 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\2d\5980386a2b565fadb5b072ed6612ded4ee9113
+2021/10/15 22:23:54               176 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\2f\c30eb625c1ae4a5c6e142c5723a26a9c9eb770
+2021/10/15 22:22:37             6,261 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\32\7bde72fb1f34c059f3968279dc455f950ef118
+2021/10/15 22:22:39                57 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\32\80b8e6c463dd58fc06e1004aba386be734b71b
+2021/10/15 22:22:40               618 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\32\bb5f27fd32aa2f8717e37ba43f374b5c00df32
+2021/10/15 22:22:41             6,172 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\33\4a51dfd68dc4439426ccc7b3a7ef98c7cb4515
+2021/10/15 22:23:53               308 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\33\a07cd3e6c39c5527968aae7e970e219e629551
+2021/10/15 22:23:54               108 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\34\b149c0139a74cf2c5cb9a1e43190c2dc3c1f6e
+2021/10/15 22:22:37             9,631 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\35\4c93ac24fe9a4fd07d10fea142e8cc6f45d2ac
+2021/10/15 22:22:42            76,106 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\37\878937e1f0f7b508a3155d593c10fb038f3c1f
+2021/10/15 22:22:37               298 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\37\a61ea0a1cf4f2b7086eda96360a05cf7866823
+2021/10/15 22:22:36               186 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\39\645652af62950ebf3b28ec3a5400dcec30b1c4
+2021/10/15 22:22:40               526 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\3c\18c560f6e9fc1ab05909579b2f0d64991b659a
+2021/10/15 22:22:37             2,244 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\3c\e9c307ed37073c28244c16acea2c161c072494
+2021/10/15 22:22:38           210,359 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\3e\05fe371125f02ec13bad933762b167f601455a
+2021/10/15 22:22:37             2,789 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\3e\3ac0bc385d328274d0957277a9b6c0ac500dd5
+2021/10/15 22:23:53               183 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\3e\ea679a353ed0e9e6faa9999f558b5525f8b6fd
+2021/10/15 22:22:40             7,024 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\40\4b4b145f91630591f5a3c53cb68ad7f5383893
+2021/10/15 22:22:39            12,871 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\40\9fcfb4dc3691a6eb05ebedc22f60567e6e77b3
+2021/10/15 22:22:39               785 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\48\0f5ebce8dad1d74345b8fe604d9e1da1edbeda
+2021/10/15 22:23:53                99 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\49\06d5c24c002204cac3c8166ec90f65a2cc165d
+2021/10/15 22:22:36               646 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\49\d277b8d6ef8044443ab7b2833155ef54fa552f
+2021/10/15 22:23:54               222 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\4a\aad3d4f05c5ee01acc006e6fe283318fdc757c
+2021/10/15 22:22:40             6,149 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\4c\07a7175578c2ed972d8319a249f2e52ac8cd5c
+2021/10/15 22:23:53                45 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\4c\579fdc83cf4d625ae39eac673ded6b7fea2d12
+2021/10/15 22:22:41           122,623 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\4c\6bc22ae45d6f2f4ca09992c847c4fc9912674f
+2021/10/15 22:22:42             6,163 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\4e\35093418d7d36307d173c9cf0edfd97e6d374b
+2021/10/15 22:22:37               653 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\4f\b60eb07a88b22960f0f9e5495fb9a6f526611c
+2021/10/15 22:23:54               219 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\50\b475b0190bc43a73fcc2fadf52944b83e6cf4c
+2021/10/15 22:23:53               658 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\51\819e50e993db77ab8982308954e48574fee1d5
+2021/10/15 22:23:53                48 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\52\4f7baae4af08eba565d97e866e1a2fd9f71b15
+2021/10/15 22:22:40             9,045 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\53\6615bdf31700990fc0cf1c2e646076f6b9bc21
+2021/10/15 22:22:42             9,896 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\54\09b8d9b2f5798ab56785f2957a7fc0405edd04
+2021/10/15 22:22:40               288 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\54\799d28289e18c620cdde4f23795f44125ecc74
+2021/10/15 22:22:39               202 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\56\fa1d5a5b2a3eee5655faff9fe830d93aabf8b5
+2021/10/15 22:22:42             6,161 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\58\7c32fb89b78a63e8aee706b54253633f1d69dc
+2021/10/15 22:23:53                79 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\59\3a626813fee5055877e285443bb19fe0e2e66f
+2021/10/15 22:22:40            11,234 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\5a\128aacdb6a7bf24a5c09d69581ec65ce979034
+2021/10/15 22:22:42             1,402 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\5e\9675f33d5ee2d4fc49c5b2c90855c095036372
+2021/10/15 22:23:53             1,232 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\5f\9c028938755015c2791e3bb7c57b0431b2fafb
+2021/10/15 22:22:41             1,655 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\62\6b7145107b6b42222e93c522bd422e315dc9b9
+2021/10/15 22:22:40            12,500 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\63\2c8f0e15234b09a320231f1762f17a3f269fbc
+2021/10/15 22:22:37             3,331 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\63\3951e917184a21b5108b43a0dab952e088ea3e
+2021/10/15 22:22:36                57 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\63\be77ef2bf92729db6ec5fd0607a4ebd322650b
+2021/10/15 22:22:42             5,745 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\64\0eac67ffe26f112dfe80c14b3235d8ba50c462
+2021/10/15 22:22:42             6,125 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\65\0bd65e30f3904cc5fca8f09f924ea09ed364d5
+2021/10/15 22:22:39            13,729 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\66\6c0af121f7f77dea5803b5413cd87d032bfe9b
+2021/10/15 22:22:36             6,058 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\69\3fcf703ac36f48adf20bde76811a88a6fc0ac5
+2021/10/15 22:23:54               105 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\69\6c32141d9ad610ca81675895502b9098f1f624
+2021/10/15 22:23:54               218 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\69\fff1dc0f85477ed61da89ce2b55b2261d6187c
+2021/10/15 22:22:36               154 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\6c\05a9776bd7cbae976fdcec7e3a254e93018279
+2021/10/15 22:22:39               165 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\6e\8db2c000b7962222c82c5a3eb639ba147c1f4e
+2021/10/15 22:22:39           100,753 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\71\8c08ba633ef712d04a5d768a5ec21c8f57f38f
+2021/10/15 22:22:42             3,398 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\72\693dc98ba29448fc996eefc21c4b700a072741
+2021/10/15 22:22:37               139 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\72\f14277e511a9c71fdc186f8edf86445da3d884
+2021/10/15 22:23:53                80 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\73\42d208ababc974f540f31627b2b9e550d53583
+2021/10/15 22:22:39            84,262 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\74\607c4ade9bc67d416f10a85c905f4ac368d6ac
+2021/10/15 22:22:42             6,162 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\75\489a0baca475b0180bf3e4b507e1a603173526
+2021/10/15 22:22:40             6,158 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\77\e7ce38a92ed20594f7c40fc4c6fdbc123284c9
+2021/10/15 22:22:40            19,129 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\78\abd0216b0e4ee49c20441c10a03a2a2a86cf70
+2021/10/15 22:22:37             2,964 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\79\e328c08e8ed0632adc4156deb38cdf72b54a44
+2021/10/15 22:22:41             5,613 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\7b\5ada44110b979d39832724b3553c72e679dfc9
+2021/10/15 22:22:42            39,162 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\7d\17674c0bf82283bd7dee4d7ba0ec4cc5f7b8e2
+2021/10/15 22:22:41            16,433 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\7d\36486b8affb0715a929cefaa5df0e879a0113f
+2021/10/15 22:22:41             1,805 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\7d\b62a3ef4b12f08bad5e89e4cf3d33cec9f6797
+2021/10/15 22:22:36               509 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\7e\feed56147a46b1eb0f7a787230fb87fc09912b
+2021/10/15 22:22:40            47,389 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\7f\0a65227c5aea76c6c0e35f30049b8cb3b232b9
+2021/10/15 22:23:54               104 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\7f\3d86e50253307fd1659cccb61025d7068359dd
+2021/10/15 22:23:54               164 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\7f\590e3860454a0261890b637df9033693f4a494
+2021/10/15 22:22:40               660 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\7f\ae7bf123d4ed4d822988473964a63793a876a7
+2021/10/15 22:23:53             1,205 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\83\269858ccfcfe27fc5ce4c59810fda38f37ca89
+2021/10/15 22:22:37             2,627 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\83\d4a5477d14ef2edd7bd8d0b51f4c524f114b41
+2021/10/15 22:22:39            12,668 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\84\d3aa4a844a53666b0fdf6e6eb6e29ac646237e
+2021/10/15 22:22:40               586 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\85\a8139ac913c62e3f005025c3cd9f3cdd23055f
+2021/10/15 22:22:39             1,574 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\86\1f8be22e760a1300682d0c3821df8b543903a5
+2021/10/15 22:22:42            45,302 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\86\d19fa5d554cbf8517cf8f1fbc0b4e65f6feee6
+2021/10/15 22:22:37               314 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\87\2b0d9343a28cab0e4869fbfcfabb495cec1773
+2021/10/15 22:22:37             3,844 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\87\9ba5f9e42e0ae0d34fa8962d07c89e42724eb2
+2021/10/15 22:22:40             6,157 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\88\89b8ae976b9a26966a76b896470d170039d58f
+2021/10/15 22:23:54               207 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\89\123ae8022ca555122dc8bc7034b7fb7f46436f
+2021/10/15 22:23:53                48 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\8b\fb01ae83bc59af2096765ad1fe1d17aca7c87f
+2021/10/15 22:22:37               587 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\8c\0d9dc8f30bb60c7c6fb4ff81c099f5da8a164c
+2021/10/15 22:22:36               151 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\8e\15646352ec1d9a84bbc6504ef6b46e16bf7823
+2021/10/15 22:22:39             3,003 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\8e\2009502657e31def4ef1a688e7544a53f922d0
+2021/10/15 22:22:40             6,164 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\91\8422e5614c587ae23c283690f08eb3adc603ee
+2021/10/15 22:23:54                94 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\94\f624a2066f350d7bd0d29161d5c3a41a82af70
+2021/10/15 22:22:39            18,909 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\95\848f5bb3ca56ebebc936cb14a40afa9560e8d6
+2021/10/15 22:22:40             2,055 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\98\88762d10787c062ac771757d4bdb3a118338a2
+2021/10/15 22:23:53               213 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\98\a7c2318ba959273f634ecd3aa53912ff81a2f7
+2021/10/15 22:22:39               796 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\99\6cec6ff3a5c25dc22100edaa8c5ec402c1c856
+2021/10/15 22:22:41             6,161 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\9a\c57ee4eae4b991639db35d42de6bf42e680d49
+2021/10/15 22:22:41            69,531 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\9a\d81252d731ad59c7af2b42b587f74461cb5443
+2021/10/15 22:22:37               747 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\9b\d95d9075e136ef5c15e565ce32593da4e255c5
+2021/10/15 22:22:40           917,825 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\9c\01ed8e32383ff6a68e1c2b0fe8222594fbfe79
+2021/10/15 22:23:54               211 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\9c\b112c9a403cc09f94aeff42105dc92878a488d
+2021/10/15 22:22:42            22,500 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\9e\28834941f5ff6c760c8e18cb8079cc0d688596
+2021/10/15 22:22:39               793 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\9e\41494ab268a0c416ec6191f18f59b098473032
+2021/10/15 22:22:40            13,094 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\a0\0ad9a38ae3e84891cf9dd7ca211ac26d2f62e8
+2021/10/15 22:23:54               220 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\a0\8d230c4daf8f2b66730c2b55ed3db48248fb58
+2021/10/15 22:23:53               192 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\a2\001201aa64ec284e693a74a2de3d72b4b745a8
+2021/10/15 22:22:39               514 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\a2\0cc29526d71147594c7c60f0ccef212c81d899
+2021/10/15 22:22:42            16,724 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\a3\6d8b5e7ef037a9a6980949cec58a823ebe3112
+2021/10/15 22:22:36               703 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\a3\c7f20ce504d22db79004435a511509ff842290
+2021/10/15 22:22:39            48,480 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\a4\4c014ca4e701b449f6b9f328cdf2123f69bbbb
+2021/10/15 22:22:36             2,986 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\a4\9dff3b412eabb4bd748f159ab49f83102f640b
+2021/10/15 22:22:37            10,997 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\a5\9f9d705c1e75c19ae352e896a4eb9bd5885ad9
+2021/10/15 22:22:40             8,779 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\a7\a38e4a1ecf4d55d16165bcf4eb68d897eaac75
+2021/10/15 22:23:54               227 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\a8\35422e7acac2ecb8a7b0c7d1e0a290ccf893c0
+2021/10/15 22:22:41            11,879 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\a8\83eafe8f0f71de79a3f97c3a4c1fab6a9d06b3
+2021/10/15 22:22:40            13,728 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\aa\f15ec210142fe29b49f11fac6c0372b56c186a
+2021/10/15 22:22:37             3,285 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\ad\772a9d94ea46eb8c6200998768283b2b84e7a1
+2021/10/15 22:22:38            11,400 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\b1\ec4124afd79ebc0cdd46f17676005567003038
+2021/10/15 22:22:36             1,202 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\b2\9a3a6fc02abe615ac9bd12bdb4835052484c20
+2021/10/15 22:22:41            19,063 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\b4\f65f7a99dd649414d186bb7441f0e0352aa713
+2021/10/15 22:22:41             2,535 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\b5\0c6f358ffb2b9fd67a1fcadac020aa042aafde
+2021/10/15 22:22:40               600 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\b5\c3559472874e952d2e696430cd28612f67851b
+2021/10/15 22:23:54               144 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\b6\ea58029c62f937d5ffb7588b9d8ee1db738372
+2021/10/15 22:22:39            12,168 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\b8\0d5c3ee9380f63fca1219c7ac4d739cc2dfc39
+2021/10/15 22:23:54                95 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\b9\1850e3789838d138a3e1a658ce845e9d4385a5
+2021/10/15 22:23:53               558 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\b9\a706eea586e9fe90fb86e326e6c08f359d30c9
+2021/10/15 22:22:39             4,537 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\bd\ec347349f5cf151d481db225d4b9cfa223041d
+2021/10/15 22:23:53               192 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\be\a7bcc04c6d1fad51cc2c70852991a316ce86b2
+2021/10/15 22:22:41            13,804 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\c0\8d6f311d8f7bcfa302161fd2d2e6a1e3c42db6
+2021/10/15 22:23:54                93 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\c1\76e53f21fa5b8b6ab4c577921b05c98726c2db
+2021/10/15 22:22:39             2,895 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\c2\56910d66b4cfd76692ab7e5831c0a4eb4ed469
+2021/10/15 22:22:39               202 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\c3\0e278846cb85a22930bf2af754ed1bf5fdf0c1
+2021/10/15 22:22:40             8,607 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\c6\4ddb97cf126732fadf69249dcaa7fe8e387a5e
+2021/10/15 22:22:39               178 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\c6\6f422203585e84cb1c418bd173e82b2aa90984
+2021/10/15 22:22:36               835 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\c6\c4c89bc9f21a43c369cb24b095cd5966666a5c
+2021/10/15 22:23:54               135 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\c6\c59715e991c6479f26eed297529a691de2ba1c
+2021/10/15 22:22:39             3,422 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\c8\b6cac62b65f26285269f56be07acf2644c7c08
+2021/10/15 22:22:42            12,534 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\ca\8e9a41956ece410398829803fbf4a70fdead19
+2021/10/15 22:22:40            16,354 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\ca\977e63c6a69fb43d1d568c8e9897fb0081b40e
+2021/10/15 22:22:39             9,387 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\cb\8755f6218e5983f29037632d6a027c6f64420c
+2021/10/15 22:22:39               769 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\cd\239658236566729e492670566da15d3ca83d3d
+2021/10/15 22:23:54               203 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\cf\b4a5e86e8938ffbd4779e37981ec6552ed930c
+2021/10/15 22:22:41            46,522 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\cf\ce317e649192b542383898ad9e7ccaa811ad8d
+2021/10/15 22:23:54                95 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\d1\7900c77de4fffcc42d0835e3fbd8095a0c0567
+2021/10/15 22:23:54               344 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\d2\456f947365cc8edd5046b52ea1c451073fa4ce
+2021/10/15 22:22:42            17,525 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\d2\77095f16a52267fddbff0c972e34cdb78856aa
+2021/10/15 22:23:54               143 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\d4\0405faae16fcaa163b60476217487feed2563e
+2021/10/15 22:22:41            11,208 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\d4\e90faee7d5ce565d02438c8d479c08b729a50e
+2021/10/15 22:22:40             1,914 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\d6\30b2ef2a95fda0e8b6a8d760aadd0d8aecf626
+2021/10/15 22:22:41            23,641 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\d7\ade0260ba24fa2b17597650d8343defe68ee66
+2021/10/15 22:22:40             8,454 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\d9\26f0a7e5232e2b51ad8bf1aa8f3b05da89a10e
+2021/10/15 22:22:42            77,563 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\d9\e6a6f15785d1af8cfb64fae0fc90d856827647
+2021/10/15 22:22:36               481 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\da\b4509fa51c49c364b43a6a16151a717310de7b
+2021/10/15 22:22:42            15,253 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\db\97da5fac42d07027e1602b13d2ac2541353696
+2021/10/15 22:22:36             5,726 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\db\e62fa2e2769d903e3cb92eff56fe764a141d17
+2021/10/15 22:22:36             1,352 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\dc\40c5bf35c5c63dadfae72bd022dca4457b36c8
+2021/10/15 22:23:54               104 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\de\cf46992b9c69679ca7f3f9584496199bd651f4
+2021/10/15 22:22:42             4,588 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\df\4eae99ff1cd4ac48510467786dd76db12f2de9
+2021/10/15 22:23:54               220 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\df\83aa1ecbad8fd18eaf3a7bc9bc9e9b97ec1aa3
+2021/10/15 22:22:41           266,775 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\e1\67306c1d556617763a0ed34777ce3cbc82175e
+2021/10/15 22:23:53                78 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\e2\7dbd371f9fdf8b73b2a45af2cd62c7e9202956
+2021/10/15 22:23:53               706 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\e5\7cd0b3b87610ed5661adbedc4f5168a3a6dd5f
+2021/10/15 22:22:36               165 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\e5\dc9b8949d8be541b85da45ec437c110a298783
+2021/10/15 22:22:39                15 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+2021/10/15 22:22:40            50,539 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\e7\a1bb8bac03e370abb903fe77dae9bc09bae345
+2021/10/15 22:23:53               657 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\e8\3b3b94a1ae1e71cbdfb31305c6c1d569dae0dc
+2021/10/15 22:22:39            22,608 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\e8\676eb1d43ea685006582c9e481a4e431385cf1
+2021/10/15 22:22:39             3,004 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\ea\4419d05a3bf618062f94e317e465ccedd1cc67
+2021/10/15 22:22:41            87,268 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\ea\b127b873ebb498b4793598cf9cc2cb5e9df3d2
+2021/10/15 22:22:36               547 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\ea\cc2721fe5830d1f177bbc1948cb10a245376a5
+2021/10/15 22:22:41            11,965 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\eb\a9e11e1825b8dc217cf5aca8c49f9a54f63124
+2021/10/15 22:22:39             1,859 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\ec\78cb42abd3a1c74fd900f67c9e4584616c47f2
+2021/10/15 22:22:39                57 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\ec\873c3b290f43e844c0013b6ceb2bd5a7227e64
+2021/10/15 22:22:40            68,035 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\ed\6c3c12c678357fc13a086dfdcdfcbc1ff1a0c2
+2021/10/15 22:23:54               127 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\f0\7a07b44403fc4d5a205fdbb48e06d641800e08
+2021/10/15 22:22:36               283 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\f2\72bdddc605c6a94ba7e5946df58cd40d529981
+2021/10/15 22:22:39             3,423 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\f2\972fbc87ea0be090afb812d7089a8ed700c585
+2021/10/15 22:22:36               662 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\f4\3129d78eae07deeee36ac7568902ae9aba7354
+2021/10/15 22:23:54               145 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\f4\a2c9210c621b010b4ad61256791ca322ec2124
+2021/10/15 22:22:39             1,442 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\f4\fb0ad4104a4d9be3372183df5f43ddcd26c1d5
+2021/10/15 22:23:54               147 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\f5\7a956bdba03cfa5f7b533f71ad8742cccf9884
+2021/10/15 22:22:37             2,203 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\f5\837632ff7e2fa2b29b94d2fb8f582c75169270
+2021/10/15 22:23:54               476 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\f5\84b8fb4bd799fd29d9ccab363b1214dec45ea2
+2021/10/15 22:22:39                25 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\f5\e894aea93a73e58fa9d4feab241bc197ee1a40
+2021/10/15 22:22:36             1,631 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\f7\8d1eff4c13941471fdfa4ac5da25c2a1fc00dd
+2021/10/15 22:22:41            40,667 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\f8\9556ac7e48f5bda2588838f6a791320fbe6633
+2021/10/15 22:22:36             1,964 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\fb\e373b5b6e2349d54e41e2752b67b06206af4b1
+2021/10/15 22:22:39             2,363 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\fc\bcab1832afad9b4e029457870d5fe5ca5969eb
+2021/10/15 22:22:41             6,158 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\fd\84f18b2bec6539b3e27bb05e4db0e971ee3dc8
+2021/10/15 22:22:39             1,291 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\fd\97e6a6b6e0aa906357f62e0fb0b39afb145818
+2021/10/15 22:22:39               515 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\fe\9b902c6f9a6ca7295c5972630a5d3834a2a640
+2021/10/15 22:22:41             6,169 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\fe\a8acb41c9f8172352fbdddc879736bdf6fc9a3
+2021/10/15 22:22:37             9,002 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\objects\ff\de123a4fa3908fa788d7572f24220c3a5c341b
+2021/10/15 22:24:11                41 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\refs\heads\main
+2021/10/15 22:24:44                41 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.git\refs\remotes\origin\main
+2021/10/12 23:40:06           173,056 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.vs\TimeZoneLab\v16\.suo
+2014/09/01 23:58:48             2,109 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\Archive_TimeZoneLab_1.0.53.33703.LOG
+2014/09/02 02:30:34             2,106 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\Archive_TimeZoneLab_1.0.61.2411.LOG
+2014/09/05 11:30:38             2,109 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\Archive_TimeZoneLab_1.1.68.18722.LOG
+2014/09/07 20:30:40               182 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\Time-Zone-Lab-An-Expedition-into-Windows-Time-Zone.url
+2014/09/07 20:19:28           935,259 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\TimeZoneLab.ZIP
+2014/09/01 23:59:20             1,123 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\TimeZoneLab_1_0_53_33703.7z.lnk
+2014/09/02 02:31:10               976 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\TimeZoneLab_1_0_61_2411.7z.lnk
+2014/09/05 11:31:22               959 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\TimeZoneLab_1_1_68_18722.7z.lnk
+2014/09/07 20:49:22             1,031 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\TimeZoneLab_1_1_68_18722_CodeProject.ZIPX.lnk
+2021/10/12 23:51:24             1,260 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\TimeZoneLab_3_0_105_ABACUS_20211012_234426.7z.lnk
+2021/10/12 23:50:24            87,649 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\TimeZoneLab_3_0_105_ABACUS_20211012_234426.LOG
+2014/09/05 11:31:10               809 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\archive\Visual Studio 2010 Backups.lnk
+2018/09/03 22:54:43                 1 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\.gitignore
+2016/06/16 03:13:08               802 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Article_Notes.TXT
+2014/09/02 02:27:54           397,328 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Converting_Times_Between_Time_Zones.TXT
+2021/10/15 22:28:50            94,258 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Create_a_GittHub_Repository_for_TimeZoneLab.TXT
+2016/06/15 23:51:19           102,052 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Design_and_Testing.XLSX
+2016/06/17 16:34:19            80,196 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Design_Worksheet_Article_Figure_1.PNG
+2016/06/17 16:37:16            81,807 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Design_Worksheet_Article_Figure_2.PNG
+2016/06/17 16:38:12            71,844 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Design_Worksheet_Article_Figure_3.PNG
+2016/06/17 16:39:41            81,194 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Design_Worksheet_Article_Figure_4.PNG
+2016/06/17 16:41:47            80,756 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Design_Worksheet_Article_Figure_5.PNG
+2016/06/17 15:46:31            16,212 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Discontiguous_Range_CountIf_Error_Proof_20160617_154631.ZIP
+2016/06/16 14:21:44           112,768 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\DST_Transition_Date_Computations.XLSX
+2016/06/14 18:47:46             1,601 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\EZXFER_Cloud_Manager_Source_Code_Tree.lnk
+2014/09/05 11:27:18           146,596 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\Fit_N_Finish.TXT
+2016/06/14 18:58:30           249,822 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\HKLM_SOFTWARE_Time_Zones_20160614_185830.REG
+2016/06/14 18:53:30             7,670 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\HKLM_Software_WizardWrx_20160614_185330.REG
+2014/09/04 15:20:02               259 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\LabelsForTasks.TXT
+2014/09/05 11:08:06               218 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\LabelsForTasks2.TXT
+2014/08/30 23:18:32               556 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TimeZoneConversionEdgeCases.TXT
+2016/06/15 23:25:53             2,468 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TimeZoneConversionEdgeCases_20160615_232553.RPT
+2021/10/12 23:42:46             2,468 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TimeZoneConversionEdgeCases_20211012_234246.RPT
+2014/09/01 19:26:14             2,774 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TimeZoneConversionEdgeCases_DEBUG_20140901_192612.RPT
+2014/09/02 02:17:22             2,774 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TimeZoneConversionEdgeCases_DEBUG_20140902_021721.RPT
+2014/09/02 02:24:30             2,774 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TimeZoneConversionEdgeCases_RELEASE_20140902_022429.RPT
+2014/09/02 01:37:12            11,791 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TimeZoneConversionTestCaseCollection_20140902_013712.cs
+2016/06/15 23:25:53           392,897 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TimeZoneLab_2.TXT
+2021/10/12 23:43:35           735,564 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TimeZoneLab_3.TXT
+2021/10/15 22:31:03               129 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TimeZoneLab_GitHub_Repository.url
+2016/06/18 02:02:25            27,212 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TZInfo_Development_and_Testing_Notes.TXT
+2016/06/18 01:14:22            16,372 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TZINFO_Development_and_Testing_Worksheets.XLSX
+2016/06/18 01:16:49            13,802 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\TZINFO_Development_and_Testing_Worksheets.ZIP
+2016/06/14 18:47:00             1,375 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\_Development_Notes_2.4.TXT.lnk
+2014/08/28 15:44:46               773 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\NOTES\_downloading_Scanner.lnk
+2019/08/11 15:27:54             9,465 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AnyCSV.7.2.145\.signature.p7s
+2019/07/03 01:28:18            22,712 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AnyCSV.7.2.145\README.md
+2019/08/11 20:32:22            20,890 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AnyCSV.7.2.145\README.txt
+2021/10/09 01:00:14            60,901 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AnyCSV.7.2.145\WizardWrx.AnyCSV.7.2.145.nupkg
+2019/08/11 22:26:26            36,352 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AnyCSV.7.2.145\lib\WizardWrx.AnyCSV.pdb
+2019/08/11 22:26:26            74,090 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AnyCSV.7.2.145\lib\Wizardwrx.AnyCSV.XML
+2019/08/11 22:26:26            18,944 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AnyCSV.7.2.145\lib\net20\WizardWrx.AnyCSV.dll
+2019/08/11 22:26:26            74,090 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AnyCSV.7.2.145\lib\net20\Wizardwrx.AnyCSV.XML
+2021/08/01 14:29:06             9,463 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ASCIIInfo.8.0.147\.signature.p7s
+2021/08/01 19:41:50            47,133 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ASCIIInfo.8.0.147\ChangeLog.md
+2021/01/30 22:23:20             5,200 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ASCIIInfo.8.0.147\README.md
+2021/10/09 01:00:15            61,938 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ASCIIInfo.8.0.147\WizardWrx.ASCIIInfo.8.0.147.nupkg
+2021/08/01 21:28:38            46,592 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ASCIIInfo.8.0.147\lib\WizardWrx.ASCIIInfo.pdb
+2021/08/01 21:28:38            37,024 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ASCIIInfo.8.0.147\lib\Wizardwrx.ASCIIInfo.XML
+2021/08/01 21:28:38            28,160 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ASCIIInfo.8.0.147\lib\net35-client\WizardWrx.ASCIIInfo.dll
+2021/08/01 21:28:38            37,024 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ASCIIInfo.8.0.147\lib\net35-client\Wizardwrx.ASCIIInfo.XML
+2021/08/01 14:29:24             9,463 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AssemblyUtils.8.0.198\.signature.p7s
+2021/08/01 19:41:50            47,133 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AssemblyUtils.8.0.198\ChangeLog.md
+2021/01/30 22:26:28             4,114 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AssemblyUtils.8.0.198\README.md
+2021/10/09 01:00:16            82,774 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AssemblyUtils.8.0.198\WizardWrx.AssemblyUtils.8.0.198.nupkg
+2021/05/02 03:17:08               517 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AssemblyUtils.8.0.198\lib\WizardWrx.AssemblyUtils.dll.config
+2021/08/01 21:28:54            93,696 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AssemblyUtils.8.0.198\lib\WizardWrx.AssemblyUtils.pdb
+2021/08/01 21:28:54            71,200 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AssemblyUtils.8.0.198\lib\Wizardwrx.AssemblyUtils.XML
+2021/08/01 21:28:54            40,960 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AssemblyUtils.8.0.198\lib\net35-client\WizardWrx.AssemblyUtils.dll
+2021/08/01 21:28:54            71,200 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.AssemblyUtils.8.0.198\lib\net35-client\Wizardwrx.AssemblyUtils.XML
+2019/04/30 10:51:50             9,464 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.BitMath.4.3.125.29248\.signature.p7s
+2021/10/09 01:00:15            36,312 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.BitMath.4.3.125.29248\WizardWrx.BitMath.4.3.125.29248.nupkg
+2016/05/04 17:14:56            26,624 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.BitMath.4.3.125.29248\lib\net20\WizardWrx.BitMath.dll
+2016/05/04 17:14:56           101,267 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.BitMath.4.3.125.29248\lib\net20\WizardWrx.BitMath.XML
+2021/08/01 14:29:08             9,463 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Common.8.0.168\.signature.p7s
+2021/08/01 19:41:50            47,133 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Common.8.0.168\ChangeLog.md
+2021/01/30 22:28:06             3,602 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Common.8.0.168\README.md
+2021/10/09 01:00:16           126,570 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Common.8.0.168\WizardWrx.Common.8.0.168.nupkg
+2021/08/01 21:28:30            99,840 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Common.8.0.168\lib\WizardWrx.Common.pdb
+2021/08/01 21:28:30           297,521 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Common.8.0.168\lib\Wizardwrx.Common.XML
+2021/08/01 21:28:30            39,424 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Common.8.0.168\lib\net35-client\WizardWrx.Common.dll
+2021/08/01 21:28:30           297,521 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Common.8.0.168\lib\net35-client\Wizardwrx.Common.XML
+2021/08/09 11:39:54             9,464 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleAppAids3.8.0.545\.signature.p7s
+2021/07/06 12:00:16             3,783 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleAppAids3.8.0.545\ChangeLog.md
+2019/06/04 23:23:12            12,122 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleAppAids3.8.0.545\README.md
+2021/10/09 01:00:18            61,583 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleAppAids3.8.0.545\WizardWrx.ConsoleAppAids3.8.0.545.nupkg
+2021/08/09 18:39:22            56,832 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleAppAids3.8.0.545\lib\WizardWrx.ConsoleAppAids3.pdb
+2021/08/09 18:39:22            70,772 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleAppAids3.8.0.545\lib\Wizardwrx.ConsoleAppAids3.xml
+2021/08/09 18:39:22            20,480 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleAppAids3.8.0.545\lib\net35-client\WizardWrx.ConsoleAppAids3.dll
+2021/08/09 18:39:22            70,772 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleAppAids3.8.0.545\lib\net35-client\Wizardwrx.ConsoleAppAids3.xml
+2021/08/01 14:29:26             9,464 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleStreams.8.0.258\.signature.p7s
+2021/08/01 19:41:50            47,133 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleStreams.8.0.258\ChangeLog.md
+2021/01/30 22:29:08             2,892 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleStreams.8.0.258\README.md
+2021/10/09 01:00:17            87,860 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleStreams.8.0.258\WizardWrx.ConsoleStreams.8.0.258.nupkg
+2021/08/01 21:28:58           112,128 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleStreams.8.0.258\lib\WizardWrx.ConsoleStreams.pdb
+2021/08/01 21:28:58           160,287 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleStreams.8.0.258\lib\Wizardwrx.ConsoleStreams.XML
+2021/08/01 21:28:58            27,648 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleStreams.8.0.258\lib\net35-client\WizardWrx.ConsoleStreams.dll
+2021/08/01 21:28:58           160,287 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.ConsoleStreams.8.0.258\lib\net35-client\Wizardwrx.ConsoleStreams.XML
+2021/08/01 14:29:18             9,463 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Core.8.0.250\.signature.p7s
+2021/08/01 19:41:50            47,133 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Core.8.0.250\ChangeLog.md
+2021/01/30 22:32:52             5,589 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Core.8.0.250\README.md
+2021/10/09 01:00:16           271,210 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Core.8.0.250\WizardWrx.Core.8.0.250.nupkg
+2021/08/01 21:28:48           331,264 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Core.8.0.250\lib\WizardWrx.Core.pdb
+2021/08/01 21:28:48           495,850 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Core.8.0.250\lib\Wizardwrx.Core.XML
+2021/08/01 21:28:48           103,424 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Core.8.0.250\lib\net35-client\WizardWrx.Core.dll
+2021/08/01 21:28:48           495,850 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.Core.8.0.250\lib\net35-client\Wizardwrx.Core.XML
+2021/08/01 14:29:40             9,464 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.DLLConfigurationManager.8.0.287\.signature.p7s
+2021/08/01 19:41:50            47,133 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.DLLConfigurationManager.8.0.287\ChangeLog.md
+2021/01/30 22:35:28             3,816 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.DLLConfigurationManager.8.0.287\README.md
+2021/10/09 01:00:17            98,078 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.DLLConfigurationManager.8.0.287\WizardWrx.DLLConfigurationManager.8.0.287.nupkg
+2020/12/14 03:29:56            10,019 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\WizardWrx.DLLConfigurationManager.dll.config
+2021/08/01 21:29:08            79,360 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\WizardWrx.DLLConfigurationManager.pdb
+2021/08/01 21:29:08           108,052 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\Wizardwrx.DLLConfigurationManager.XML
+2021/08/01 21:29:08            34,304 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\net35-client\WizardWrx.DLLConfigurationManager.dll
+2021/08/01 21:29:08           108,052 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\net35-client\Wizardwrx.DLLConfigurationManager.XML
+2021/08/01 14:30:08             9,464 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.EmbeddedTextFile.8.0.166\.signature.p7s
+2021/08/01 19:41:50            47,133 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.EmbeddedTextFile.8.0.166\ChangeLog.md
+2021/01/30 22:36:30             2,973 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.EmbeddedTextFile.8.0.166\README.md
+2021/10/09 06:57:10            47,103 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.EmbeddedTextFile.8.0.166\WizardWrx.EmbeddedTextFile.8.0.166.nupkg
+2021/08/01 21:29:14            36,352 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.EmbeddedTextFile.8.0.166\lib\WizardWrx.EmbeddedTextFile.pdb
+2021/08/01 21:29:14            18,877 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.EmbeddedTextFile.8.0.166\lib\Wizardwrx.EmbeddedTextFile.xml
+2021/08/01 21:29:14            12,800 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.EmbeddedTextFile.8.0.166\lib\net35-client\WizardWrx.EmbeddedTextFile.dll
+2021/08/01 21:29:14            18,877 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.EmbeddedTextFile.8.0.166\lib\net35-client\Wizardwrx.EmbeddedTextFile.xml
+2021/08/01 14:29:14             9,463 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.FormatStringEngine.8.0.232\.signature.p7s
+2021/08/01 19:41:50            47,133 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.FormatStringEngine.8.0.232\ChangeLog.md
+2021/01/30 22:38:40             3,245 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.FormatStringEngine.8.0.232\README.md
+2021/10/09 01:00:16            70,792 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.FormatStringEngine.8.0.232\WizardWrx.FormatStringEngine.8.0.232.nupkg
+2021/08/01 21:28:42            62,976 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.FormatStringEngine.8.0.232\lib\WizardWrx.FormatStringEngine.pdb
+2021/08/01 21:28:42            76,385 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.FormatStringEngine.8.0.232\lib\Wizardwrx.FormatStringEngine.XML
+2021/08/01 21:28:42            22,016 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.FormatStringEngine.8.0.232\lib\net35-client\WizardWrx.FormatStringEngine.dll
+2021/08/01 21:28:42            76,385 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\packages\WizardWrx.FormatStringEngine.8.0.232\lib\net35-client\Wizardwrx.FormatStringEngine.XML
+2016/06/14 22:25:18             1,075 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\app.config
+2021/10/12 23:35:43            24,445 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\BuildHistory.LOG
+2021/10/09 07:04:58            17,871 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\FixedWidthReportItem.cs
+2021/10/09 07:07:19            26,860 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\FixedWidthReportItemsCollection.cs
+2014/09/05 11:08:06               218 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\LabelsForTasks.TXT
+2021/10/09 06:57:10             1,083 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\packages.config
+2021/10/09 12:12:37            31,168 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\Program.cs
+2021/10/10 22:50:39            10,554 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\TimeZoneConversionTestCase.cs
+2021/10/10 23:59:56            14,542 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\TimeZoneConversionTestCaseCollection.cs
+2021/10/12 23:25:59            10,005 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\TimeZoneInfoExtensions.cs
+2021/10/11 00:24:02             6,862 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\TimeZoneLab.csproj
+2021/10/09 07:15:18               405 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\TimeZoneLab.csproj.user
+2021/10/11 00:44:27            38,575 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\TimeZoneTasks.cs
+2016/06/14 22:13:54             9,670 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\TZHelpers.cs
+2020/12/14 03:29:56            10,019 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\WizardWrx.DLLConfigurationManager.dll.config
+2014/08/30 10:17:08            10,134 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\WW_Icon1.ico
+2016/04/02 21:25:35           480,768 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\Newtonsoft.Json.dll
+2016/04/02 21:25:35           554,249 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\Newtonsoft.Json.xml
+2014/05/16 18:56:04            26,112 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\P6CUtilLib1.dll
+2021/10/12 23:26:02            52,736 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\TimeZoneLab.exe
+2016/06/14 22:25:18             1,075 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\TimeZoneLab.exe.config
+2021/10/12 23:26:02            81,408 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\TimeZoneLab.pdb
+2016/06/17 00:19:54            23,168 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\TimeZoneLab.vshost.exe
+2016/06/14 22:25:18             1,075 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\TimeZoneLab.vshost.exe.config
+2010/03/18 00:39:16               490 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\TimeZoneLab.vshost.exe.manifest
+2019/08/11 22:26:26            18,944 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.AnyCSV.dll
+2019/08/11 22:26:26            74,090 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.AnyCSV.xml
+2021/08/01 21:28:38            28,160 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.ASCIIInfo.dll
+2021/08/01 21:28:38            37,024 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.ASCIIInfo.xml
+2021/08/01 21:28:54            40,960 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.AssemblyUtils.dll
+2021/08/01 21:28:54            71,200 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.AssemblyUtils.xml
+2016/05/04 17:14:56            26,624 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.BitMath.dll
+2016/05/04 17:14:57            54,784 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.BitMath.pdb
+2016/05/04 17:14:56           101,267 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.BitMath.xml
+2021/08/01 21:28:30            39,424 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.Common.dll
+2021/08/01 21:28:30           297,521 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.Common.xml
+2016/06/11 22:59:00            20,992 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids2.dll
+2016/06/11 22:59:00            48,640 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids2.pdb
+2016/06/11 22:59:00            67,352 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids2.xml
+2021/08/09 18:39:22            20,480 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids3.dll
+2021/08/09 18:39:22            70,772 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids3.xml
+2021/08/01 21:28:58            27,648 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.ConsoleStreams.dll
+2021/08/01 21:28:58           160,287 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.ConsoleStreams.xml
+2021/08/01 21:28:48           103,424 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.Core.dll
+2021/08/01 21:28:48           495,850 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.Core.xml
+2021/08/01 21:29:08            34,304 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.DLLConfigurationManager.dll
+2020/12/14 03:29:56            10,019 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.DLLConfigurationManager.dll.config
+2021/08/01 21:29:08           108,052 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.DLLConfigurationManager.xml
+2016/06/08 13:31:27           117,760 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.DLLServices2.dll
+2016/06/08 13:31:27           314,880 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.DLLServices2.pdb
+2016/06/08 13:31:27           714,606 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.DLLServices2.xml
+2021/08/01 21:29:14            12,800 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.EmbeddedTextFile.dll
+2021/08/01 21:29:14            18,877 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.EmbeddedTextFile.xml
+2021/08/01 21:28:42            22,016 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.FormatStringEngine.dll
+2021/08/01 21:28:42            76,385 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Debug\WizardWrx.FormatStringEngine.xml
+2016/04/02 21:25:35           480,768 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\Newtonsoft.Json.dll
+2016/04/02 21:25:35           554,249 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\Newtonsoft.Json.xml
+2014/05/16 18:56:04            26,112 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\P6CUtilLib1.dll
+2021/10/12 23:35:43            50,176 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.exe
+2016/06/14 22:25:18             1,075 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.exe.config
+2021/10/12 23:35:43            73,216 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.pdb
+2016/06/16 23:09:37            23,168 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.vshost.exe
+2016/06/14 22:25:18             1,075 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.vshost.exe.config
+2010/03/18 00:39:16               490 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\TimeZoneLab.vshost.exe.manifest
+2019/08/11 22:26:26            18,944 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.AnyCSV.dll
+2019/08/11 22:26:26            74,090 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.AnyCSV.xml
+2021/08/01 21:28:38            28,160 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ASCIIInfo.dll
+2021/08/01 21:28:38            37,024 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ASCIIInfo.xml
+2021/08/01 21:28:54            40,960 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.AssemblyUtils.dll
+2021/08/01 21:28:54            71,200 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.AssemblyUtils.xml
+2016/05/04 17:14:56            26,624 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.BitMath.dll
+2016/05/04 17:14:57            54,784 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.BitMath.pdb
+2016/05/04 17:14:56           101,267 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.BitMath.xml
+2021/08/01 21:28:30            39,424 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.Common.dll
+2021/08/01 21:28:30           297,521 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.Common.xml
+2016/06/11 22:59:00            20,992 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids2.dll
+2016/06/11 22:59:00            48,640 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids2.pdb
+2016/06/11 22:59:00            67,352 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids2.xml
+2021/08/09 18:39:22            20,480 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids3.dll
+2021/08/09 18:39:22            70,772 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids3.xml
+2021/08/01 21:28:58            27,648 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleStreams.dll
+2021/08/01 21:28:58           160,287 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.ConsoleStreams.xml
+2021/08/01 21:28:48           103,424 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.Core.dll
+2021/08/01 21:28:48           495,850 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.Core.xml
+2021/08/01 21:29:08            34,304 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLConfigurationManager.dll
+2020/12/14 03:29:56            10,019 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLConfigurationManager.dll.config
+2021/08/01 21:29:08           108,052 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLConfigurationManager.xml
+2016/06/08 13:31:27           117,760 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLServices2.dll
+2016/06/05 20:20:48             8,468 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLServices2.dll.config
+2016/06/08 13:31:27           314,880 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLServices2.pdb
+2016/06/08 13:31:27           714,606 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.DLLServices2.xml
+2021/08/01 21:29:14            12,800 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.EmbeddedTextFile.dll
+2021/08/01 21:29:14            18,877 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.EmbeddedTextFile.xml
+2021/08/01 21:28:42            22,016 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.FormatStringEngine.dll
+2021/08/01 21:28:42            76,385 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\bin\Release\WizardWrx.FormatStringEngine.xml
+2021/10/09 00:53:03               238 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\.NETFramework,Version=v4.0,Profile=Client.AssemblyAttributes.cs
+2021/10/10 21:16:48                11 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\DesignTimeResolveAssemblyReferences.cache
+2021/10/11 00:24:20             8,240 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+2014/09/05 11:14:20             3,940 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+2014/09/05 11:14:20               602 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+2014/09/05 11:12:24            17,489 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\ResolveAssemblyReference.cache
+2021/10/12 22:59:59            12,502 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.AssemblyReference.cache
+2021/10/12 23:26:02                 0 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.CopyComplete
+2021/10/11 00:24:27                42 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.CoreCompileInputs.cache
+2021/10/10 23:29:41             9,099 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.FileListAbsolute.txt
+2021/10/11 00:40:02               954 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.GenerateResource.cache
+2016/06/14 23:34:43            21,846 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TimeZoneLab.csprojResolveAssemblyReference.cache
+2021/10/12 23:26:02            52,736 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TimeZoneLab.exe
+2021/10/12 23:26:02            81,408 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TimeZoneLab.pdb
+2021/10/11 00:40:02             2,890 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TimeZoneLab.Properties.Resources.resources
+2021/10/11 00:39:45             7,680 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Debug\TempPE\Properties.Resources.Designer.cs.dll
+2021/10/12 23:35:36               238 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\.NETFramework,Version=v4.0,Profile=Client.AssemblyAttributes.cs
+2016/06/16 23:27:01             5,311 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\DesignTimeResolveAssemblyReferences.cache
+2016/06/15 23:22:10             6,800 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\DesignTimeResolveAssemblyReferencesInput.cache
+2014/09/05 11:24:06             3,940 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+2014/09/05 11:24:06               606 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+2014/09/05 11:24:06            17,489 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\ResolveAssemblyReference.cache
+2021/10/12 23:35:36                11 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.AssemblyReference.cache
+2021/10/12 23:35:43                 0 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.CopyComplete
+2021/10/12 23:35:43                42 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.CoreCompileInputs.cache
+2021/10/12 23:35:43             9,243 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.FileListAbsolute.txt
+2021/10/12 23:35:43               954 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.GenerateResource.cache
+2016/06/15 19:08:14            18,460 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.csprojResolveAssemblyReference.cache
+2021/10/12 23:35:43            50,176 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.exe
+2021/10/12 23:35:43            73,216 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.pdb
+2021/10/12 23:35:43             2,890 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TimeZoneLab.Properties.Resources.resources
+2021/10/12 23:35:36             7,680 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\obj\x86\Release\TempPE\Properties.Resources.Designer.cs.dll
+2021/10/12 23:35:41             1,586 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\Properties\AssemblyInfo.cs
+2021/10/11 00:39:45            12,560 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\Properties\Resources.Designer.cs
+2021/10/11 00:39:45            12,450 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\Properties\Resources.resx
+2016/06/14 22:25:20             2,099 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\Properties\Settings.Designer.cs
+2016/06/14 21:54:55               629 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab\Properties\Settings.settings
+2016/06/16 23:55:05               187 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\App.config
+2016/06/17 12:36:50             1,838 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\Form1.cs
+2016/06/17 12:36:50             7,990 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\Form1.Designer.cs
+2016/06/17 12:36:50             5,817 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\Form1.resx
+2016/06/17 02:15:08               447 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\Program.cs
+2016/06/17 12:36:50             3,597 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\TZInfo.csproj
+2016/06/17 03:22:51            14,336 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\bin\Debug\TZInfo.exe
+2016/06/16 23:55:05               187 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\bin\Debug\TZInfo.exe.config
+2016/06/17 03:22:51            30,208 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\bin\Debug\TZInfo.pdb
+2016/06/17 03:23:05            23,168 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\bin\Debug\TZInfo.vshost.exe
+2016/06/16 23:55:05               187 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\bin\Debug\TZInfo.vshost.exe.config
+2010/03/18 00:39:16               490 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\bin\Debug\TZInfo.vshost.exe.manifest
+2021/10/09 00:53:04               210 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\.NETFramework,Version=v4.5.AssemblyAttributes.cs
+2016/06/17 11:50:01                 0 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\build.force
+2016/06/16 23:55:07               865 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\DesignTimeResolveAssemblyReferences.cache
+2021/10/09 00:53:04             6,563 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+2016/06/16 23:55:05                 0 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+2016/06/16 23:55:05                 0 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+2016/06/16 23:55:05                 0 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+2021/10/09 00:53:03             2,778 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.csproj.AssemblyReference.cache
+2021/10/09 06:59:45                42 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.csproj.CoreCompileInputs.cache
+2021/10/09 06:59:47             1,806 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.csproj.FileListAbsolute.txt
+2021/10/09 06:59:45             1,012 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.csproj.GenerateResource.cache
+2016/06/17 00:46:11             2,211 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.csprojResolveAssemblyReference.cache
+2016/06/17 03:22:51            14,336 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.exe
+2021/10/09 06:59:45               180 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.Form1.resources
+2016/06/17 03:22:51            30,208 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.pdb
+2021/10/09 06:59:45               862 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TZInfo.Properties.Resources.resources
+2016/06/17 02:12:02             6,144 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll
+2016/06/16 23:55:05             1,460 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\Properties\AssemblyInfo.cs
+2016/06/17 02:12:02             5,808 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\Properties\Resources.Designer.cs
+2016/06/17 02:12:02             7,390 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\Properties\Resources.resx
+2016/06/16 23:55:05             1,033 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\Properties\Settings.Designer.cs
+2016/06/16 23:55:05               249 D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TZInfo\Properties\Settings.settings
+
+556 files listed
+
+---------------------------------------------------------------------
+Step 2 of 6: Back up the source directory.
+---------------------------------------------------------------------
+
+
+7-Zip 19.00 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2019-02-21
+
+Scanning the drive:
+225 folders, 556 files, 23432521 bytes (23 MiB)
+
+Creating archive: D:\_Backups\program_source\Visual_Studio_2017\TimeZoneLab_3_0_105_ABACUS.7z
+
+Add new data to archive: 225 folders, 556 files, 23432521 bytes (23 MiB)
+
+
+Files read from disk: 550
+Archive size: 5382714 bytes (5257 KiB)
+Everything is Ok
+
+---------------------------------------------------------------------
+Step 3 of 6: Clear the A flags in the source directory.
+---------------------------------------------------------------------
+
+Not resetting hidden file - D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\.vs\TimeZoneLab\v16\.suo
+Not resetting hidden file - D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab.suo
+Not resetting hidden file - D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab\TimeZoneLab.v12.suo
+
+---------------------------------------------------------------------
+Step 4 of 6: List the contents of the archive.
+---------------------------------------------------------------------
+
+
+7-Zip 19.00 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2019-02-21
+
+Scanning the drive for archives:
+1 file, 5382714 bytes (5257 KiB)
+
+Listing archive: D:\_Backups\program_source\Visual_Studio_2017\TimeZoneLab_3_0_105_ABACUS.7z
+
+--
+Path = D:\_Backups\program_source\Visual_Studio_2017\TimeZoneLab_3_0_105_ABACUS.7z
+Type = 7z
+Physical Size = 5382714
+Headers Size = 14746
+Method = LZMA2:24m LZMA:20 BCJ2 7zAES
+Solid = +
+Blocks = 2
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2021-10-15 22:32:56 D.H..            0            0  .git
+2021-10-15 22:22:16 D....            0            0  .git\hooks
+2021-10-15 22:22:16 D....            0            0  .git\info
+2021-10-15 22:23:54 D....            0            0  .git\logs
+2021-10-15 22:24:44 D....            0            0  .git\logs\refs
+2021-10-15 22:24:11 D....            0            0  .git\logs\refs\heads
+2021-10-15 22:24:44 D....            0            0  .git\logs\refs\remotes
+2021-10-15 22:24:44 D....            0            0  .git\logs\refs\remotes\origin
+2021-10-15 22:23:54 D....            0            0  .git\objects
+2021-10-15 22:22:38 D....            0            0  .git\objects\02
+2021-10-15 22:23:54 D....            0            0  .git\objects\04
+2021-10-15 22:22:36 D....            0            0  .git\objects\06
+2021-10-15 22:22:36 D....            0            0  .git\objects\09
+2021-10-15 22:22:36 D....            0            0  .git\objects\0c
+2021-10-15 22:22:37 D....            0            0  .git\objects\0d
+2021-10-15 22:23:53 D....            0            0  .git\objects\0f
+2021-10-15 22:22:39 D....            0            0  .git\objects\12
+2021-10-15 22:22:42 D....            0            0  .git\objects\13
+2021-10-15 22:22:40 D....            0            0  .git\objects\14
+2021-10-15 22:23:54 D....            0            0  .git\objects\15
+2021-10-15 22:23:54 D....            0            0  .git\objects\16
+2021-10-15 22:23:54 D....            0            0  .git\objects\17
+2021-10-15 22:22:36 D....            0            0  .git\objects\18
+2021-10-15 22:23:53 D....            0            0  .git\objects\1a
+2021-10-15 22:22:39 D....            0            0  .git\objects\1b
+2021-10-15 22:23:53 D....            0            0  .git\objects\1d
+2021-10-15 22:23:54 D....            0            0  .git\objects\20
+2021-10-15 22:22:39 D....            0            0  .git\objects\21
+2021-10-15 22:22:42 D....            0            0  .git\objects\24
+2021-10-15 22:23:54 D....            0            0  .git\objects\26
+2021-10-15 22:22:36 D....            0            0  .git\objects\27
+2021-10-15 22:22:37 D....            0            0  .git\objects\2a
+2021-10-15 22:23:53 D....            0            0  .git\objects\2b
+2021-10-15 22:22:37 D....            0            0  .git\objects\2c
+2021-10-15 22:22:40 D....            0            0  .git\objects\2d
+2021-10-15 22:23:54 D....            0            0  .git\objects\2f
+2021-10-15 22:22:40 D....            0            0  .git\objects\32
+2021-10-15 22:23:53 D....            0            0  .git\objects\33
+2021-10-15 22:23:54 D....            0            0  .git\objects\34
+2021-10-15 22:22:37 D....            0            0  .git\objects\35
+2021-10-15 22:22:42 D....            0            0  .git\objects\37
+2021-10-15 22:22:36 D....            0            0  .git\objects\39
+2021-10-15 22:22:40 D....            0            0  .git\objects\3c
+2021-10-15 22:23:53 D....            0            0  .git\objects\3e
+2021-10-15 22:22:40 D....            0            0  .git\objects\40
+2021-10-15 22:22:39 D....            0            0  .git\objects\48
+2021-10-15 22:23:53 D....            0            0  .git\objects\49
+2021-10-15 22:23:54 D....            0            0  .git\objects\4a
+2021-10-15 22:23:53 D....            0            0  .git\objects\4c
+2021-10-15 22:22:42 D....            0            0  .git\objects\4e
+2021-10-15 22:22:37 D....            0            0  .git\objects\4f
+2021-10-15 22:23:54 D....            0            0  .git\objects\50
+2021-10-15 22:23:53 D....            0            0  .git\objects\51
+2021-10-15 22:23:53 D....            0            0  .git\objects\52
+2021-10-15 22:22:37 D....            0            0  .git\objects\53
+2021-10-15 22:22:40 D....            0            0  .git\objects\54
+2021-10-15 22:22:39 D....            0            0  .git\objects\56
+2021-10-15 22:22:42 D....            0            0  .git\objects\58
+2021-10-15 22:23:53 D....            0            0  .git\objects\59
+2021-10-15 22:22:37 D....            0            0  .git\objects\5a
+2021-10-15 22:22:42 D....            0            0  .git\objects\5e
+2021-10-15 22:23:53 D....            0            0  .git\objects\5f
+2021-10-15 22:22:41 D....            0            0  .git\objects\62
+2021-10-15 22:22:38 D....            0            0  .git\objects\63
+2021-10-15 22:22:42 D....            0            0  .git\objects\64
+2021-10-15 22:22:38 D....            0            0  .git\objects\65
+2021-10-15 22:22:36 D....            0            0  .git\objects\66
+2021-10-15 22:23:54 D....            0            0  .git\objects\69
+2021-10-15 22:22:36 D....            0            0  .git\objects\6c
+2021-10-15 22:22:40 D....            0            0  .git\objects\6e
+2021-10-15 22:22:38 D....            0            0  .git\objects\71
+2021-10-15 22:22:37 D....            0            0  .git\objects\72
+2021-10-15 22:23:53 D....            0            0  .git\objects\73
+2021-10-15 22:22:38 D....            0            0  .git\objects\74
+2021-10-15 22:22:42 D....            0            0  .git\objects\75
+2021-10-15 22:22:40 D....            0            0  .git\objects\77
+2021-10-15 22:22:40 D....            0            0  .git\objects\78
+2021-10-15 22:22:37 D....            0            0  .git\objects\79
+2021-10-15 22:22:41 D....            0            0  .git\objects\7b
+2021-10-15 22:22:42 D....            0            0  .git\objects\7d
+2021-10-15 22:22:36 D....            0            0  .git\objects\7e
+2021-10-15 22:23:54 D....            0            0  .git\objects\7f
+2021-10-15 22:23:53 D....            0            0  .git\objects\83
+2021-10-15 22:22:38 D....            0            0  .git\objects\84
+2021-10-15 22:22:40 D....            0            0  .git\objects\85
+2021-10-15 22:22:39 D....            0            0  .git\objects\86
+2021-10-15 22:22:37 D....            0            0  .git\objects\87
+2021-10-15 22:22:40 D....            0            0  .git\objects\88
+2021-10-15 22:23:54 D....            0            0  .git\objects\89
+2021-10-15 22:23:53 D....            0            0  .git\objects\8b
+2021-10-15 22:22:37 D....            0            0  .git\objects\8c
+2021-10-15 22:22:39 D....            0            0  .git\objects\8e
+2021-10-15 22:22:40 D....            0            0  .git\objects\91
+2021-10-15 22:23:54 D....            0            0  .git\objects\94
+2021-10-15 22:22:39 D....            0            0  .git\objects\95
+2021-10-15 22:23:54 D....            0            0  .git\objects\98
+2021-10-15 22:22:39 D....            0            0  .git\objects\99
+2021-10-15 22:22:41 D....            0            0  .git\objects\9a
+2021-10-15 22:22:37 D....            0            0  .git\objects\9b
+2021-10-15 22:23:54 D....            0            0  .git\objects\9c
+2021-10-15 22:22:39 D....            0            0  .git\objects\9e
+2021-10-15 22:23:54 D....            0            0  .git\objects\a0
+2021-10-15 22:23:53 D....            0            0  .git\objects\a2
+2021-10-15 22:22:40 D....            0            0  .git\objects\a3
+2021-10-15 22:22:38 D....            0            0  .git\objects\a4
+2021-10-15 22:22:37 D....            0            0  .git\objects\a5
+2021-10-15 22:22:38 D....            0            0  .git\objects\a7
+2021-10-15 22:23:54 D....            0            0  .git\objects\a8
+2021-10-15 22:22:40 D....            0            0  .git\objects\aa
+2021-10-15 22:22:37 D....            0            0  .git\objects\ad
+2021-10-15 22:22:37 D....            0            0  .git\objects\b1
+2021-10-15 22:22:36 D....            0            0  .git\objects\b2
+2021-10-15 22:22:38 D....            0            0  .git\objects\b4
+2021-10-15 22:22:41 D....            0            0  .git\objects\b5
+2021-10-15 22:23:54 D....            0            0  .git\objects\b6
+2021-10-15 22:22:38 D....            0            0  .git\objects\b8
+2021-10-15 22:23:54 D....            0            0  .git\objects\b9
+2021-10-15 22:22:39 D....            0            0  .git\objects\bd
+2021-10-15 22:23:53 D....            0            0  .git\objects\be
+2021-10-15 22:22:38 D....            0            0  .git\objects\c0
+2021-10-15 22:23:54 D....            0            0  .git\objects\c1
+2021-10-15 22:22:39 D....            0            0  .git\objects\c2
+2021-10-15 22:22:39 D....            0            0  .git\objects\c3
+2021-10-15 22:23:54 D....            0            0  .git\objects\c6
+2021-10-15 22:22:39 D....            0            0  .git\objects\c8
+2021-10-15 22:22:42 D....            0            0  .git\objects\ca
+2021-10-15 22:22:38 D....            0            0  .git\objects\cb
+2021-10-15 22:22:39 D....            0            0  .git\objects\cd
+2021-10-15 22:23:54 D....            0            0  .git\objects\cf
+2021-10-15 22:23:54 D....            0            0  .git\objects\d1
+2021-10-15 22:23:54 D....            0            0  .git\objects\d2
+2021-10-15 22:23:54 D....            0            0  .git\objects\d4
+2021-10-15 22:22:40 D....            0            0  .git\objects\d6
+2021-10-15 22:22:41 D....            0            0  .git\objects\d7
+2021-10-15 22:22:40 D....            0            0  .git\objects\d9
+2021-10-15 22:22:36 D....            0            0  .git\objects\da
+2021-10-15 22:22:38 D....            0            0  .git\objects\db
+2021-10-15 22:22:36 D....            0            0  .git\objects\dc
+2021-10-15 22:23:54 D....            0            0  .git\objects\de
+2021-10-15 22:23:54 D....            0            0  .git\objects\df
+2021-10-15 22:22:41 D....            0            0  .git\objects\e1
+2021-10-15 22:23:53 D....            0            0  .git\objects\e2
+2021-10-15 22:23:53 D....            0            0  .git\objects\e5
+2021-10-15 22:22:37 D....            0            0  .git\objects\e6
+2021-10-15 22:22:40 D....            0            0  .git\objects\e7
+2021-10-15 22:23:53 D....            0            0  .git\objects\e8
+2021-10-15 22:22:42 D....            0            0  .git\objects\ea
+2021-10-15 22:22:41 D....            0            0  .git\objects\eb
+2021-10-15 22:22:39 D....            0            0  .git\objects\ec
+2021-10-15 22:22:40 D....            0            0  .git\objects\ed
+2021-10-15 22:23:54 D....            0            0  .git\objects\f0
+2021-10-15 22:22:39 D....            0            0  .git\objects\f2
+2021-10-15 22:23:54 D....            0            0  .git\objects\f4
+2021-10-15 22:23:54 D....            0            0  .git\objects\f5
+2021-10-15 22:22:36 D....            0            0  .git\objects\f7
+2021-10-15 22:22:38 D....            0            0  .git\objects\f8
+2021-10-15 22:22:36 D....            0            0  .git\objects\fb
+2021-10-15 22:22:39 D....            0            0  .git\objects\fc
+2021-10-15 22:22:41 D....            0            0  .git\objects\fd
+2021-10-15 22:22:41 D....            0            0  .git\objects\fe
+2021-10-15 22:22:37 D....            0            0  .git\objects\ff
+2021-10-15 22:22:16 D....            0            0  .git\objects\info
+2021-10-15 22:22:16 D....            0            0  .git\objects\pack
+2021-10-15 22:24:44 D....            0            0  .git\refs
+2021-10-15 22:24:11 D....            0            0  .git\refs\heads
+2021-10-15 22:24:44 D....            0            0  .git\refs\remotes
+2021-10-15 22:24:44 D....            0            0  .git\refs\remotes\origin
+2021-10-15 22:22:16 D....            0            0  .git\refs\tags
+2021-10-09 00:52:58 D.H..            0            0  .vs
+2021-10-09 00:52:58 D....            0            0  .vs\TimeZoneLab
+2021-10-09 00:52:58 D....            0            0  .vs\TimeZoneLab\v16
+2021-10-15 22:34:27 D....            0            0  archive
+2021-10-15 22:31:03 D....            0            0  NOTES
+2021-10-09 06:57:10 D....            0            0  packages
+2021-10-09 01:00:14 D....            0            0  packages\WizardWrx.AnyCSV.7.2.145
+2021-10-09 01:00:14 D....            0            0  packages\WizardWrx.AnyCSV.7.2.145\lib
+2021-10-09 01:00:14 D....            0            0  packages\WizardWrx.AnyCSV.7.2.145\lib\net20
+2021-10-09 01:00:15 D....            0            0  packages\WizardWrx.ASCIIInfo.8.0.147
+2021-10-09 01:00:15 D....            0            0  packages\WizardWrx.ASCIIInfo.8.0.147\lib
+2021-10-09 01:00:15 D....            0            0  packages\WizardWrx.ASCIIInfo.8.0.147\lib\net35-client
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.AssemblyUtils.8.0.198
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.AssemblyUtils.8.0.198\lib
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.AssemblyUtils.8.0.198\lib\net35-client
+2021-10-09 01:00:15 D....            0            0  packages\WizardWrx.BitMath.4.3.125.29248
+2021-10-09 01:00:15 D....            0            0  packages\WizardWrx.BitMath.4.3.125.29248\lib
+2021-10-09 01:00:15 D....            0            0  packages\WizardWrx.BitMath.4.3.125.29248\lib\net20
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.Common.8.0.168
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.Common.8.0.168\lib
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.Common.8.0.168\lib\net35-client
+2021-10-09 01:00:18 D....            0            0  packages\WizardWrx.ConsoleAppAids3.8.0.545
+2021-10-09 01:00:18 D....            0            0  packages\WizardWrx.ConsoleAppAids3.8.0.545\lib
+2021-10-09 01:00:18 D....            0            0  packages\WizardWrx.ConsoleAppAids3.8.0.545\lib\net35-client
+2021-10-09 01:00:17 D....            0            0  packages\WizardWrx.ConsoleStreams.8.0.258
+2021-10-09 01:00:17 D....            0            0  packages\WizardWrx.ConsoleStreams.8.0.258\lib
+2021-10-09 01:00:17 D....            0            0  packages\WizardWrx.ConsoleStreams.8.0.258\lib\net35-client
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.Core.8.0.250
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.Core.8.0.250\lib
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.Core.8.0.250\lib\net35-client
+2021-10-09 01:00:17 D....            0            0  packages\WizardWrx.DLLConfigurationManager.8.0.287
+2021-10-09 01:00:17 D....            0            0  packages\WizardWrx.DLLConfigurationManager.8.0.287\lib
+2021-10-09 01:00:17 D....            0            0  packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\net35-client
+2021-10-09 06:57:10 D....            0            0  packages\WizardWrx.EmbeddedTextFile.8.0.166
+2021-10-09 06:57:10 D....            0            0  packages\WizardWrx.EmbeddedTextFile.8.0.166\lib
+2021-10-09 06:57:10 D....            0            0  packages\WizardWrx.EmbeddedTextFile.8.0.166\lib\net35-client
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.FormatStringEngine.8.0.232
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.FormatStringEngine.8.0.232\lib
+2021-10-09 01:00:16 D....            0            0  packages\WizardWrx.FormatStringEngine.8.0.232\lib\net35-client
+2021-10-15 22:14:16 D....            0            0  TimeZoneLab
+2018-01-01 22:15:16 D....            0            0  TimeZoneLab\bin
+2021-10-10 23:29:41 D....            0            0  TimeZoneLab\bin\Debug
+2021-10-12 23:35:43 D....            0            0  TimeZoneLab\bin\Release
+2018-01-01 22:15:17 D....            0            0  TimeZoneLab\obj
+2018-01-01 22:15:17 D....            0            0  TimeZoneLab\obj\x86
+2021-10-12 22:59:59 D....            0            0  TimeZoneLab\obj\x86\Debug
+2018-01-01 22:15:17 D....            0            0  TimeZoneLab\obj\x86\Debug\TempPE
+2021-10-12 23:35:43 D....            0            0  TimeZoneLab\obj\x86\Release
+2018-01-01 22:15:18 D....            0            0  TimeZoneLab\obj\x86\Release\TempPE
+2021-10-11 00:39:45 D....            0            0  TimeZoneLab\Properties
+2018-01-01 22:15:18 D....            0            0  TZInfo
+2018-01-01 22:15:18 D....            0            0  TZInfo\bin
+2018-01-01 22:15:18 D....            0            0  TZInfo\bin\Debug
+2018-01-01 22:15:18 D....            0            0  TZInfo\obj
+2021-10-09 06:59:45 D....            0            0  TZInfo\obj\Debug
+2018-01-01 22:15:18 D....            0            0  TZInfo\obj\Debug\TempPE
+2018-01-01 22:15:19 D....            0            0  TZInfo\Properties
+2021-10-12 23:26:02 .....            0            0  TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.CopyComplete
+2021-10-12 23:35:43 .....            0            0  TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.CopyComplete
+2016-06-17 11:50:01 .....            0            0  TZInfo\obj\Debug\build.force
+2016-06-16 23:55:05 .....            0            0  TZInfo\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+2016-06-16 23:55:05 .....            0            0  TZInfo\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+2016-06-16 23:55:05 .....            0            0  TZInfo\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+2021-10-15 22:23:54 ....A           69      5038752  .git\COMMIT_EDITMSG
+2021-10-15 22:24:44 ....A          302               .git\config
+2021-10-15 22:22:16 ....A           73               .git\description
+2021-10-15 22:24:11 ....A           21               .git\HEAD
+2021-10-15 22:22:16 ....A          478               .git\hooks\applypatch-msg.sample
+2021-10-15 22:22:16 ....A          896               .git\hooks\commit-msg.sample
+2021-10-15 22:22:16 ....A         4655               .git\hooks\fsmonitor-watchman.sample
+2021-10-15 22:22:16 ....A          189               .git\hooks\post-update.sample
+2021-10-15 22:22:16 ....A          424               .git\hooks\pre-applypatch.sample
+2021-10-15 22:22:16 ....A         1643               .git\hooks\pre-commit.sample
+2021-10-15 22:22:16 ....A          416               .git\hooks\pre-merge-commit.sample
+2021-10-15 22:22:16 ....A         1374               .git\hooks\pre-push.sample
+2021-10-15 22:22:16 ....A         4898               .git\hooks\pre-rebase.sample
+2021-10-15 22:22:16 ....A          544               .git\hooks\pre-receive.sample
+2021-10-15 22:22:16 ....A         1492               .git\hooks\prepare-commit-msg.sample
+2021-10-15 22:22:16 ....A         2783               .git\hooks\push-to-checkout.sample
+2021-10-15 22:22:16 ....A         3650               .git\hooks\update.sample
+2021-10-15 22:23:54 ....A        34660               .git\index
+2021-10-15 22:22:16 ....A          240               .git\info\exclude
+2021-10-15 22:24:11 ....A          576               .git\logs\HEAD
+2021-10-15 22:24:11 ....A          396               .git\logs\refs\heads\main
+2021-10-15 22:24:44 ....A          144               .git\logs\refs\remotes\origin\main
+2021-10-15 22:22:41 .R..A        17076               .git\objects\02\24bc620d49df10fdb339e6a1a42095f14ba314
+2021-10-15 22:23:54 .R..A          183               .git\objects\04\322626463472fdf7afd3bc710829c4061268b3
+2021-10-15 22:22:39 .R..A          278               .git\objects\06\1c9ca950d0e8bb952c52799fb401a6614ad640
+2021-10-15 22:22:36 .R..A          488               .git\objects\09\679e221389f5326c2237ac925de59422fbe2b0
+2021-10-15 22:22:36 .R..A          507               .git\objects\0c\b1e5b5cffa8d5e282dc50748b9c7832f9773ab
+2021-10-15 22:22:39 .R..A          442               .git\objects\0d\7e98dc02abc6a538a6ea306a6aea75f2e64837
+2021-10-15 22:23:53 .R..A           79               .git\objects\0f\547703f3e4bc376ebff67e2814e2e202d85a88
+2021-10-15 22:22:39 .R..A          458               .git\objects\12\d0aca3035f493a8a0c24e1683ec5d568f231c6
+2021-10-15 22:22:39 .R..A          774               .git\objects\12\e68a8eb1a196099911648614e5ab19e23932a5
+2021-10-15 22:22:38 .R..A        61243               .git\objects\13\bb30e7e7cdd4564c8fdb79230705afe4b84735
+2021-10-15 22:22:41 .R..A         1357               .git\objects\13\c944844b98df3af657927a8c19a1e509db9413
+2021-10-15 22:22:42 .R..A         1778               .git\objects\13\f14d8c8569ebcd94fa559dfda6093d1feba45f
+2021-10-15 22:22:39 .R..A        19480               .git\objects\14\043f8b5832b4b400a24aada7423f686624a903
+2021-10-15 22:22:37 .R..A         1846               .git\objects\14\e5e3c9686b013037e5882158f3234786e9530c
+2021-10-15 22:22:40 .R..A          494               .git\objects\14\fe4c1dec429af953f612ade389d7713f749bba
+2021-10-15 22:23:54 .R..A          150               .git\objects\15\8caced3ae7ce8c64641ce4af4b5482419147ca
+2021-10-15 22:22:41 .R..A        32518               .git\objects\15\b664414c1ff548cd2bc8afe856abf249aa88f8
+2021-10-15 22:22:35 .R..A          503               .git\objects\15\d9022dd9ab464235c26b0d3546aac3db98bab5
+2021-10-15 22:23:54 .R..A          107               .git\objects\16\61e03d1f9fb9756abb7cc2941e3316e9965853
+2021-10-15 22:23:54 .R..A          113               .git\objects\17\13dc9e05812917c4e94611f06b717100ce329a
+2021-10-15 22:22:36 .R..A          264               .git\objects\18\72e2a0e73e17bd028718b94e13c6353abc78b3
+2021-10-15 22:23:53 .R..A          138               .git\objects\1a\6a27bdaf2812f442467f4931cb7e21238fe705
+2021-10-15 22:22:36 .R..A         1665               .git\objects\1a\f7de150c99c12dd67a509fe57c10d63e4eeb04
+2021-10-15 22:22:39 .R..A         3844               .git\objects\1b\e2a4e4426bd6f7e005b96202c2c3fb476c9975
+2021-10-15 22:23:53 .R..A           79               .git\objects\1d\91d06a04e98d985a0cfbb19dd82d33eb548d72
+2021-10-15 22:22:41 .R..A         9351               .git\objects\20\3820587ac765a045bbcdc4a2b84843cd291054
+2021-10-15 22:23:54 .R..A           47               .git\objects\20\fe56ee534f14cd0c843dd3628aaf866395f467
+2021-10-15 22:22:42 .R..A        13691               .git\objects\21\548ae012523d993a0c38effff7900eacadcefd
+2021-10-15 22:22:39 .R..A          313               .git\objects\21\af6eb27f90deae7ae0f4306db056b4413067b7
+2021-10-15 22:22:41 .R..A        19996               .git\objects\24\20e45863a4548d932165230ae082bfe561ae87
+2021-10-15 22:22:42 .R..A        55716               .git\objects\24\69e1ae8ac040409f580913c2cda237c2b4cd30
+2021-10-15 22:22:36 .R..A         1227               .git\objects\24\898e073387d269590f40041eb9c317cc13bba7
+2021-10-15 22:23:54 .R..A          134               .git\objects\26\93efaab95961ab5a7e21714605493b8c1e9003
+2021-10-15 22:22:36 .R..A         2379               .git\objects\27\c3de48861ff9e5ecb899177f477165fd304310
+2021-10-15 22:22:37 .R..A        13334               .git\objects\2a\612e4166f901d8c0eb1e7e9c59d844857beee9
+2021-10-15 22:23:53 .R..A          704               .git\objects\2b\3912af599238565a2d77609045bbebf5768bc8
+2021-10-15 22:22:42 .R..A         1562               .git\objects\2b\6ebf939cd82d143e4b6081e44db09400c10c1e
+2021-10-15 22:22:39 .R..A          793               .git\objects\2b\e83ab3d9dd7cbd51c9a149b3ba925be5d22273
+2021-10-15 22:22:39 .R..A        20474               .git\objects\2c\ff9cc043736a4cffe4227da2aa0b792c61bb31
+2021-10-15 22:22:40 .R..A         7227               .git\objects\2d\23b676895673719f53d73a5af923c01d57be84
+2021-10-15 22:22:37 .R..A         5089               .git\objects\2d\5980386a2b565fadb5b072ed6612ded4ee9113
+2021-10-15 22:23:54 .R..A          176               .git\objects\2f\c30eb625c1ae4a5c6e142c5723a26a9c9eb770
+2021-10-15 22:22:37 .R..A         6261               .git\objects\32\7bde72fb1f34c059f3968279dc455f950ef118
+2021-10-15 22:22:39 .R..A           57               .git\objects\32\80b8e6c463dd58fc06e1004aba386be734b71b
+2021-10-15 22:22:40 .R..A          618               .git\objects\32\bb5f27fd32aa2f8717e37ba43f374b5c00df32
+2021-10-15 22:22:41 .R..A         6172               .git\objects\33\4a51dfd68dc4439426ccc7b3a7ef98c7cb4515
+2021-10-15 22:23:53 .R..A          308               .git\objects\33\a07cd3e6c39c5527968aae7e970e219e629551
+2021-10-15 22:23:54 .R..A          108               .git\objects\34\b149c0139a74cf2c5cb9a1e43190c2dc3c1f6e
+2021-10-15 22:22:37 .R..A         9631               .git\objects\35\4c93ac24fe9a4fd07d10fea142e8cc6f45d2ac
+2021-10-15 22:22:42 .R..A        76106               .git\objects\37\878937e1f0f7b508a3155d593c10fb038f3c1f
+2021-10-15 22:22:37 .R..A          298               .git\objects\37\a61ea0a1cf4f2b7086eda96360a05cf7866823
+2021-10-15 22:22:36 .R..A          186               .git\objects\39\645652af62950ebf3b28ec3a5400dcec30b1c4
+2021-10-15 22:22:40 .R..A          526               .git\objects\3c\18c560f6e9fc1ab05909579b2f0d64991b659a
+2021-10-15 22:22:37 .R..A         2244               .git\objects\3c\e9c307ed37073c28244c16acea2c161c072494
+2021-10-15 22:22:38 .R..A       210359               .git\objects\3e\05fe371125f02ec13bad933762b167f601455a
+2021-10-15 22:22:37 .R..A         2789               .git\objects\3e\3ac0bc385d328274d0957277a9b6c0ac500dd5
+2021-10-15 22:23:53 .R..A          183               .git\objects\3e\ea679a353ed0e9e6faa9999f558b5525f8b6fd
+2021-10-15 22:22:40 .R..A         7024               .git\objects\40\4b4b145f91630591f5a3c53cb68ad7f5383893
+2021-10-15 22:22:39 .R..A        12871               .git\objects\40\9fcfb4dc3691a6eb05ebedc22f60567e6e77b3
+2021-10-15 22:22:39 .R..A          785               .git\objects\48\0f5ebce8dad1d74345b8fe604d9e1da1edbeda
+2021-10-15 22:23:53 .R..A           99               .git\objects\49\06d5c24c002204cac3c8166ec90f65a2cc165d
+2021-10-15 22:22:36 .R..A          646               .git\objects\49\d277b8d6ef8044443ab7b2833155ef54fa552f
+2021-10-15 22:23:54 .R..A          222               .git\objects\4a\aad3d4f05c5ee01acc006e6fe283318fdc757c
+2021-10-15 22:22:40 .R..A         6149               .git\objects\4c\07a7175578c2ed972d8319a249f2e52ac8cd5c
+2021-10-15 22:23:53 .R..A           45               .git\objects\4c\579fdc83cf4d625ae39eac673ded6b7fea2d12
+2021-10-15 22:22:41 .R..A       122623               .git\objects\4c\6bc22ae45d6f2f4ca09992c847c4fc9912674f
+2021-10-15 22:22:42 .R..A         6163               .git\objects\4e\35093418d7d36307d173c9cf0edfd97e6d374b
+2021-10-15 22:22:37 .R..A          653               .git\objects\4f\b60eb07a88b22960f0f9e5495fb9a6f526611c
+2021-10-15 22:23:54 .R..A          219               .git\objects\50\b475b0190bc43a73fcc2fadf52944b83e6cf4c
+2021-10-15 22:23:53 .R..A          658               .git\objects\51\819e50e993db77ab8982308954e48574fee1d5
+2021-10-15 22:23:53 .R..A           48               .git\objects\52\4f7baae4af08eba565d97e866e1a2fd9f71b15
+2021-10-15 22:22:40 .R..A         9045               .git\objects\53\6615bdf31700990fc0cf1c2e646076f6b9bc21
+2021-10-15 22:22:42 .R..A         9896               .git\objects\54\09b8d9b2f5798ab56785f2957a7fc0405edd04
+2021-10-15 22:22:40 .R..A          288               .git\objects\54\799d28289e18c620cdde4f23795f44125ecc74
+2021-10-15 22:22:39 .R..A          202               .git\objects\56\fa1d5a5b2a3eee5655faff9fe830d93aabf8b5
+2021-10-15 22:22:42 .R..A         6161               .git\objects\58\7c32fb89b78a63e8aee706b54253633f1d69dc
+2021-10-15 22:23:53 .R..A           79               .git\objects\59\3a626813fee5055877e285443bb19fe0e2e66f
+2021-10-15 22:22:40 .R..A        11234               .git\objects\5a\128aacdb6a7bf24a5c09d69581ec65ce979034
+2021-10-15 22:22:42 .R..A         1402               .git\objects\5e\9675f33d5ee2d4fc49c5b2c90855c095036372
+2021-10-15 22:23:53 .R..A         1232               .git\objects\5f\9c028938755015c2791e3bb7c57b0431b2fafb
+2021-10-15 22:22:41 .R..A         1655               .git\objects\62\6b7145107b6b42222e93c522bd422e315dc9b9
+2021-10-15 22:22:40 .R..A        12500               .git\objects\63\2c8f0e15234b09a320231f1762f17a3f269fbc
+2021-10-15 22:22:37 .R..A         3331               .git\objects\63\3951e917184a21b5108b43a0dab952e088ea3e
+2021-10-15 22:22:36 .R..A           57               .git\objects\63\be77ef2bf92729db6ec5fd0607a4ebd322650b
+2021-10-15 22:22:42 .R..A         5745               .git\objects\64\0eac67ffe26f112dfe80c14b3235d8ba50c462
+2021-10-15 22:22:42 .R..A         6125               .git\objects\65\0bd65e30f3904cc5fca8f09f924ea09ed364d5
+2021-10-15 22:22:39 .R..A        13729               .git\objects\66\6c0af121f7f77dea5803b5413cd87d032bfe9b
+2021-10-15 22:22:36 .R..A         6058               .git\objects\69\3fcf703ac36f48adf20bde76811a88a6fc0ac5
+2021-10-15 22:23:54 .R..A          105               .git\objects\69\6c32141d9ad610ca81675895502b9098f1f624
+2021-10-15 22:23:54 .R..A          218               .git\objects\69\fff1dc0f85477ed61da89ce2b55b2261d6187c
+2021-10-15 22:22:36 .R..A          154               .git\objects\6c\05a9776bd7cbae976fdcec7e3a254e93018279
+2021-10-15 22:22:39 .R..A          165               .git\objects\6e\8db2c000b7962222c82c5a3eb639ba147c1f4e
+2021-10-15 22:22:39 .R..A       100753               .git\objects\71\8c08ba633ef712d04a5d768a5ec21c8f57f38f
+2021-10-15 22:22:42 .R..A         3398               .git\objects\72\693dc98ba29448fc996eefc21c4b700a072741
+2021-10-15 22:22:37 .R..A          139               .git\objects\72\f14277e511a9c71fdc186f8edf86445da3d884
+2021-10-15 22:23:53 .R..A           80               .git\objects\73\42d208ababc974f540f31627b2b9e550d53583
+2021-10-15 22:22:39 .R..A        84262               .git\objects\74\607c4ade9bc67d416f10a85c905f4ac368d6ac
+2021-10-15 22:22:42 .R..A         6162               .git\objects\75\489a0baca475b0180bf3e4b507e1a603173526
+2021-10-15 22:22:40 .R..A         6158               .git\objects\77\e7ce38a92ed20594f7c40fc4c6fdbc123284c9
+2021-10-15 22:22:40 .R..A        19129               .git\objects\78\abd0216b0e4ee49c20441c10a03a2a2a86cf70
+2021-10-15 22:22:37 .R..A         2964               .git\objects\79\e328c08e8ed0632adc4156deb38cdf72b54a44
+2021-10-15 22:22:41 .R..A         5613               .git\objects\7b\5ada44110b979d39832724b3553c72e679dfc9
+2021-10-15 22:22:42 .R..A        39162               .git\objects\7d\17674c0bf82283bd7dee4d7ba0ec4cc5f7b8e2
+2021-10-15 22:22:41 .R..A        16433               .git\objects\7d\36486b8affb0715a929cefaa5df0e879a0113f
+2021-10-15 22:22:41 .R..A         1805               .git\objects\7d\b62a3ef4b12f08bad5e89e4cf3d33cec9f6797
+2021-10-15 22:22:36 .R..A          509               .git\objects\7e\feed56147a46b1eb0f7a787230fb87fc09912b
+2021-10-15 22:22:40 .R..A        47389               .git\objects\7f\0a65227c5aea76c6c0e35f30049b8cb3b232b9
+2021-10-15 22:23:54 .R..A          104               .git\objects\7f\3d86e50253307fd1659cccb61025d7068359dd
+2021-10-15 22:23:54 .R..A          164               .git\objects\7f\590e3860454a0261890b637df9033693f4a494
+2021-10-15 22:22:40 .R..A          660               .git\objects\7f\ae7bf123d4ed4d822988473964a63793a876a7
+2021-10-15 22:23:53 .R..A         1205               .git\objects\83\269858ccfcfe27fc5ce4c59810fda38f37ca89
+2021-10-15 22:22:37 .R..A         2627               .git\objects\83\d4a5477d14ef2edd7bd8d0b51f4c524f114b41
+2021-10-15 22:22:39 .R..A        12668               .git\objects\84\d3aa4a844a53666b0fdf6e6eb6e29ac646237e
+2021-10-15 22:22:40 .R..A          586               .git\objects\85\a8139ac913c62e3f005025c3cd9f3cdd23055f
+2021-10-15 22:22:39 .R..A         1574               .git\objects\86\1f8be22e760a1300682d0c3821df8b543903a5
+2021-10-15 22:22:42 .R..A        45302               .git\objects\86\d19fa5d554cbf8517cf8f1fbc0b4e65f6feee6
+2021-10-15 22:22:37 .R..A          314               .git\objects\87\2b0d9343a28cab0e4869fbfcfabb495cec1773
+2021-10-15 22:22:37 .R..A         3844               .git\objects\87\9ba5f9e42e0ae0d34fa8962d07c89e42724eb2
+2021-10-15 22:22:40 .R..A         6157               .git\objects\88\89b8ae976b9a26966a76b896470d170039d58f
+2021-10-15 22:23:54 .R..A          207               .git\objects\89\123ae8022ca555122dc8bc7034b7fb7f46436f
+2021-10-15 22:23:53 .R..A           48               .git\objects\8b\fb01ae83bc59af2096765ad1fe1d17aca7c87f
+2021-10-15 22:22:37 .R..A          587               .git\objects\8c\0d9dc8f30bb60c7c6fb4ff81c099f5da8a164c
+2021-10-15 22:22:36 .R..A          151               .git\objects\8e\15646352ec1d9a84bbc6504ef6b46e16bf7823
+2021-10-15 22:22:39 .R..A         3003               .git\objects\8e\2009502657e31def4ef1a688e7544a53f922d0
+2021-10-15 22:22:40 .R..A         6164               .git\objects\91\8422e5614c587ae23c283690f08eb3adc603ee
+2021-10-15 22:23:54 .R..A           94               .git\objects\94\f624a2066f350d7bd0d29161d5c3a41a82af70
+2021-10-15 22:22:39 .R..A        18909               .git\objects\95\848f5bb3ca56ebebc936cb14a40afa9560e8d6
+2021-10-15 22:22:40 .R..A         2055               .git\objects\98\88762d10787c062ac771757d4bdb3a118338a2
+2021-10-15 22:23:53 .R..A          213               .git\objects\98\a7c2318ba959273f634ecd3aa53912ff81a2f7
+2021-10-15 22:22:39 .R..A          796               .git\objects\99\6cec6ff3a5c25dc22100edaa8c5ec402c1c856
+2021-10-15 22:22:41 .R..A         6161               .git\objects\9a\c57ee4eae4b991639db35d42de6bf42e680d49
+2021-10-15 22:22:41 .R..A        69531               .git\objects\9a\d81252d731ad59c7af2b42b587f74461cb5443
+2021-10-15 22:22:37 .R..A          747               .git\objects\9b\d95d9075e136ef5c15e565ce32593da4e255c5
+2021-10-15 22:22:40 .R..A       917825               .git\objects\9c\01ed8e32383ff6a68e1c2b0fe8222594fbfe79
+2021-10-15 22:23:54 .R..A          211               .git\objects\9c\b112c9a403cc09f94aeff42105dc92878a488d
+2021-10-15 22:22:42 .R..A        22500               .git\objects\9e\28834941f5ff6c760c8e18cb8079cc0d688596
+2021-10-15 22:22:39 .R..A          793               .git\objects\9e\41494ab268a0c416ec6191f18f59b098473032
+2021-10-15 22:22:40 .R..A        13094               .git\objects\a0\0ad9a38ae3e84891cf9dd7ca211ac26d2f62e8
+2021-10-15 22:23:54 .R..A          220               .git\objects\a0\8d230c4daf8f2b66730c2b55ed3db48248fb58
+2021-10-15 22:23:53 .R..A          192               .git\objects\a2\001201aa64ec284e693a74a2de3d72b4b745a8
+2021-10-15 22:22:39 .R..A          514               .git\objects\a2\0cc29526d71147594c7c60f0ccef212c81d899
+2021-10-15 22:22:42 .R..A        16724               .git\objects\a3\6d8b5e7ef037a9a6980949cec58a823ebe3112
+2021-10-15 22:22:36 .R..A          703               .git\objects\a3\c7f20ce504d22db79004435a511509ff842290
+2021-10-15 22:22:39 .R..A        48480               .git\objects\a4\4c014ca4e701b449f6b9f328cdf2123f69bbbb
+2021-10-15 22:22:36 .R..A         2986               .git\objects\a4\9dff3b412eabb4bd748f159ab49f83102f640b
+2021-10-15 22:22:37 .R..A        10997               .git\objects\a5\9f9d705c1e75c19ae352e896a4eb9bd5885ad9
+2021-10-15 22:22:40 .R..A         8779               .git\objects\a7\a38e4a1ecf4d55d16165bcf4eb68d897eaac75
+2021-10-15 22:23:54 .R..A          227               .git\objects\a8\35422e7acac2ecb8a7b0c7d1e0a290ccf893c0
+2021-10-15 22:22:41 .R..A        11879               .git\objects\a8\83eafe8f0f71de79a3f97c3a4c1fab6a9d06b3
+2021-10-15 22:22:40 .R..A        13728               .git\objects\aa\f15ec210142fe29b49f11fac6c0372b56c186a
+2021-10-15 22:22:37 .R..A         3285               .git\objects\ad\772a9d94ea46eb8c6200998768283b2b84e7a1
+2021-10-15 22:22:38 .R..A        11400               .git\objects\b1\ec4124afd79ebc0cdd46f17676005567003038
+2021-10-15 22:22:36 .R..A         1202               .git\objects\b2\9a3a6fc02abe615ac9bd12bdb4835052484c20
+2021-10-15 22:22:41 .R..A        19063               .git\objects\b4\f65f7a99dd649414d186bb7441f0e0352aa713
+2021-10-15 22:22:41 .R..A         2535               .git\objects\b5\0c6f358ffb2b9fd67a1fcadac020aa042aafde
+2021-10-15 22:22:40 .R..A          600               .git\objects\b5\c3559472874e952d2e696430cd28612f67851b
+2021-10-15 22:23:54 .R..A          144               .git\objects\b6\ea58029c62f937d5ffb7588b9d8ee1db738372
+2021-10-15 22:22:39 .R..A        12168               .git\objects\b8\0d5c3ee9380f63fca1219c7ac4d739cc2dfc39
+2021-10-15 22:23:54 .R..A           95               .git\objects\b9\1850e3789838d138a3e1a658ce845e9d4385a5
+2021-10-15 22:23:53 .R..A          558               .git\objects\b9\a706eea586e9fe90fb86e326e6c08f359d30c9
+2021-10-15 22:22:39 .R..A         4537               .git\objects\bd\ec347349f5cf151d481db225d4b9cfa223041d
+2021-10-15 22:23:53 .R..A          192               .git\objects\be\a7bcc04c6d1fad51cc2c70852991a316ce86b2
+2021-10-15 22:22:41 .R..A        13804               .git\objects\c0\8d6f311d8f7bcfa302161fd2d2e6a1e3c42db6
+2021-10-15 22:23:54 .R..A           93               .git\objects\c1\76e53f21fa5b8b6ab4c577921b05c98726c2db
+2021-10-15 22:22:39 .R..A         2895               .git\objects\c2\56910d66b4cfd76692ab7e5831c0a4eb4ed469
+2021-10-15 22:22:39 .R..A          202               .git\objects\c3\0e278846cb85a22930bf2af754ed1bf5fdf0c1
+2021-10-15 22:22:40 .R..A         8607               .git\objects\c6\4ddb97cf126732fadf69249dcaa7fe8e387a5e
+2021-10-15 22:22:39 .R..A          178               .git\objects\c6\6f422203585e84cb1c418bd173e82b2aa90984
+2021-10-15 22:22:36 .R..A          835               .git\objects\c6\c4c89bc9f21a43c369cb24b095cd5966666a5c
+2021-10-15 22:23:54 .R..A          135               .git\objects\c6\c59715e991c6479f26eed297529a691de2ba1c
+2021-10-15 22:22:39 .R..A         3422               .git\objects\c8\b6cac62b65f26285269f56be07acf2644c7c08
+2021-10-15 22:22:42 .R..A        12534               .git\objects\ca\8e9a41956ece410398829803fbf4a70fdead19
+2021-10-15 22:22:40 .R..A        16354               .git\objects\ca\977e63c6a69fb43d1d568c8e9897fb0081b40e
+2021-10-15 22:22:39 .R..A         9387               .git\objects\cb\8755f6218e5983f29037632d6a027c6f64420c
+2021-10-15 22:22:39 .R..A          769               .git\objects\cd\239658236566729e492670566da15d3ca83d3d
+2021-10-15 22:23:54 .R..A          203               .git\objects\cf\b4a5e86e8938ffbd4779e37981ec6552ed930c
+2021-10-15 22:22:41 .R..A        46522               .git\objects\cf\ce317e649192b542383898ad9e7ccaa811ad8d
+2021-10-15 22:23:54 .R..A           95               .git\objects\d1\7900c77de4fffcc42d0835e3fbd8095a0c0567
+2021-10-15 22:23:54 .R..A          344               .git\objects\d2\456f947365cc8edd5046b52ea1c451073fa4ce
+2021-10-15 22:22:42 .R..A        17525               .git\objects\d2\77095f16a52267fddbff0c972e34cdb78856aa
+2021-10-15 22:23:54 .R..A          143               .git\objects\d4\0405faae16fcaa163b60476217487feed2563e
+2021-10-15 22:22:41 .R..A        11208               .git\objects\d4\e90faee7d5ce565d02438c8d479c08b729a50e
+2021-10-15 22:22:40 .R..A         1914               .git\objects\d6\30b2ef2a95fda0e8b6a8d760aadd0d8aecf626
+2021-10-15 22:22:41 .R..A        23641               .git\objects\d7\ade0260ba24fa2b17597650d8343defe68ee66
+2021-10-15 22:22:40 .R..A         8454               .git\objects\d9\26f0a7e5232e2b51ad8bf1aa8f3b05da89a10e
+2021-10-15 22:22:42 .R..A        77563               .git\objects\d9\e6a6f15785d1af8cfb64fae0fc90d856827647
+2021-10-15 22:22:36 .R..A          481               .git\objects\da\b4509fa51c49c364b43a6a16151a717310de7b
+2021-10-15 22:22:42 .R..A        15253               .git\objects\db\97da5fac42d07027e1602b13d2ac2541353696
+2021-10-15 22:22:36 .R..A         5726               .git\objects\db\e62fa2e2769d903e3cb92eff56fe764a141d17
+2021-10-15 22:22:36 .R..A         1352               .git\objects\dc\40c5bf35c5c63dadfae72bd022dca4457b36c8
+2021-10-15 22:23:54 .R..A          104               .git\objects\de\cf46992b9c69679ca7f3f9584496199bd651f4
+2021-10-15 22:22:42 .R..A         4588               .git\objects\df\4eae99ff1cd4ac48510467786dd76db12f2de9
+2021-10-15 22:23:54 .R..A          220               .git\objects\df\83aa1ecbad8fd18eaf3a7bc9bc9e9b97ec1aa3
+2021-10-15 22:22:41 .R..A       266775               .git\objects\e1\67306c1d556617763a0ed34777ce3cbc82175e
+2021-10-15 22:23:53 .R..A           78               .git\objects\e2\7dbd371f9fdf8b73b2a45af2cd62c7e9202956
+2021-10-15 22:23:53 .R..A          706               .git\objects\e5\7cd0b3b87610ed5661adbedc4f5168a3a6dd5f
+2021-10-15 22:22:36 .R..A          165               .git\objects\e5\dc9b8949d8be541b85da45ec437c110a298783
+2021-10-15 22:22:39 .R..A           15               .git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+2021-10-15 22:22:40 .R..A        50539               .git\objects\e7\a1bb8bac03e370abb903fe77dae9bc09bae345
+2021-10-15 22:23:53 .R..A          657               .git\objects\e8\3b3b94a1ae1e71cbdfb31305c6c1d569dae0dc
+2021-10-15 22:22:39 .R..A        22608               .git\objects\e8\676eb1d43ea685006582c9e481a4e431385cf1
+2021-10-15 22:22:39 .R..A         3004               .git\objects\ea\4419d05a3bf618062f94e317e465ccedd1cc67
+2021-10-15 22:22:41 .R..A        87268               .git\objects\ea\b127b873ebb498b4793598cf9cc2cb5e9df3d2
+2021-10-15 22:22:36 .R..A          547               .git\objects\ea\cc2721fe5830d1f177bbc1948cb10a245376a5
+2021-10-15 22:22:41 .R..A        11965               .git\objects\eb\a9e11e1825b8dc217cf5aca8c49f9a54f63124
+2021-10-15 22:22:39 .R..A         1859               .git\objects\ec\78cb42abd3a1c74fd900f67c9e4584616c47f2
+2021-10-15 22:22:39 .R..A           57               .git\objects\ec\873c3b290f43e844c0013b6ceb2bd5a7227e64
+2021-10-15 22:22:40 .R..A        68035               .git\objects\ed\6c3c12c678357fc13a086dfdcdfcbc1ff1a0c2
+2021-10-15 22:23:54 .R..A          127               .git\objects\f0\7a07b44403fc4d5a205fdbb48e06d641800e08
+2021-10-15 22:22:36 .R..A          283               .git\objects\f2\72bdddc605c6a94ba7e5946df58cd40d529981
+2021-10-15 22:22:39 .R..A         3423               .git\objects\f2\972fbc87ea0be090afb812d7089a8ed700c585
+2021-10-15 22:22:36 .R..A          662               .git\objects\f4\3129d78eae07deeee36ac7568902ae9aba7354
+2021-10-15 22:23:54 .R..A          145               .git\objects\f4\a2c9210c621b010b4ad61256791ca322ec2124
+2021-10-15 22:22:39 .R..A         1442               .git\objects\f4\fb0ad4104a4d9be3372183df5f43ddcd26c1d5
+2021-10-15 22:23:54 .R..A          147               .git\objects\f5\7a956bdba03cfa5f7b533f71ad8742cccf9884
+2021-10-15 22:22:37 .R..A         2203               .git\objects\f5\837632ff7e2fa2b29b94d2fb8f582c75169270
+2021-10-15 22:23:54 .R..A          476               .git\objects\f5\84b8fb4bd799fd29d9ccab363b1214dec45ea2
+2021-10-15 22:22:39 .R..A           25               .git\objects\f5\e894aea93a73e58fa9d4feab241bc197ee1a40
+2021-10-15 22:22:36 .R..A         1631               .git\objects\f7\8d1eff4c13941471fdfa4ac5da25c2a1fc00dd
+2021-10-15 22:22:41 .R..A        40667               .git\objects\f8\9556ac7e48f5bda2588838f6a791320fbe6633
+2021-10-15 22:22:36 .R..A         1964               .git\objects\fb\e373b5b6e2349d54e41e2752b67b06206af4b1
+2021-10-15 22:22:39 .R..A         2363               .git\objects\fc\bcab1832afad9b4e029457870d5fe5ca5969eb
+2021-10-15 22:22:41 .R..A         6158               .git\objects\fd\84f18b2bec6539b3e27bb05e4db0e971ee3dc8
+2021-10-15 22:22:39 .R..A         1291               .git\objects\fd\97e6a6b6e0aa906357f62e0fb0b39afb145818
+2021-10-15 22:22:39 .R..A          515               .git\objects\fe\9b902c6f9a6ca7295c5972630a5d3834a2a640
+2021-10-15 22:22:41 .R..A         6169               .git\objects\fe\a8acb41c9f8172352fbdddc879736bdf6fc9a3
+2021-10-15 22:22:37 .R..A         9002               .git\objects\ff\de123a4fa3908fa788d7572f24220c3a5c341b
+2021-10-15 22:24:11 ....A           41               .git\refs\heads\main
+2021-10-15 22:24:44 ....A           41               .git\refs\remotes\origin\main
+2018-11-19 11:28:11 .R..A        10174               .gitignore
+2021-10-12 23:40:06 ..H.A       173056               .vs\TimeZoneLab\v16\.suo
+2014-09-01 23:58:48 .R...         2109               archive\Archive_TimeZoneLab_1.0.53.33703.LOG
+2014-09-02 02:30:34 .R...         2106               archive\Archive_TimeZoneLab_1.0.61.2411.LOG
+2014-09-05 11:30:38 .R...         2109               archive\Archive_TimeZoneLab_1.1.68.18722.LOG
+2014-09-07 20:30:40 .R...          182               archive\Time-Zone-Lab-An-Expedition-into-Windows-Time-Zone.url
+2014-09-07 20:19:28 .R...       935259               archive\TimeZoneLab.ZIP
+2014-09-01 23:59:20 .R...         1123               archive\TimeZoneLab_1_0_53_33703.7z.lnk
+2014-09-02 02:31:10 .R...          976               archive\TimeZoneLab_1_0_61_2411.7z.lnk
+2014-09-05 11:31:22 .R...          959               archive\TimeZoneLab_1_1_68_18722.7z.lnk
+2014-09-07 20:49:22 .R...         1031               archive\TimeZoneLab_1_1_68_18722_CodeProject.ZIPX.lnk
+2021-10-12 23:51:24 .R..A         1260               archive\TimeZoneLab_3_0_105_ABACUS_20211012_234426.7z.lnk
+2021-10-12 23:50:24 .R..A        87649               archive\TimeZoneLab_3_0_105_ABACUS_20211012_234426.LOG
+2014-09-05 11:31:10 .R...          809               archive\Visual Studio 2010 Backups.lnk
+2021-10-15 21:55:37 .R..A          886               ChangeLog.md
+2021-10-13 22:54:44 .R..A         1568               License.TXT
+2018-09-03 22:54:43 .R..A            1               NOTES\.gitignore
+2016-06-16 03:13:08 .R...          802               NOTES\Article_Notes.TXT
+2014-09-02 02:27:54 .R...       397328               NOTES\Converting_Times_Between_Time_Zones.TXT
+2021-10-15 22:28:50 .R..A        94258               NOTES\Create_a_GittHub_Repository_for_TimeZoneLab.TXT
+2016-06-15 23:51:19 .R...       102052               NOTES\Design_and_Testing.XLSX
+2016-06-17 16:34:19 .R...        80196               NOTES\Design_Worksheet_Article_Figure_1.PNG
+2016-06-17 16:37:16 .R...        81807               NOTES\Design_Worksheet_Article_Figure_2.PNG
+2016-06-17 16:38:12 .R...        71844               NOTES\Design_Worksheet_Article_Figure_3.PNG
+2016-06-17 16:39:41 .R...        81194               NOTES\Design_Worksheet_Article_Figure_4.PNG
+2016-06-17 16:41:47 .R...        80756               NOTES\Design_Worksheet_Article_Figure_5.PNG
+2016-06-17 15:46:31 .R...        16212               NOTES\Discontiguous_Range_CountIf_Error_Proof_20160617_154631.ZIP
+2016-06-16 14:21:44 .R...       112768               NOTES\DST_Transition_Date_Computations.XLSX
+2016-06-14 18:47:46 .R...         1601               NOTES\EZXFER_Cloud_Manager_Source_Code_Tree.lnk
+2014-09-05 11:27:18 .R...       146596               NOTES\Fit_N_Finish.TXT
+2016-06-14 18:58:30 .R...       249822               NOTES\HKLM_SOFTWARE_Time_Zones_20160614_185830.REG
+2016-06-14 18:53:30 .R...         7670               NOTES\HKLM_Software_WizardWrx_20160614_185330.REG
+2014-09-04 15:20:02 .R...          259               NOTES\LabelsForTasks.TXT
+2014-09-05 11:08:06 .R...          218               NOTES\LabelsForTasks2.TXT
+2014-08-30 23:18:32 .R...          556               NOTES\TimeZoneConversionEdgeCases.TXT
+2016-06-15 23:25:53 .R...         2468               NOTES\TimeZoneConversionEdgeCases_20160615_232553.RPT
+2021-10-12 23:42:46 .R...         2468               NOTES\TimeZoneConversionEdgeCases_20211012_234246.RPT
+2014-09-01 19:26:14 .R...         2774               NOTES\TimeZoneConversionEdgeCases_DEBUG_20140901_192612.RPT
+2014-09-02 02:17:22 .R...         2774               NOTES\TimeZoneConversionEdgeCases_DEBUG_20140902_021721.RPT
+2014-09-02 02:24:30 .R...         2774               NOTES\TimeZoneConversionEdgeCases_RELEASE_20140902_022429.RPT
+2014-09-02 01:37:12 .R...        11791               NOTES\TimeZoneConversionTestCaseCollection_20140902_013712.cs
+2016-06-15 23:25:53 .R...       392897               NOTES\TimeZoneLab_2.TXT
+2021-10-12 23:43:35 .R...       735564               NOTES\TimeZoneLab_3.TXT
+2021-10-15 22:31:03 .R..A          129               NOTES\TimeZoneLab_GitHub_Repository.url
+2016-06-18 02:02:25 .R...        27212               NOTES\TZInfo_Development_and_Testing_Notes.TXT
+2016-06-18 01:14:22 .R...        16372               NOTES\TZINFO_Development_and_Testing_Worksheets.XLSX
+2016-06-18 01:16:49 .R...        13802               NOTES\TZINFO_Development_and_Testing_Worksheets.ZIP
+2016-06-14 18:47:00 .R...         1375               NOTES\_Development_Notes_2.4.TXT.lnk
+2014-08-28 15:44:46 .R...          773               NOTES\_downloading_Scanner.lnk
+2019-08-11 15:27:54 .....         9465               packages\WizardWrx.AnyCSV.7.2.145\.signature.p7s
+2019-08-11 22:26:26 .....        74090               packages\WizardWrx.AnyCSV.7.2.145\lib\net20\Wizardwrx.AnyCSV.XML
+2019-08-11 22:26:26 .....        36352               packages\WizardWrx.AnyCSV.7.2.145\lib\WizardWrx.AnyCSV.pdb
+2019-08-11 22:26:26 .....        74090               packages\WizardWrx.AnyCSV.7.2.145\lib\Wizardwrx.AnyCSV.XML
+2019-07-03 01:28:18 .....        22712               packages\WizardWrx.AnyCSV.7.2.145\README.md
+2019-08-11 20:32:22 .....        20890               packages\WizardWrx.AnyCSV.7.2.145\README.txt
+2021-10-09 01:00:14 .....        60901               packages\WizardWrx.AnyCSV.7.2.145\WizardWrx.AnyCSV.7.2.145.nupkg
+2021-08-01 14:29:06 .....         9463               packages\WizardWrx.ASCIIInfo.8.0.147\.signature.p7s
+2021-08-01 19:41:50 .....        47133               packages\WizardWrx.ASCIIInfo.8.0.147\ChangeLog.md
+2021-08-01 21:28:38 .....        37024               packages\WizardWrx.ASCIIInfo.8.0.147\lib\net35-client\Wizardwrx.ASCIIInfo.XML
+2021-08-01 21:28:38 .....        46592               packages\WizardWrx.ASCIIInfo.8.0.147\lib\WizardWrx.ASCIIInfo.pdb
+2021-08-01 21:28:38 .....        37024               packages\WizardWrx.ASCIIInfo.8.0.147\lib\Wizardwrx.ASCIIInfo.XML
+2021-01-30 23:23:20 .....         5200               packages\WizardWrx.ASCIIInfo.8.0.147\README.md
+2021-10-09 01:00:15 .....        61938               packages\WizardWrx.ASCIIInfo.8.0.147\WizardWrx.ASCIIInfo.8.0.147.nupkg
+2021-08-01 14:29:24 .....         9463               packages\WizardWrx.AssemblyUtils.8.0.198\.signature.p7s
+2021-08-01 19:41:50 .....        47133               packages\WizardWrx.AssemblyUtils.8.0.198\ChangeLog.md
+2021-08-01 21:28:54 .....        71200               packages\WizardWrx.AssemblyUtils.8.0.198\lib\net35-client\Wizardwrx.AssemblyUtils.XML
+2021-05-02 03:17:08 .....          517               packages\WizardWrx.AssemblyUtils.8.0.198\lib\WizardWrx.AssemblyUtils.dll.config
+2021-08-01 21:28:54 .....        93696               packages\WizardWrx.AssemblyUtils.8.0.198\lib\WizardWrx.AssemblyUtils.pdb
+2021-08-01 21:28:54 .....        71200               packages\WizardWrx.AssemblyUtils.8.0.198\lib\Wizardwrx.AssemblyUtils.XML
+2021-01-30 23:26:28 .....         4114               packages\WizardWrx.AssemblyUtils.8.0.198\README.md
+2021-10-09 01:00:16 .....        82774               packages\WizardWrx.AssemblyUtils.8.0.198\WizardWrx.AssemblyUtils.8.0.198.nupkg
+2019-04-30 10:51:50 .....         9464               packages\WizardWrx.BitMath.4.3.125.29248\.signature.p7s
+2016-05-04 17:14:56 .....       101267               packages\WizardWrx.BitMath.4.3.125.29248\lib\net20\WizardWrx.BitMath.XML
+2021-10-09 01:00:15 .....        36312               packages\WizardWrx.BitMath.4.3.125.29248\WizardWrx.BitMath.4.3.125.29248.nupkg
+2021-08-01 14:29:08 .....         9463               packages\WizardWrx.Common.8.0.168\.signature.p7s
+2021-08-01 19:41:50 .....        47133               packages\WizardWrx.Common.8.0.168\ChangeLog.md
+2021-08-01 21:28:30 .....       297521               packages\WizardWrx.Common.8.0.168\lib\net35-client\Wizardwrx.Common.XML
+2021-08-01 21:28:30 .....        99840               packages\WizardWrx.Common.8.0.168\lib\WizardWrx.Common.pdb
+2021-08-01 21:28:30 .....       297521               packages\WizardWrx.Common.8.0.168\lib\Wizardwrx.Common.XML
+2021-01-30 23:28:06 .....         3602               packages\WizardWrx.Common.8.0.168\README.md
+2021-10-09 01:00:16 .....       126570               packages\WizardWrx.Common.8.0.168\WizardWrx.Common.8.0.168.nupkg
+2021-08-09 11:39:54 .....         9464               packages\WizardWrx.ConsoleAppAids3.8.0.545\.signature.p7s
+2021-07-06 12:00:16 .....         3783               packages\WizardWrx.ConsoleAppAids3.8.0.545\ChangeLog.md
+2021-08-09 18:39:22 .....        70772               packages\WizardWrx.ConsoleAppAids3.8.0.545\lib\net35-client\Wizardwrx.ConsoleAppAids3.xml
+2021-08-09 18:39:22 .....        56832               packages\WizardWrx.ConsoleAppAids3.8.0.545\lib\WizardWrx.ConsoleAppAids3.pdb
+2021-08-09 18:39:22 .....        70772               packages\WizardWrx.ConsoleAppAids3.8.0.545\lib\Wizardwrx.ConsoleAppAids3.xml
+2019-06-04 23:23:12 .....        12122               packages\WizardWrx.ConsoleAppAids3.8.0.545\README.md
+2021-10-09 01:00:18 .....        61583               packages\WizardWrx.ConsoleAppAids3.8.0.545\WizardWrx.ConsoleAppAids3.8.0.545.nupkg
+2021-08-01 14:29:26 .....         9464               packages\WizardWrx.ConsoleStreams.8.0.258\.signature.p7s
+2021-08-01 19:41:50 .....        47133               packages\WizardWrx.ConsoleStreams.8.0.258\ChangeLog.md
+2021-08-01 21:28:58 .....       160287               packages\WizardWrx.ConsoleStreams.8.0.258\lib\net35-client\Wizardwrx.ConsoleStreams.XML
+2021-08-01 21:28:58 .....       112128               packages\WizardWrx.ConsoleStreams.8.0.258\lib\WizardWrx.ConsoleStreams.pdb
+2021-08-01 21:28:58 .....       160287               packages\WizardWrx.ConsoleStreams.8.0.258\lib\Wizardwrx.ConsoleStreams.XML
+2021-01-30 23:29:08 .....         2892               packages\WizardWrx.ConsoleStreams.8.0.258\README.md
+2021-10-09 01:00:17 .....        87860               packages\WizardWrx.ConsoleStreams.8.0.258\WizardWrx.ConsoleStreams.8.0.258.nupkg
+2021-08-01 14:29:18 .....         9463               packages\WizardWrx.Core.8.0.250\.signature.p7s
+2021-08-01 19:41:50 .....        47133               packages\WizardWrx.Core.8.0.250\ChangeLog.md
+2021-08-01 21:28:48 .....       495850               packages\WizardWrx.Core.8.0.250\lib\net35-client\Wizardwrx.Core.XML
+2021-08-01 21:28:48 .....       331264               packages\WizardWrx.Core.8.0.250\lib\WizardWrx.Core.pdb
+2021-08-01 21:28:48 .....       495850               packages\WizardWrx.Core.8.0.250\lib\Wizardwrx.Core.XML
+2021-01-30 23:32:52 .....         5589               packages\WizardWrx.Core.8.0.250\README.md
+2021-10-09 01:00:16 .....       271210               packages\WizardWrx.Core.8.0.250\WizardWrx.Core.8.0.250.nupkg
+2021-08-01 14:29:40 .....         9464               packages\WizardWrx.DLLConfigurationManager.8.0.287\.signature.p7s
+2021-08-01 19:41:50 .....        47133               packages\WizardWrx.DLLConfigurationManager.8.0.287\ChangeLog.md
+2021-08-01 21:29:08 .....       108052               packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\net35-client\Wizardwrx.DLLConfigurationManager.XML
+2020-12-14 04:29:56 .....        10019               packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\WizardWrx.DLLConfigurationManager.dll.config
+2021-08-01 21:29:08 .....        79360               packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\WizardWrx.DLLConfigurationManager.pdb
+2021-08-01 21:29:08 .....       108052               packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\Wizardwrx.DLLConfigurationManager.XML
+2021-01-30 23:35:28 .....         3816               packages\WizardWrx.DLLConfigurationManager.8.0.287\README.md
+2021-10-09 01:00:17 .....        98078               packages\WizardWrx.DLLConfigurationManager.8.0.287\WizardWrx.DLLConfigurationManager.8.0.287.nupkg
+2021-08-01 14:30:08 .....         9464               packages\WizardWrx.EmbeddedTextFile.8.0.166\.signature.p7s
+2021-08-01 19:41:50 .....        47133               packages\WizardWrx.EmbeddedTextFile.8.0.166\ChangeLog.md
+2021-08-01 21:29:14 .....        18877               packages\WizardWrx.EmbeddedTextFile.8.0.166\lib\net35-client\Wizardwrx.EmbeddedTextFile.xml
+2021-08-01 21:29:14 .....        36352               packages\WizardWrx.EmbeddedTextFile.8.0.166\lib\WizardWrx.EmbeddedTextFile.pdb
+2021-08-01 21:29:14 .....        18877               packages\WizardWrx.EmbeddedTextFile.8.0.166\lib\Wizardwrx.EmbeddedTextFile.xml
+2021-01-30 23:36:30 .....         2973               packages\WizardWrx.EmbeddedTextFile.8.0.166\README.md
+2021-10-09 06:57:10 .....        47103               packages\WizardWrx.EmbeddedTextFile.8.0.166\WizardWrx.EmbeddedTextFile.8.0.166.nupkg
+2021-08-01 14:29:14 .....         9463               packages\WizardWrx.FormatStringEngine.8.0.232\.signature.p7s
+2021-08-01 19:41:50 .....        47133               packages\WizardWrx.FormatStringEngine.8.0.232\ChangeLog.md
+2021-08-01 21:28:42 .....        76385               packages\WizardWrx.FormatStringEngine.8.0.232\lib\net35-client\Wizardwrx.FormatStringEngine.XML
+2021-08-01 21:28:42 .....        62976               packages\WizardWrx.FormatStringEngine.8.0.232\lib\WizardWrx.FormatStringEngine.pdb
+2021-08-01 21:28:42 .....        76385               packages\WizardWrx.FormatStringEngine.8.0.232\lib\Wizardwrx.FormatStringEngine.XML
+2021-01-30 23:38:40 .....         3245               packages\WizardWrx.FormatStringEngine.8.0.232\README.md
+2021-10-09 01:00:16 .....        70792               packages\WizardWrx.FormatStringEngine.8.0.232\WizardWrx.FormatStringEngine.8.0.232.nupkg
+2021-10-15 18:49:52 .R..A         6076               README.md
+2016-06-17 00:19:23 .R...         2630               TimeZoneLab.sln
+2014-09-07 20:20:08 ..H.A       335360               TimeZoneLab.suo
+2016-06-17 12:36:51 ..H.A       104960               TimeZoneLab.v12.suo
+2016-06-14 22:25:18 .R...         1075               TimeZoneLab\app.config
+2016-04-02 21:25:35 .....       554249               TimeZoneLab\bin\Debug\Newtonsoft.Json.xml
+2016-06-14 22:25:18 .....         1075               TimeZoneLab\bin\Debug\TimeZoneLab.exe.config
+2021-10-12 23:26:02 .....        81408               TimeZoneLab\bin\Debug\TimeZoneLab.pdb
+2016-06-14 22:25:18 .....         1075               TimeZoneLab\bin\Debug\TimeZoneLab.vshost.exe.config
+2010-03-18 00:39:16 .....          490               TimeZoneLab\bin\Debug\TimeZoneLab.vshost.exe.manifest
+2019-08-11 22:26:26 .....        74090               TimeZoneLab\bin\Debug\WizardWrx.AnyCSV.xml
+2021-08-01 21:28:38 .....        37024               TimeZoneLab\bin\Debug\WizardWrx.ASCIIInfo.xml
+2021-08-01 21:28:54 .....        71200               TimeZoneLab\bin\Debug\WizardWrx.AssemblyUtils.xml
+2016-05-04 17:14:57 .....        54784               TimeZoneLab\bin\Debug\WizardWrx.BitMath.pdb
+2016-05-04 17:14:56 .....       101267               TimeZoneLab\bin\Debug\WizardWrx.BitMath.xml
+2021-08-01 21:28:30 .....       297521               TimeZoneLab\bin\Debug\WizardWrx.Common.xml
+2016-06-11 22:59:00 .....        48640               TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids2.pdb
+2016-06-11 22:59:00 .....        67352               TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids2.xml
+2021-08-09 18:39:22 .....        70772               TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids3.xml
+2021-08-01 21:28:58 .....       160287               TimeZoneLab\bin\Debug\WizardWrx.ConsoleStreams.xml
+2021-08-01 21:28:48 .....       495850               TimeZoneLab\bin\Debug\WizardWrx.Core.xml
+2020-12-14 04:29:56 .....        10019               TimeZoneLab\bin\Debug\WizardWrx.DLLConfigurationManager.dll.config
+2021-08-01 21:29:08 .....       108052               TimeZoneLab\bin\Debug\WizardWrx.DLLConfigurationManager.xml
+2016-06-08 13:31:27 .....       314880               TimeZoneLab\bin\Debug\WizardWrx.DLLServices2.pdb
+2016-06-08 13:31:27 .....       714606               TimeZoneLab\bin\Debug\WizardWrx.DLLServices2.xml
+2021-08-01 21:29:14 .....        18877               TimeZoneLab\bin\Debug\WizardWrx.EmbeddedTextFile.xml
+2021-08-01 21:28:42 .....        76385               TimeZoneLab\bin\Debug\WizardWrx.FormatStringEngine.xml
+2016-04-02 21:25:35 .....       554249               TimeZoneLab\bin\Release\Newtonsoft.Json.xml
+2016-06-14 22:25:18 .....         1075               TimeZoneLab\bin\Release\TimeZoneLab.exe.config
+2021-10-12 23:35:43 .....        73216               TimeZoneLab\bin\Release\TimeZoneLab.pdb
+2016-06-14 22:25:18 .....         1075               TimeZoneLab\bin\Release\TimeZoneLab.vshost.exe.config
+2010-03-18 00:39:16 .....          490               TimeZoneLab\bin\Release\TimeZoneLab.vshost.exe.manifest
+2019-08-11 22:26:26 .....        74090               TimeZoneLab\bin\Release\WizardWrx.AnyCSV.xml
+2021-08-01 21:28:38 .....        37024               TimeZoneLab\bin\Release\WizardWrx.ASCIIInfo.xml
+2021-08-01 21:28:54 .....        71200               TimeZoneLab\bin\Release\WizardWrx.AssemblyUtils.xml
+2016-05-04 17:14:57 .....        54784               TimeZoneLab\bin\Release\WizardWrx.BitMath.pdb
+2016-05-04 17:14:56 .....       101267               TimeZoneLab\bin\Release\WizardWrx.BitMath.xml
+2021-08-01 21:28:30 .....       297521               TimeZoneLab\bin\Release\WizardWrx.Common.xml
+2016-06-11 22:59:00 .....        48640               TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids2.pdb
+2016-06-11 22:59:00 .....        67352               TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids2.xml
+2021-08-09 18:39:22 .....        70772               TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids3.xml
+2021-08-01 21:28:58 .....       160287               TimeZoneLab\bin\Release\WizardWrx.ConsoleStreams.xml
+2021-08-01 21:28:48 .....       495850               TimeZoneLab\bin\Release\WizardWrx.Core.xml
+2020-12-14 04:29:56 .....        10019               TimeZoneLab\bin\Release\WizardWrx.DLLConfigurationManager.dll.config
+2021-08-01 21:29:08 .....       108052               TimeZoneLab\bin\Release\WizardWrx.DLLConfigurationManager.xml
+2016-06-05 20:20:48 .....         8468               TimeZoneLab\bin\Release\WizardWrx.DLLServices2.dll.config
+2016-06-08 13:31:27 .....       314880               TimeZoneLab\bin\Release\WizardWrx.DLLServices2.pdb
+2016-06-08 13:31:27 .....       714606               TimeZoneLab\bin\Release\WizardWrx.DLLServices2.xml
+2021-08-01 21:29:14 .....        18877               TimeZoneLab\bin\Release\WizardWrx.EmbeddedTextFile.xml
+2021-08-01 21:28:42 .....        76385               TimeZoneLab\bin\Release\WizardWrx.FormatStringEngine.xml
+2021-10-12 23:35:43 .R...        24445               TimeZoneLab\BuildHistory.LOG
+2021-10-09 07:04:58 .R...        17871               TimeZoneLab\FixedWidthReportItem.cs
+2021-10-09 07:07:19 .R...        26860               TimeZoneLab\FixedWidthReportItemsCollection.cs
+2014-09-05 11:08:06 .R...          218               TimeZoneLab\LabelsForTasks.TXT
+2021-10-09 00:53:03 .....          238               TimeZoneLab\obj\x86\Debug\.NETFramework,Version=v4.0,Profile=Client.AssemblyAttributes.cs
+2021-10-10 21:16:48 .....           11               TimeZoneLab\obj\x86\Debug\DesignTimeResolveAssemblyReferences.cache
+2021-10-11 00:24:20 .....         8240               TimeZoneLab\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+2014-09-05 11:14:20 .....         3940               TimeZoneLab\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+2014-09-05 11:14:20 .....          602               TimeZoneLab\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+2014-09-05 11:12:24 .....        17489               TimeZoneLab\obj\x86\Debug\ResolveAssemblyReference.cache
+2021-10-12 22:59:59 .....        12502               TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.AssemblyReference.cache
+2021-10-11 00:24:27 .....           42               TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.CoreCompileInputs.cache
+2021-10-10 23:29:41 .....         9099               TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.FileListAbsolute.txt
+2021-10-11 00:40:02 .....          954               TimeZoneLab\obj\x86\Debug\TimeZoneLab.csproj.GenerateResource.cache
+2016-06-14 23:34:43 .....        21846               TimeZoneLab\obj\x86\Debug\TimeZoneLab.csprojResolveAssemblyReference.cache
+2021-10-12 23:26:02 .....        81408               TimeZoneLab\obj\x86\Debug\TimeZoneLab.pdb
+2021-10-11 00:40:02 .....         2890               TimeZoneLab\obj\x86\Debug\TimeZoneLab.Properties.Resources.resources
+2021-10-12 23:35:36 .....          238               TimeZoneLab\obj\x86\Release\.NETFramework,Version=v4.0,Profile=Client.AssemblyAttributes.cs
+2016-06-16 23:27:01 .....         5311               TimeZoneLab\obj\x86\Release\DesignTimeResolveAssemblyReferences.cache
+2016-06-15 23:22:10 .....         6800               TimeZoneLab\obj\x86\Release\DesignTimeResolveAssemblyReferencesInput.cache
+2014-09-05 11:24:06 .....         3940               TimeZoneLab\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+2014-09-05 11:24:06 .....          606               TimeZoneLab\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+2014-09-05 11:24:06 .....        17489               TimeZoneLab\obj\x86\Release\ResolveAssemblyReference.cache
+2021-10-12 23:35:36 .....           11               TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.AssemblyReference.cache
+2021-10-12 23:35:43 .....           42               TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.CoreCompileInputs.cache
+2021-10-12 23:35:43 .....         9243               TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.FileListAbsolute.txt
+2021-10-12 23:35:43 .....          954               TimeZoneLab\obj\x86\Release\TimeZoneLab.csproj.GenerateResource.cache
+2016-06-15 19:08:14 .....        18460               TimeZoneLab\obj\x86\Release\TimeZoneLab.csprojResolveAssemblyReference.cache
+2021-10-12 23:35:43 .....        73216               TimeZoneLab\obj\x86\Release\TimeZoneLab.pdb
+2021-10-12 23:35:43 .....         2890               TimeZoneLab\obj\x86\Release\TimeZoneLab.Properties.Resources.resources
+2021-10-09 06:57:10 .....         1083               TimeZoneLab\packages.config
+2021-10-09 12:12:37 .R...        31168               TimeZoneLab\Program.cs
+2021-10-12 23:35:41 .R...         1586               TimeZoneLab\Properties\AssemblyInfo.cs
+2021-10-11 00:39:45 .R...        12560               TimeZoneLab\Properties\Resources.Designer.cs
+2021-10-11 00:39:45 .R...        12450               TimeZoneLab\Properties\Resources.resx
+2016-06-14 22:25:20 .R...         2099               TimeZoneLab\Properties\Settings.Designer.cs
+2016-06-14 21:54:55 .R...          629               TimeZoneLab\Properties\Settings.settings
+2021-10-10 22:50:39 .R...        10554               TimeZoneLab\TimeZoneConversionTestCase.cs
+2021-10-10 23:59:56 .R...        14542               TimeZoneLab\TimeZoneConversionTestCaseCollection.cs
+2021-10-12 23:25:59 .R...        10005               TimeZoneLab\TimeZoneInfoExtensions.cs
+2021-10-11 00:24:02 .R...         6862               TimeZoneLab\TimeZoneLab.csproj
+2021-10-09 07:15:18 .R...          405               TimeZoneLab\TimeZoneLab.csproj.user
+2021-10-11 00:44:27 .R...        38575               TimeZoneLab\TimeZoneTasks.cs
+2016-06-14 22:13:54 .R...         9670               TimeZoneLab\TZHelpers.cs
+2020-12-14 04:29:56 .R...        10019               TimeZoneLab\WizardWrx.DLLConfigurationManager.dll.config
+2014-08-30 10:17:08 .R...        10134               TimeZoneLab\WW_Icon1.ico
+2016-06-16 23:55:05 .R...          187               TZInfo\App.config
+2016-06-16 23:55:05 .....          187               TZInfo\bin\Debug\TZInfo.exe.config
+2016-06-17 03:22:51 .....        30208               TZInfo\bin\Debug\TZInfo.pdb
+2016-06-16 23:55:05 .....          187               TZInfo\bin\Debug\TZInfo.vshost.exe.config
+2010-03-18 00:39:16 .....          490               TZInfo\bin\Debug\TZInfo.vshost.exe.manifest
+2016-06-17 12:36:50 .R...         1838               TZInfo\Form1.cs
+2016-06-17 12:36:50 .R...         7990               TZInfo\Form1.Designer.cs
+2016-06-17 12:36:50 .R...         5817               TZInfo\Form1.resx
+2021-10-09 00:53:04 .....          210               TZInfo\obj\Debug\.NETFramework,Version=v4.5.AssemblyAttributes.cs
+2016-06-16 23:55:07 .....          865               TZInfo\obj\Debug\DesignTimeResolveAssemblyReferences.cache
+2021-10-09 00:53:04 .....         6563               TZInfo\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+2021-10-09 00:53:03 .....         2778               TZInfo\obj\Debug\TZInfo.csproj.AssemblyReference.cache
+2021-10-09 06:59:45 .....           42               TZInfo\obj\Debug\TZInfo.csproj.CoreCompileInputs.cache
+2021-10-09 06:59:47 .....         1806               TZInfo\obj\Debug\TZInfo.csproj.FileListAbsolute.txt
+2021-10-09 06:59:45 .....         1012               TZInfo\obj\Debug\TZInfo.csproj.GenerateResource.cache
+2016-06-17 00:46:11 .....         2211               TZInfo\obj\Debug\TZInfo.csprojResolveAssemblyReference.cache
+2021-10-09 06:59:45 .....          180               TZInfo\obj\Debug\TZInfo.Form1.resources
+2016-06-17 03:22:51 .....        30208               TZInfo\obj\Debug\TZInfo.pdb
+2021-10-09 06:59:45 .....          862               TZInfo\obj\Debug\TZInfo.Properties.Resources.resources
+2016-06-17 02:15:08 .R...          447               TZInfo\Program.cs
+2016-06-16 23:55:05 .R...         1460               TZInfo\Properties\AssemblyInfo.cs
+2016-06-17 02:12:02 .R...         5808               TZInfo\Properties\Resources.Designer.cs
+2016-06-17 02:12:02 .R...         7390               TZInfo\Properties\Resources.resx
+2016-06-16 23:55:05 .R...         1033               TZInfo\Properties\Settings.Designer.cs
+2016-06-16 23:55:05 .R...          249               TZInfo\Properties\Settings.settings
+2016-06-17 12:36:50 .R...         3597               TZInfo\TZInfo.csproj
+2019-08-11 22:26:26 .....        18944       329216  packages\WizardWrx.AnyCSV.7.2.145\lib\net20\WizardWrx.AnyCSV.dll
+2021-08-01 21:28:38 .....        28160               packages\WizardWrx.ASCIIInfo.8.0.147\lib\net35-client\WizardWrx.ASCIIInfo.dll
+2021-08-01 21:28:54 .....        40960               packages\WizardWrx.AssemblyUtils.8.0.198\lib\net35-client\WizardWrx.AssemblyUtils.dll
+2016-05-04 17:14:56 .....        26624               packages\WizardWrx.BitMath.4.3.125.29248\lib\net20\WizardWrx.BitMath.dll
+2021-08-01 21:28:30 .....        39424               packages\WizardWrx.Common.8.0.168\lib\net35-client\WizardWrx.Common.dll
+2021-08-09 18:39:22 .....        20480               packages\WizardWrx.ConsoleAppAids3.8.0.545\lib\net35-client\WizardWrx.ConsoleAppAids3.dll
+2021-08-01 21:28:58 .....        27648               packages\WizardWrx.ConsoleStreams.8.0.258\lib\net35-client\WizardWrx.ConsoleStreams.dll
+2021-08-01 21:28:48 .....       103424               packages\WizardWrx.Core.8.0.250\lib\net35-client\WizardWrx.Core.dll
+2021-08-01 21:29:08 .....        34304               packages\WizardWrx.DLLConfigurationManager.8.0.287\lib\net35-client\WizardWrx.DLLConfigurationManager.dll
+2021-08-01 21:29:14 .....        12800               packages\WizardWrx.EmbeddedTextFile.8.0.166\lib\net35-client\WizardWrx.EmbeddedTextFile.dll
+2021-08-01 21:28:42 .....        22016               packages\WizardWrx.FormatStringEngine.8.0.232\lib\net35-client\WizardWrx.FormatStringEngine.dll
+2016-04-02 21:25:35 .....       480768               TimeZoneLab\bin\Debug\Newtonsoft.Json.dll
+2014-05-16 18:56:04 .....        26112               TimeZoneLab\bin\Debug\P6CUtilLib1.dll
+2021-10-12 23:26:02 .....        52736               TimeZoneLab\bin\Debug\TimeZoneLab.exe
+2016-06-17 00:19:54 .....        23168               TimeZoneLab\bin\Debug\TimeZoneLab.vshost.exe
+2019-08-11 22:26:26 .....        18944               TimeZoneLab\bin\Debug\WizardWrx.AnyCSV.dll
+2021-08-01 21:28:38 .....        28160               TimeZoneLab\bin\Debug\WizardWrx.ASCIIInfo.dll
+2021-08-01 21:28:54 .....        40960               TimeZoneLab\bin\Debug\WizardWrx.AssemblyUtils.dll
+2016-05-04 17:14:56 .....        26624               TimeZoneLab\bin\Debug\WizardWrx.BitMath.dll
+2021-08-01 21:28:30 .....        39424               TimeZoneLab\bin\Debug\WizardWrx.Common.dll
+2016-06-11 22:59:00 .....        20992               TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids2.dll
+2021-08-09 18:39:22 .....        20480               TimeZoneLab\bin\Debug\WizardWrx.ConsoleAppAids3.dll
+2021-08-01 21:28:58 .....        27648               TimeZoneLab\bin\Debug\WizardWrx.ConsoleStreams.dll
+2021-08-01 21:28:48 .....       103424               TimeZoneLab\bin\Debug\WizardWrx.Core.dll
+2021-08-01 21:29:08 .....        34304               TimeZoneLab\bin\Debug\WizardWrx.DLLConfigurationManager.dll
+2016-06-08 13:31:27 .....       117760               TimeZoneLab\bin\Debug\WizardWrx.DLLServices2.dll
+2021-08-01 21:29:14 .....        12800               TimeZoneLab\bin\Debug\WizardWrx.EmbeddedTextFile.dll
+2021-08-01 21:28:42 .....        22016               TimeZoneLab\bin\Debug\WizardWrx.FormatStringEngine.dll
+2016-04-02 21:25:35 .....       480768               TimeZoneLab\bin\Release\Newtonsoft.Json.dll
+2014-05-16 18:56:04 .....        26112               TimeZoneLab\bin\Release\P6CUtilLib1.dll
+2021-10-12 23:35:43 .....        50176               TimeZoneLab\bin\Release\TimeZoneLab.exe
+2016-06-16 23:09:37 .....        23168               TimeZoneLab\bin\Release\TimeZoneLab.vshost.exe
+2019-08-11 22:26:26 .....        18944               TimeZoneLab\bin\Release\WizardWrx.AnyCSV.dll
+2021-08-01 21:28:38 .....        28160               TimeZoneLab\bin\Release\WizardWrx.ASCIIInfo.dll
+2021-08-01 21:28:54 .....        40960               TimeZoneLab\bin\Release\WizardWrx.AssemblyUtils.dll
+2016-05-04 17:14:56 .....        26624               TimeZoneLab\bin\Release\WizardWrx.BitMath.dll
+2021-08-01 21:28:30 .....        39424               TimeZoneLab\bin\Release\WizardWrx.Common.dll
+2016-06-11 22:59:00 .....        20992               TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids2.dll
+2021-08-09 18:39:22 .....        20480               TimeZoneLab\bin\Release\WizardWrx.ConsoleAppAids3.dll
+2021-08-01 21:28:58 .....        27648               TimeZoneLab\bin\Release\WizardWrx.ConsoleStreams.dll
+2021-08-01 21:28:48 .....       103424               TimeZoneLab\bin\Release\WizardWrx.Core.dll
+2021-08-01 21:29:08 .....        34304               TimeZoneLab\bin\Release\WizardWrx.DLLConfigurationManager.dll
+2016-06-08 13:31:27 .....       117760               TimeZoneLab\bin\Release\WizardWrx.DLLServices2.dll
+2021-08-01 21:29:14 .....        12800               TimeZoneLab\bin\Release\WizardWrx.EmbeddedTextFile.dll
+2021-08-01 21:28:42 .....        22016               TimeZoneLab\bin\Release\WizardWrx.FormatStringEngine.dll
+2021-10-11 00:39:45 .....         7680               TimeZoneLab\obj\x86\Debug\TempPE\Properties.Resources.Designer.cs.dll
+2021-10-12 23:26:02 .....        52736               TimeZoneLab\obj\x86\Debug\TimeZoneLab.exe
+2021-10-12 23:35:36 .....         7680               TimeZoneLab\obj\x86\Release\TempPE\Properties.Resources.Designer.cs.dll
+2021-10-12 23:35:43 .....        50176               TimeZoneLab\obj\x86\Release\TimeZoneLab.exe
+2016-06-17 03:22:51 .....        14336               TZInfo\bin\Debug\TZInfo.exe
+2016-06-17 03:23:05 .....        23168               TZInfo\bin\Debug\TZInfo.vshost.exe
+2016-06-17 02:12:02 .....         6144               TZInfo\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll
+2016-06-17 03:22:51 .....        14336               TZInfo\obj\Debug\TZInfo.exe
+------------------- ----- ------------ ------------  ------------------------
+2021-10-15 22:34:27           23432521      5367968  556 files, 225 folders
+
+---------------------------------------------------------------------
+Step 5 of 6: Write-protect and give an unuque name to the archive.
+---------------------------------------------------------------------
+
+Date2FN, version 1.3.72.500
+Begin @ 10/15/2021 22:35:34.417 (10/16/2021 03:35:34.417 UTC)
+
+Original File Name       = D:\_Backups\program_source\Visual_Studio_2017\TimeZoneLab_3_0_105_ABACUS.7z
+Time Stamp Mask          = YYYYMMDD_hhmmss
+Flag File As Read Only   = True
+Directory Recursion Flag = False
+UQ Filespec Flag         = False
+New File Name            = D:\_Backups\program_source\Visual_Studio_2017\TimeZoneLab_3_0_105_ABACUS_20211015_223427.7z
+
+Date2FN End - 10/15/2021 22:35:34.466 (10/16/2021 03:35:34.466 UTC)
+Elapsed time: 0:00:00:00.051
+
+---------------------------------------------------------------------
+Step 6 of 6: List the archives.
+---------------------------------------------------------------------
+
+2021/10/12 23:44:26         2,519,849 TimeZoneLab_3_0_105_ABACUS_20211012_234426.7z
+2021/10/15 22:34:27         5,382,714 TimeZoneLab_3_0_105_ABACUS_20211015_223427.7z
+
+---------------------------------------------------------------------
+Info: Now is your chance to capture the timestamps and logs.
+---------------------------------------------------------------------
+
+WWPause version 3, 0, 0, 4
+Fri 15 Oct 2021 22:35:34 Local
+
+Please press RETURN when ready...
+
+D:\Source_Code\Visual_Studio\Projects\_Laboratory\TimeZoneLab 10/15/2021 22:35:36.47>

@@ -169,6 +169,15 @@ namespace TimeZoneLab.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones\.
+        /// </summary>
+        internal static string IDS_MACINE_TIME_ZONE_INFO {
+            get {
+                return ResourceManager.GetString("IDS_MACINE_TIME_ZONE_INFO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Main.
         /// </summary>
         internal static string METHOD_NAME_IS_MAIN {
@@ -291,6 +300,15 @@ namespace TimeZoneLab.Properties {
         internal static string RPT_LBL_SN {
             get {
                 return ResourceManager.GetString("RPT_LBL_SN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sort Key.
+        /// </summary>
+        internal static string RPT_LBL_SORT_KEY {
+            get {
+                return ResourceManager.GetString("RPT_LBL_SORT_KEY", resourceCulture);
             }
         }
         

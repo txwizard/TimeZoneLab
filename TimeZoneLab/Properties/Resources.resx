@@ -165,6 +165,10 @@
     <value>Task is not yet implemented.</value>
     <comment>This could be improved by extending ErrorExit with the ErrorMessages class that I put into the SharedUtl4 test stand.</comment>
   </data>
+  <data name="IDS_MACINE_TIME_ZONE_INFO" xml:space="preserve">
+    <value>SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones\</value>
+    <comment>Time Zone information lives in this key of the Windows Registry LOCAL MACHINE hive.</comment>
+  </data>
   <data name="METHOD_NAME_IS_MAIN" xml:space="preserve">
     <value>Main</value>
     <comment>This string replaces THIS_METHOD_NAME.</comment>
@@ -219,6 +223,10 @@
   </data>
   <data name="RPT_LBL_SN" xml:space="preserve">
     <value>StandardName</value>
+    <comment>Method EnumerateTimeZones uses this string as the heading for one of its report columns.</comment>
+  </data>
+  <data name="RPT_LBL_SORT_KEY" xml:space="preserve">
+    <value>Sort Key</value>
     <comment>Method EnumerateTimeZones uses this string as the heading for one of its report columns.</comment>
   </data>
   <data name="RPT_LBL_UO" xml:space="preserve">

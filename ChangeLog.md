@@ -15,3 +15,9 @@ CodeProject articles.
 
 * Version 3.0.105 is being released in advance of a new article about the time zone abbreviation routine that is its main feature.
 
+# Version 4.0.129 Released 2022/07/24
+
+This release documents its improved TimeZonInfoExtensions class, which is about
+to become part of WizardWrx.Core.dll, which will be published when I can figure
+out how to coerce the NuGet packager to uss the AssemblyInformationalVersion
+property that is supposed to drive it.

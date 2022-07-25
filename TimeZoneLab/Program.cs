@@ -116,6 +116,9 @@
 
 							  3) Implement semantic versioning and deterministic
                                  assembly generation.
+
+	2022/04/24 3.1     DAG    Upgrade the Target Framework from version 4 Client
+                              Profile to 4.8.
     ============================================================================
 */
 
